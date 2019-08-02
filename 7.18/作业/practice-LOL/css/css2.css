@@ -1,0 +1,164 @@
+.jimdo-invagation img{
+	width: 132px;
+	height: 49;
+	float: left;
+}
+.jimdo-invagation {
+    width:1358px;
+    height: 78px;
+    margin: 0 auto;
+}
+.jimdo-invagation-2{
+	display: block;
+	float: left;
+    width: 55%;
+    height: 78px;
+    margin-left: 50px;
+    padding-top: 16px;
+}
+.jimdo-invagation-2 li span,a{
+	color: #fff;
+}
+.jimdo-invagation-2 li{
+	float: left;
+	margin-right: 60px;
+}
+.jimdo-invagation-3{
+	float: right;
+	padding-top: 16px;
+}
+.home-page img{
+	width: 100%;
+	height: 360px;
+}
+.home-page{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+.home-page-2{
+	width: 1358px;
+	margin: 0 auto;
+	padding: 40px 0 80px 0;
+	margin-top: 280px;
+}
+.home-page-2 img{
+	width: 820px;
+	height: 340px;
+
+}
+.proclamation-1{
+	float: right;
+	position: absolute;
+	top: 396px;
+	right: 80px;
+}
+.proclamation-1 li{
+	float: left;
+	margin-right: 60px;
+	font-size:20px;
+}
+.proclamation-2{
+	position: absolute;
+	font-size:24px;
+	top: 430px;
+	right: 170px;
+}
+.proclamation-3 a{
+	color: #000;
+}
+.proclamation-3{
+	position: absolute;
+	font-size:15px;
+	top: 470px;
+	right: 230px;
+}
+.proclamation-4 li:hover{
+	color: red;
+}
+.proclamation-4 a:hover{
+	color: red;
+}
+.activity{
+	width: 1358px;
+	margin: 0 auto;
+}
+.activity-1 li{
+	float: left;
+	margin-left: 30px;
+}
+.activity-1 h2{
+	float: left;
+}
+.activity-2{
+	background: #fff;
+	width: 692px;
+	height: 35px;
+	text-decoration: none;
+}
+.activity-3 li{
+	float: left;
+	margin-left: 12px;
+}
+.activity-3 li:hover{
+	color: red;
+}
+.activity-3 img{
+	height: 200px;
+}
+.activity-4 img{
+	margin-left: 20px;
+}
+.activity-4 li{
+	float: left;
+}
+.activity-5 img{
+	width: 366px;
+	height: 168px;
+}
+.activity-6 img{
+	width: 118px;
+	height: 76px;
+	margin-top: 6px;
+}
+.activity-7 img{
+	height: 70px;
+	width: 120px;
+}
+.recommend-1 li{
+	float: left;
+
+}
+.recommend-1 img{
+	width: 402px;
+	height: 254px;
+	margin-left: 40px;
+}
+.recommend-3 img{
+	width: 250px;
+	height: 130px;
+}
+.recommend-2 li{
+	float: left;
+}
+.recommend-2 img{
+	margin-left: 15px;
+}
+.recommend-4 img{
+	width: 278px;
+	height: 190px;
+}
+.recommend-5 img{
+	width: 250px;
+	height: 130px;
+	position: absolute;
+	top:1315px;
+	right: 370px;
+}
+.recommend-6 img{
+	position: absolute;
+	top: 1380px;
+	right: 60px;
+}

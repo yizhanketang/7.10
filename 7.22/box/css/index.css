@@ -1,0 +1,84 @@
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /*right: 0;*/
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.fixed .item {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background: #008ad4;
+  position: relative;
+}
+
+.fixed .item:first-child {
+  border-right: 1px solid red;
+  box-sizing: border-box;
+}
+
+
+
+.box {
+  height: 200px;
+  width: 200px;
+  margin: 100px auto;
+  background: #008ad4;
+  border: 20px solid;
+  padding: 50px;
+  box-sizing: border-box;
+  /*box-sizing: content-box;*/
+}
+
+
+
+/* 伪类 */
+/*.fixed .item:last-child:before*/
+/*.last-item:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100px;
+  width: 0;
+  border-left: 1px solid red;
+}
+
+.last-item:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 20px solid transparent;
+  border-top-color: red;
+}*/
+
+
+/*.fixed .item:first-child {
+  border-right: 1px solid;
+}*/
+
+.sms {
+  border-left: 1px solid;
+  width: 100%;
+}
+
+/*.fixed .item:nth-child(1) {
+  background: #008ad4;
+}
+
+.fixed .item:nth-child(2) {
+  background: #38a553;
+}*/

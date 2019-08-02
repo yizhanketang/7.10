@@ -1,0 +1,88 @@
+.image{
+	image-orientation: from-image;
+	width: 150px;
+	height: 150px;
+	/*what is this?*/
+	/*The replaced content is sized to maintain 
+	its aspect ratio while filling the element’s 
+	entire content box. If the object's aspect 
+	ratio does not match the aspect ratio of its 
+	box, then the object will be clipped to fit.*/
+	object-fit: cover;
+	float: right;
+	margin-right: 50px;
+	/*define the border of an image*/
+	border-radius: 50%;
+}
+
+.normal{
+	color: #474747;
+	margin: 50px;
+	line-height: 24px
+}
+
+.heading{
+	color: #228b22;
+	letter-spacing: 5px;
+	text-align: center;
+	font-size: 50px;
+	line-height: 75px;
+
+}
+
+.subheading{
+	color: #1e90ff
+}
+
+.subheading:hover{
+	font-size: 200%;
+	color: #ff5900;
+}
+
+.timeline{
+	text-decoration: underline; 
+	color: #000;
+}
+
+.timeline:hover{
+	font-size: 125%;
+}
+
+.link{
+	text-decoration: underline;
+	color: #000;
+}
+
+.link:hover{
+	font-size: 125%;
+}
+
+.stress{
+	color: #000;
+	font-weight: 600;
+	font-size: 120%;
+	letter-spacing: 3px;
+	/*Line spacing?*/
+	line-height: 21.3333px;
+}
+
+.outer{
+	font-family: sans-serif;
+	color: #666666;
+	/*How to inherit color from class "normal"?*/
+	text-decoration-line: none;
+}
+
+.outer:hover{
+	font-size: 125%;
+	color: #008ad4;
+}
+
+.normal div{
+	line-height: 30px;
+}
+
+body{
+	background-color: #f2a950;
+	font-family: sans-serif;
+}

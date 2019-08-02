@@ -1,0 +1,357 @@
+/*common*/
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+input{
+    outline: none;
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.background{
+    width: 100%;
+}
+
+.container{
+    width: 1070px;
+    margin: 0 auto;
+}
+
+.clear-float:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.content-heading{
+    font-size: 24px;
+    color: #333;
+    line-height: 24px;
+    margin: 30px 0 20px;
+}
+
+/*baidu-products-container*/
+.baidu-products{
+    width: 100%;
+    border-bottom: 1px solid #f1f1f1;
+}
+.baidu-products-container{
+/*    problems?*/
+    float: right;
+}
+
+.baidu-products-container .products-part{
+    color: #666;
+    font-size: 13px;
+    line-height: 34px;
+    font-weight: 700;
+    float: left;
+}
+
+.products-part div{
+    float: left;
+    margin-right: 22px;
+}
+
+.baidu-products-container .login-part{
+    height: 32px;
+    line-height: 32px;
+    font-size: 13px;
+    text-decoration: underline;
+    float: left;
+}
+
+.login-part div{
+    padding: 0 11px;
+}
+
+.login-part div{
+    float: left;
+}
+
+/*icon-and-search*/
+.icon-and-search{
+    padding: 30px 0;
+}
+
+.icon-and-search-inner{
+    margin: 0 auto;
+    width: 900px;
+}
+
+.icon-and-search-inner .zhidao-icon{
+    background-image: url("../images/zhidao-logo.png");
+    width: 135px;
+    height: 44px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2px 20px 0 0;
+    float: left;
+}
+
+.icon-and-search-inner .search{
+    display: block;
+    float: left;
+}
+
+.search .search-box{
+    padding: 11px 0;
+    width: 534px;
+    height: 16px;
+    line-height: 16px;
+    text-indent: 8px;
+    font-size: 16px;
+    border: 1px solid #b8b8b8;
+    float: left;
+}
+
+.search .search-button-1{
+    background-color: #317ef3;
+    width: 104px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    float: left;
+}
+
+.search .search-button-2{
+    width: 102px;
+    height: 38px;
+    line-height: 40px;
+    font-size: 16px;
+    border: 1px solid #2e82ff;
+    float: left;
+}
+
+/*top-nav-user*/
+.top-nav-user-background{
+    background-color: #4aca6d;
+    width: 100%;
+}
+
+.top-nav-user .top-left-navigation{
+    display: block;
+    height: 46px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    float: left;
+}
+
+.top-nav-user-background .top-nav-user{
+    background-color: #4aca6d;
+    height: 46px;
+}
+
+.top-nav-user .top-right-user{
+    font-size: 18px;
+    color: #fff;
+    line-height: 46px;
+    text-align: center;
+    float: right;
+}
+
+.top-right-user .user-icon{
+    background-image: url("../images/user-icon.png");
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-left-navigation div, .top-right-user div{
+    float: left;
+}
+
+.top-left-navigation div{
+    width: 171.2px;
+    text-align: center;
+}
+.top-left-navigation div:first-child{
+    width: 107px;
+    text-align: left;
+}
+/*top-stories*/
+.top-stories-background{
+    background-color: #d5eff8;
+}
+
+.top-stories .top-story-1{
+    background-image: url("../images/top-stories (1).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 240px;
+    height: 330px;
+    float: left;
+}
+
+.top-stories .top-story-2{
+    background-image: url("../images/top-stories (2).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 240px;
+    height: 330px;
+    float: left;
+}
+
+.top-stories .top-story-3{
+    background-image: url("../images/top-stories (3).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 240px;
+    height: 330px;
+    float: left;
+}
+
+.top-stories .control-panel{
+    width: 256px;
+    height: 303px;
+    background: #ffffff;
+    float: right;
+}
+
+
+/*trends*/
+/*recommendations*/
+.recommendations-background{
+    background-color: #f4f5f7;
+}
+
+.recommendation-left-container{
+    float: left;
+}
+
+.recommendation-left-container .recommendation-1{
+    background-image: url("../images/recommendations (1).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 240px;
+    height: 400px;
+    float: left;
+}
+
+.recommendation-1 .recommend-title {
+    color: #fff;
+    font-size: 18px;
+    line-height: 57px;
+    padding-left: 20px;
+}
+
+.recommendation-1 .item {
+    padding: 0 20px;
+    height: 57px;
+    /*background: #bfbfbf;*/
+    margin-top: 10px;
+}
+
+
+.recommendation-1 .item .num {
+    float: left;
+    line-height: 57px;
+    width: 20px;
+}
+
+.recommendation-1 .item.first .avatar {
+    background: url("../images/first.png") no-repeat center / cover;
+}
+.recommendation-1 .item.second .avatar {
+    background: url("../images/first.png") no-repeat center / cover;
+}
+.recommendation-1 .item.third .avatar {
+    background: url("../images/first.png") no-repeat center / cover;
+}
+
+.recommendation-1 .item .avatar {
+    position: relative;
+    z-index: 1;
+    float: left;
+    height: 52px;
+    width: 40px;
+    /*background: url("../images/recommendations (1).png") no-repeat center / cover;*/
+    /*background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);*/
+    border-radius: 50%;
+    /*margin-top: 12.5px;*/
+}
+
+.recommendation-1 .item .avatar span {
+    display: block;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 3px;
+}
+
+.recommendation-1 .item .text-wrap {
+    float: left;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.recommendation-1 .item .text-wrap .title {
+    font-size: 15px;
+    color: #333;
+}
+
+.recommendation-1 .item .text-wrap .detail span {
+    float: left;
+}
+
+.recommendation-1 .item .text-wrap .detail .point {
+    height: 2px;
+    width: 2px;
+    background: #000;
+    margin: 9px 10px 0 10px;
+}
+
+.recommendation-1 .item .text-wrap .detail {
+    line-height: 20px;
+    font-size: 12px;
+    color: #666;
+    overflow: hidden;
+}
+
+
+.recommendation-left-container .recommendation-2{
+    background-image: url("../images/recommendations (2).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 240px;
+    height: 400px;
+    float: left;
+}
+
+.recommendation-left-container .recommendation-3{
+    background-image: url("../images/recommendations (3).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 240px;
+    height: 400px;
+    float: left;
+}
+
+.recommendation-right-container{
+    float: right;
+}
+
+.recommendation-right-container .recommendation-right{
+
+}
+
+/*cooperation*/
+
+/*bottom-row*/
+
+/*legal-info*/

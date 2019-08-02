@@ -1,0 +1,32 @@
+.blockgroup3{
+	width: 1226px;
+	height: 614px;
+	background-color: #b0b0b0;
+	margin: 0 auto;
+}
+
+.blk-grp-e1{
+	width: 234px;
+	height: 614px;
+	background-color: #d2daff;
+	float: left;
+}
+
+.blk-grp-e2{
+	height: 300px;
+	width: 992px;
+	float: left;
+}
+
+.margin-bottom14{
+	margin-bottom: 14px;
+}
+
+.blk-grp-e2-color1{
+	background-color: #172c3d;
+}
+
+.blk-grp-e2-color2{
+	background-color: #213341;
+}
+

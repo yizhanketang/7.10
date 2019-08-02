@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.on-befor li{
+	float:left;
+	margin-right: 20px;
+	
+
+}
+.on-after li{
+	float:right;
+	text-align: center;
+}
+
+.logo{
+	float: left;
+	margin-right: 300px;
+
+
+}
+
+.all-on{
+	margin: 0 auto;
+	height: 120px;
+	width: 1300px;
+	line-height: 130px;
+	text-align: center;
+	font-size: 20px;
+}

@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  width: 900px;
+  margin: 100px auto 0;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  height: 50px;
+  text-align: left;
+}
+
+.first-line:hover {
+  background: transparent;
+}
+
+tr:nth-child(3n+1) {
+  background: aqua;
+}
+tr:nth-child(3n+2) {
+  background: rebeccapurple;
+}
+tr:nth-child(3n) {
+  background: royalblue;
+}
+
+tr:hover {
+  /*background: aqua;*/
+}
+
+/*table tr:nth-child(even) {
+  background: aqua;
+}
+
+table tr td:nth-child(even) {
+  background: aqua;
+}*/
+
+/*tr:nth-child(1) {
+  background: bisque;
+}*/
+
+/*table tr:nth-child(5) {
+  background: bisque;
+}*/
+
+
+/* box下的所有类名为item的后代元素，有空格 */
+.box .item {}
+
+/* <div class="box item"> 的元素，无空格 */
+div.box.item {}
+
+/* 类名为box或者类名为item的元素 */
+.box,.item {}
+
+/* box下的所有类名为item的儿子元素 */
+.box>.item {}
+
+/*.box > .item:nth-child(odd) {
+  background: aqua;
+}
+
+.box > .item:nth-child(even) {
+  background: blueviolet;
+}*/
+
+.box > .item:nth-child(2n+1) {
+  background: aqua;
+}
+
+.box > .item:nth-child(2n) {
+  background: brown;
+}

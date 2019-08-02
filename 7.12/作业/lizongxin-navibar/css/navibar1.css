@@ -1,0 +1,55 @@
+body{
+	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+.navi1-1{
+	float: left;
+}
+
+.navi1-1 div{
+	margin-right: 20px;
+}
+
+.navi1-2{
+	float: right;
+}
+
+.navi1-2 div{
+	margin-left: 20px;
+}
+
+.navi1-1 div, .navi1-2 div{
+	font-size: 14px;
+	float: left;
+	color: #b0b0b0;
+	line-height: 40px;
+}
+
+/*.navi1 div, .navi2 div:hover{
+	color: #ffffff;
+}*/
+/*problem?*/
+
+.navi1-1 div:hover{
+	color: #ffffff;
+}
+
+.navi1-2 div:hover{
+	color: #ffffff;
+}
+
+
+.navi1{
+	background-color: #333333;
+	height: 40px;
+	margin: 0 auto;
+	width: 1280px;
+}
+
+.navi1-background{
+	background-color: #333333;
+	height: 40px;
+	margin: 0 auto;
+}

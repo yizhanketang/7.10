@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+	/* 清除内外边距 */
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+/*body {
+	background-image: url(../images/mi-logo.png);
+	background-color: #ff6700;
+	background-repeat: no-repeat;
+	background-position:  center right;
+}*/
+
+.nav {
+	width: 1000px;
+	margin: 0 auto; 
+	height: 40px;
+	background-color: #333;
+}
+
+.nav a {
+	font-size: 12px;
+	color: #b0b0b0;
+}
+
+.nav .left {
+	float: left;
+	margin-top: 13px;
+}
+
+.nav .left a {
+	height: 14px;
+	line-height: 14px;
+	float: left;
+	margin-right: 5px;
+	padding-right: 5px;
+	border-right: 1px solid #424242;
+}
+
+.nav .right {
+	float: right;
+}
+
+/*
+display: block, inline-block, inline;
+
+block: h1, p, div
+占一行，写高宽生效
+水平居中，使用 margin: 0 auto; 还必须有宽度
+
+inline-block: img, button, input
+不占一行，写高宽不生效
+水平居中，给容器添加 text-align: center;
+
+inline: span, a, strong, em
+不占一行，写高宽不生效
+水平居中，给容器添加 text-align: center;
+*/
+
+.header {
+	/*opacity: 0-1;*/
+	width: 1000px;
+	margin: 0 auto; 
+	height: 100px;
+	/*background: #efefef;*/
+}
+
+.logo {
+	float: left;
+	height: 55px;
+	width: 55px;
+	background-color: #ff6700;
+	background-image: url(../images/mi-logo.png);
+	/*background-position: x轴 y轴;*/
+	background-position: center;
+	/* repeat, repeat-x, repeat-y */
+	background-repeat: no-repeat;
+	margin-top: 22px;
+}
+
+.logo:hover {
+	background-color: #000;
+}
+
+.menu {
+	float: left;
+	height: 40px;
+	/*background: #ff0;*/
+	margin-top: 30px;
+	margin-left: 40px;
+	line-height: 40px;
+}
+
+.menu li {
+	float: left;
+	margin-right: 15px;
+}
+
+.search {
+	float: right;
+	height: 50px;
+	background: #ff0;
+	margin-top: 25px;
+}
+
+/* 属性选择器 */
+.search input[type=text] {
+	float: left;
+	height: 48px;
+	width: 245px;
+	/*border-width: 1px;
+	border-color: #eee;
+	border-style: solid;*/
+	/* 虚线：dashed, dotted */
+	border: 1px solid #eee;
+	/*background-color: red;*/
+}
+
+.search input[type=text]:focus {
+	/*outline-offset: 0;*/
+	outline: -webkit-focus-ring-color auto 0;
+	border-color: #ff6700;
+}
+
+.search input[type=button],
+.search button {
+	float: left;
+	height: 50px;
+	width: 50px;
+	background: #fff;
+}
+
+.search button:hover {
+	background: #ff6700;
+	color: #fff;
+}
+
+

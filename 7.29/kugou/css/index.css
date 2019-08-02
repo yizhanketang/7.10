@@ -1,0 +1,16 @@
+
+.header {
+  width: 1000px;
+  margin: 0 auto;
+  height: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #bfbfbf;
+}
+
+.header input {
+  width: 360px;
+  height: 36px;
+}
+

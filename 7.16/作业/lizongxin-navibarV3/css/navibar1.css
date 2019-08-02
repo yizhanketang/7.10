@@ -1,0 +1,84 @@
+body, html{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	/*width: 1280px;*/
+	height: 100%;
+}
+
+.border-r-color{
+	border-right: 2px solid #424242;
+	padding-right: 15px;
+}
+
+.navi1-left{
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.navi1-left div{
+	margin-right: 15px;
+	float: left;
+	text-transform: capitalize;
+	color: #b0b0b0;
+	/*can be achieved without
+	 using line-height?
+	calculation about width/height,
+	 margin/padding is needed*/
+	 
+}
+
+.navi1-left div:hover{
+	color: #fff;
+}
+
+.navi1-right{
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.navi1-right div{
+	margin-left: 15px;
+	float: left;
+	text-transform: capitalize;
+	color: #b0b0b0;
+	/*line-height: 40px;*/
+}
+
+.navi1-right div:hover{
+	color: #fff;
+}
+
+
+.last-with-draw-down{
+	position: relative;
+}
+
+.draw-down-box{
+	display: none;
+	position: absolute;
+	height: 127.5px;
+	width: 303.147px;
+	background-color: #d5dde0;
+	top: 30px;
+	right: 0px;
+}
+
+.last-with-draw-down:hover .draw-down-box{
+	display: block;
+}
+
+.navi1{
+	height: 40px;
+	background-color: #333333;
+	margin: 0 auto;
+	width: 1226px;
+}
+
+.navi1-bg{
+	background-color: #333333;
+	/*width: 100%;*/
+}

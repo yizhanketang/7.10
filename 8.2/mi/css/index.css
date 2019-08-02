@@ -1,0 +1,194 @@
+/* 第一种 */
+
+/*header {
+  height: 50px;
+  background-color: #00FA9A;
+}
+
+footer {
+  height: 50px;
+  background-color: red;
+}
+
+section {
+  height: calc(100vh - 100px);
+  overflow-y: auto;
+}*/
+
+/* 第二种 */
+
+/*
+html,
+body {
+  height: 100%;
+}
+
+body {
+  position: relative;
+}
+
+header {
+  height: 50px;
+  background-color: #00FA9A;
+}
+
+footer {
+  height: 50px;
+  background-color: red;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+section {
+  overflow-y: auto;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+}
+*/
+
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  position: relative;
+}
+
+header {
+  /*height: 50px;*/
+  /*background-color: #00FA9A;*/
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.app-header-wrapper {
+  height: 44px;
+}
+
+header .logo {
+  width: 50px;
+  text-align: center;
+  height: 44px;
+  float: left;
+}
+
+header .logo img {
+  width: 32px;
+  margin-top: 11.5px;
+}
+
+header .user-center {
+  width: 50px;
+  text-align: center;
+  height: 44px;
+  float: right;
+}
+
+header .user-center img {
+  width: 32px;
+  margin-top: 6px;
+}
+
+header .search-area {
+  position: absolute;
+  top: 5px;
+  left: 50px;
+  right: 50px;
+  height: 34px;
+  background-color: #fff;
+}
+
+.nav-wrapper {
+  height: 30px;
+  /*background-color: #00FA9A;*/
+}
+
+.nav-wrapper a {
+  float: left;
+  font-size: 15px;
+  color: #747474;
+  line-height: 29px;
+  margin: 0 10px;
+}
+
+.nav-wrapper a.active {
+  color: #f40;
+  border-bottom: 1px solid #f40;
+}
+
+.banner {
+
+}
+
+.banner a {
+  display: block;
+}
+
+.banner img {
+  width: 100%;
+}
+
+nav:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+nav a {
+  float: left;
+  width: 20%;
+}
+
+nav a img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+  height: 50px;
+  /*background-color: red;*/
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, .5);
+}
+
+
+footer a {
+  float: left;
+  width: 25%;
+  /*height: 100%;*/
+  text-align: center;
+  padding-top: 5px;
+}
+
+footer a span {
+  display: block;
+  font-size: 12px;
+  color: #747474;
+}
+
+
+section {
+  height: calc(100vh - 124px);
+  overflow-y: auto;
+}
+
+
+

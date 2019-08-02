@@ -1,0 +1,68 @@
+/*common*/
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1, p{
+    text-align: center;
+    margin: 50px auto;
+}
+
+/*@media (max-width: 400px) {*/
+/*    .group1, .group2{*/
+/*        flex: 100%;*/
+/*        max-width: 100%;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 800px) {*/
+/*    .group1, .group2{*/
+/*        flex: 50%;*/
+/*        max-width: 50%;*/
+/*    }*/
+/*}*/
+
+/*image-container*/
+.image-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:  0 4px;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.group1, .group2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+    flex-basis: 25%;
+    padding: 0 4px;
+}
+
+.group1 div, .group2 div{
+    margin: 8px 0 0 0;
+    vertical-align: middle;
+}
+
+
+@media (max-width: 800px) {
+    .group1, .group2{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .group1, .group2{
+        flex: 100%;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+.all-menu{
+	height: 40px;
+	background-color: #000000;
+	font-size: 14px;
+	color: #b0b0b0;
+	line-height: 40px;
+	margin: 0 auto;
+
+
+}
+.menu-befor li{
+	float: left;
+	margin-right: 20px;
+	
+
+}
+
+.menu-befor li:hover{
+	color:#ffffff;
+}
+
+.menu-after li {
+	float: left;
+	margin-right: 20px;
+}
+.menu-after {
+	float: right;
+}
+.menu-after li:hover{
+	color:#ffffff;
+}
+
+

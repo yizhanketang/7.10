@@ -1,0 +1,15 @@
+/* css引入 */
+@import "font-face.css";
+
+.jay {
+  font-family: "jay font";
+}
+
+.yuan {
+  font-family: YuanDang;
+}
+
+.yizhan {
+  font-family: yizhan;
+}
+

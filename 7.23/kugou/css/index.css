@@ -1,0 +1,305 @@
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 78px;
+  /*background: #bfbfbf;*/
+}
+
+.header .left {
+  float: left;
+}
+
+.header .logo {
+  float: left;
+  width: 153px;
+  height: 37px;
+  background: url(../images/logo.png) no-repeat left center;
+  margin-top: 20px;
+}
+
+.header .search {
+  float: left;
+  margin: 21px 0 0 40px;
+  position: relative;
+}
+
+.header .search input[type=text] {
+  width: 300px;
+  height: 36px;
+  box-sizing: border-box;
+  outline: none;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+}
+
+.header .search input[type=text] {
+
+}
+
+.header .search .icon-search {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../images/search.png) no-repeat -37px -52px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+.header .search .icon-search:hover {
+  /*background: url(../images/search.png) no-repeat -37px -82px;*/
+  background-position-y: -82px;
+}
+
+.header .right {
+  float: right;
+  padding-top: 19px;
+  font-size: 14px;
+}
+
+.header .nav,
+.header i,
+.header .login {
+  float: left;
+  line-height: 30px;
+}
+
+.header .nav a {
+  float: left;
+  color: #777;
+  padding: 0 15px;
+}
+
+.header i {
+  font-style: normal;
+  color: #e6e6e6;
+  padding: 0 11px;
+}
+
+.header .login {
+  margin: 0 50px 0 26px;
+  background: #169af3;
+  width: 50px;
+  /*line-height: 50px;*/
+  text-align: center;
+  color: #fff;
+  border-radius: 2px;
+  /*border-radius: 50% 10px 20px 30px;*/
+}
+
+.menu-wrap {
+  background: #2c323b;
+}
+
+.menu {
+  height: 55px;
+}
+
+.menu .left {
+  float: left;
+}
+
+.menu .left > a,
+.menu .left span {
+  float: left;
+  color: #fff;
+  font-size: 16px;
+  line-height: 55px;
+  padding: 0 30px;
+  position: relative;
+}
+
+.menu .left a.active {
+  background: #0c8ed9;
+}
+
+.menu .left a:hover,
+.menu .left span:hover{
+  background: #0c8ed9;
+}
+
+.more i {
+  position: absolute;
+  top: 17px;
+  right: 0;
+  display: block;
+  height: 20px;
+  width: 20px;
+  /*background: #fff;*/
+}
+
+.more i:before {
+  content: '';
+  height: 0;
+  width: 0;
+  border: 10px solid transparent;
+  border-top-color: #fff;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.more i:after {
+  content: '';
+  height: 0;
+  width: 0;
+  border: 10px solid transparent;
+  border-top-color: #2c323b;
+  position: absolute;
+  top: 8px;
+  left: 0;
+}
+
+/*.more:hover .more-list {
+  display: block;
+}*/
+
+.more-list {
+  display: none;
+  position: absolute;
+  top: 55px;
+  left: 0;
+  z-index: 99;
+  background: #2c323b;
+}
+
+.more-list a {
+  display: block;
+  color: #fff;
+  width: 100px;
+  text-align: center;
+}
+
+
+
+/*.more i {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  display: block;
+  height: 0;
+  width: 0;
+  border: 10px solid transparent;
+  border-top-color: #fff;
+}
+
+.menu .left a:hover i {
+  border-top-color: transparent;
+  border-bottom-color: #fff;
+}*/
+
+.banner {
+  height: 445px;
+  position: relative;
+}
+
+.banner ul {
+  height: 100%;
+}
+
+.banner ul li {
+  height: 100%;
+  background: url(../images/pic3.jpg) no-repeat center / cover;
+}
+
+.banner .btn {
+  display: block;
+  width: 60px;
+  height: 120px;
+  position: absolute;
+  top: 50%;
+  margin-top: -60px;
+}
+
+.banner .btn.prev {
+  left: 0;
+  background: url(../images/sprite.png) no-repeat 0 -755px;
+}
+
+.banner .btn.prev:hover {
+  background: url(../images/sprite.png) no-repeat 0 -880px;
+}
+
+.banner .btn.next {
+  right: 0;
+  background: url(../images/sprite.png) no-repeat 0 -1130px;
+}
+
+.banner .btn.next:hover {
+  background: url(../images/sprite.png) no-repeat 0 -1005px;
+}
+
+.banner .download {
+  height: 60px;
+  background: rgba(255, 255, 255, .5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  text-align: center;
+}
+
+.download-z {
+  height: 60px;
+  background: rgba(0, 0, 0, .6);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(10px);
+  z-index: 1;
+}
+
+.download a {
+  display: inline-block;
+  color: #fff;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 33px 0 60px;;
+  position: relative;
+  font-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 30px center;
+}
+
+.download a:nth-child(1) {
+  /*background-image: url(../images/icon-pc.png);*/
+  background-image: url(../images/search.png);
+  background-position: 0 0;
+}
+
+.download a:nth-child(2) {
+  background-image: url(../images/icon-mac.png);
+}
+
+.download a:nth-child(3) {
+  background-image: url(../images/icon-andriod.png);
+}
+
+.download a:after {
+  content: '';
+  display: block;
+  height: 18px;
+  width: 0;
+  border-right: 1px solid red;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -9px;
+}
+
+.download a:last-child:after {
+  display: none;
+}
+
+
+
+
+

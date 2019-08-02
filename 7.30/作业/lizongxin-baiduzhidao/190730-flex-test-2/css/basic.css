@@ -1,0 +1,93 @@
+/*common*/
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*min-height: 100vh;*/
+}
+
+@font-face {
+    font-family: MobiriseIcons;
+    src: url(../fonts/mobirise.ttf);
+}
+
+/*!*navigation-container*!*/
+/*.navigation-container{*/
+/*    min-height: 400px;*/
+/*    min-width: 400px;*/
+/*    background: #fff;*/
+/*    padding: 40px 20px;*/
+/*    border-radius: 5px;*/
+/*    box-shadow: 5px 55px 50px -20px #b6b6b6;*/
+/*}*/
+
+/*.navigation-container div{*/
+/*    text-transform: capitalize;*/
+/*}*/
+
+span{
+    font-family: MobiriseIcons;
+}
+
+/*container-1*/
+.background-1{
+    /*min-height: 400px;*/
+    /*min-width: 400px;*/
+    width: 1024px;
+    background: #f8f8f8;
+    padding: 40px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 55px 50px -20px #b6b6b6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-1{
+    display: flex;
+    width: 900px;
+}
+
+.container-1 div{
+    text-transform: capitalize;
+}
+
+.container-1 .element4{
+    margin: 0 auto;
+}
+
+.container-1 {
+    height: 46px;
+    align-items: center;
+    padding: 0 10px;
+    border: 1px solid rgba(238,238,238 ,1);
+    border-radius: 5px;
+    color: rgba(117,117,117 ,1);
+    box-shadow: 5px 10px 20px -20px rgba(85,172,238 ,1);
+}
+.container-1 div {
+    cursor: pointer;
+}
+.container-1 div:hover{
+    color: rgba(85,172,238 ,1);
+}
+.element4 {
+    color: rgba(85,172,238 ,1);
+    font-size: 1.3em;
+}
+.container-1 div:not(:last-child):not(.element4) {
+    margin-right: 10px;
+}
+.container-1 div span:not(.mbri-smile-face):not(.mbri-search):not(.mbri-user) {
+    margin-right: 3px;
+}
+.container-1 div > button {
+    font-size: 0.8em;
+    border: 0;
+    background: rgba(85,172,238 ,1);
+    color: #fff;
+    border-radius: 100px;
+}

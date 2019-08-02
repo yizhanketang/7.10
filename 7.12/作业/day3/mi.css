@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	float:left;
+    margin-left:20px;
+	}
+.left{
+	float:right;
+	}
+div {
+	
+	height:20px; 
+	/*background: #b0b0b0;*/
+	margin: 0 auto;
+	font-size: 10px
+
+	}
+li:hover {
+
+	color:red; 
+	}
+.mi {
+		float: left;
+		
+	}
+	.goods:hover {
+	color: yellow;
+	}
+.goods {
+	line-height: 20px;
+	background: none;
+	margin-left:80px;
+	float: left;
+	}
+	
+.box {
+	/*background: #b0b0b0;*/
+	
+}

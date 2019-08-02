@@ -1,0 +1,200 @@
+.header {
+  border-bottom: 1px solid #000;
+  width: 100%;
+  overflow: hidden;
+}
+
+.nav {
+  float: right;
+  display: flex;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.header .nav .left {
+  position: relative;
+  padding-right: 30px;
+  margin-right: 30px;
+}
+
+.header .nav .left a {
+  float: left;
+  height: 30px;
+  margin: 0 10px;
+  color: #333;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.header .nav .left a.active {
+  text-decoration: none;
+  color: #666;
+}
+
+.header .nav .left:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 14px;
+  border-left: 1px solid #333;
+  position: absolute;
+  top: 8px;
+  right: 0;
+}
+
+.header .nav .right a {
+  float: left;
+  height: 30px;
+  margin: 0 10px;
+  color: #333;
+  text-decoration: underline;
+}
+
+.sub-header {
+  width: 900px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*background: #bfbfbf;*/
+}
+
+.sub-header .logo {
+  /*float: left;*/
+  width: 135px;
+  height: 44px;
+  background: red;
+}
+
+.sub-header form {
+  display: flex;
+}
+
+.sub-header form input {
+  height: 38px;
+  border: 1px solid #000;
+  width: 514px;
+  font-size: 16px;
+  outline: none;
+  padding: 0 10px;
+}
+
+.sub-header form input:focus {
+  border-color: #2182ff;
+}
+
+.sub-header form button {
+  height: 40px;
+  border: 1px solid #2182ff;
+  background: #2182ff;
+  line-height: 36px;
+  text-align: center;
+  width: 102px;
+  font-size: 16px;
+  color: #fff;
+  outline: none;
+}
+
+.sub-header form .question {
+  height: 38px;
+  border: 1px solid #2182ff;
+  /*background: #2182ff;*/
+  line-height: 38px;
+  text-align: center;
+  width: 102px;
+  font-size: 16px;
+  color: #2182ff;
+  margin-left: 10px;
+}
+
+.menu-wrap {
+  background: #00FA9A;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin: 0 auto;
+  width: 1070px;
+  font-size: 18px;
+}
+
+.menu a {
+  color: #fff;
+}
+
+.menu .left a:first-child {
+  width: 107px;
+  text-align: left;
+}
+
+.menu .left a {
+  float: left;
+  width: 170px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.menu .left a:hover {
+  background: rgba(0, 0, 0, .5);
+}
+
+.menu .left a.active:hover {
+  background: none;
+}
+
+.menu .right a {
+  float: left;
+  line-height: 50px;
+}
+
+.menu .right a:first-child {
+  padding: 0 30px;
+  margin-right: 30px;
+  position: relative;
+}
+
+.menu .right a:first-child:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 20px;
+  border-left: 1px solid #333;
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+
+.menu .right a:last-child {
+  padding-left: 40px;
+  position: relative;
+}
+
+.menu .right a:last-child:before {
+  content: '';
+  display: block;
+  height: 30px;
+  width: 30px;
+  background: url("https://iknowpc.bdimg.com/static/common/widget/menu/img/ihome.c2ff762.png") no-repeat center / cover;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

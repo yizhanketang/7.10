@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.box1 {
+	width: 990px;
+}
+
+.box1 {
+	width: 990px;
+	height: 60px;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 10px;
+	position: relative;
+	
+
+}
+.img1 {
+	float: left;
+	width: 170px;
+	height: 60px;
+}
+.img2 {
+	float: left;
+	margin-left: 15px;
+	margin-top:20px;
+	width: 110px;
+	height: 40px;
+}
+.survey {
+	float: right;
+	width: 136px;
+	height: 18px;
+	color: #999999;
+	font-size: 12px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.box2 {
+	width: 772px;
+	height: 40px;
+	font-size: 12px;
+	margin:20px auto 20px;
+}
+.box3 {
+	height: 475px;
+	background-color: #e93854;
+}
+.box4 {
+	width: 990px;
+	height:475px;
+	margin: 10px auto 10px;
+	position: relative;
+}
+.box5 {
+	float: right;
+	width: 346px;
+	height: 350px;
+	background-color: #fff;
+	position: absolute;
+	top:10px;
+	right: 0;
+}
+.box6 {
+	font-size: 12px;
+	color: #fff08f;
+	position: absolute;
+	top:10px;
+	right: 45px;
+	background-color: #fff8f0;
+	color: #999999;
+}
+.box7 {
+	font-size: 18px;
+	color: #666666;
+	text-align: 55px;
+	position: absolute;
+	top: 39px;
+	right: 200px;
+}
+.box7:hover {
+	color: #e4393c;
+
+}
+.box8 {
+	font-size: 18px;
+	color: #666666;
+	text-align: 55px;
+	position: absolute;
+	top: 39px;
+	left: 200px;
+}
+.box8:hover {
+	color: #e4393c;
+}
+.box9 {
+	width: 306px;
+	height: 192px;
+	margin-top: 0 auto;
+	/*font-size: 12px;*/
+	color: #666666;
+	position: absolute;
+	top:117px;
+	left: 20px;
+}
+.box9 input[type=text] {
+	width: 250px;
+	height: 36px;
+	}
+/*.box9 .pic1 {
+	position: absolute;
+	right: 0;
+	top: 0;
+}*/
+
+.box9 input[type=password] {
+	width: 250px;
+	height: 36px;
+}
+.box9 input[type=submit]{
+	width: 300px;
+	height: 38px;
+	background-color: #e4393c;
+	margin: 40px auto;
+	color: #fff;
+	font-size: 20px;
+
+
+}
+
+.box9 .pic1 {
+	float: left;
+	width: 39px;
+	height: 38px;
+	
+
+	}
+.box9 .text {
+	float: left;
+}
+.box9 .pic2 {
+	float: left;
+	width: 39px;
+	height: 38px;
+}
+.box9 .password {
+	float: left;
+}
+.box10 {
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+}
+.box11 {width: 990px;
+	margin:0 auto;
+
+}
+.box11 a {
+	text-decoration: none;
+	height: 18px;
+	font-size: 12px;
+	color: #666666;
+	margin:0 5px;
+	border-right: 1px solid #666666;
+	padding-right: 10px;
+}
+.box11 a.border {
+	border-right-width: 0;
+}

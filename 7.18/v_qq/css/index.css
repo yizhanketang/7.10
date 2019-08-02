@@ -1,0 +1,74 @@
+.header-wrap {
+  background: rgba(255, 255, 255, .14);
+}
+
+.header {
+  width: 990px;
+  margin: 0 auto;
+  height: 68px;
+}
+
+.logo {
+  float: left;
+  width: 135px;
+  height: 36px;
+  background: url("../images/logo.png") no-repeat center;
+  margin-top: 16px;
+}
+
+.search {
+  float: left;
+  height: 38px;
+  margin-top: 15px;
+  margin-left: 200px;
+  position: relative;
+}
+
+.search input[type=text] {
+  width: 203px;
+  height: 38px;
+  border: none;
+  padding: 0;
+  float: left;
+}
+
+.search button {
+  height: 38px;
+  padding: 0 20px;
+  float: left;
+  border: none;
+  background: #ff5c38;
+}
+
+.search .hot {
+  line-height: 38px;
+  height: 38px;
+  color: #ff5c38;
+  width: 50px;
+  position: absolute;
+  right: 76px;
+  top: 0;
+}
+
+.menu {
+  float: right;
+  margin-right: -115px;
+}
+
+.menu .item {
+  float: left;
+  line-height: 68px;
+  background: aqua;
+  margin-right: 20px;
+}
+
+.banner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.banner img {
+  width: 100%;
+}

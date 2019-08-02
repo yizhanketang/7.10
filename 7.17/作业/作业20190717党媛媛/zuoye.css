@@ -1,0 +1,72 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+
+ul,ol {
+	list-style: none;
+}
+.box1 {
+	height: 628px;
+	width: 1226px;
+	margin: 0 auto;
+}
+.box1 .pic1 {
+	float: left;
+	width: 234px;
+}
+.box1 .pic1 img {
+	width: 238px;
+}
+.box1 .pic2 {
+	float: left;
+	margin-left: 14px;
+	width: 978px;
+}
+.pic2 a {
+	float: left;
+	width: 230px;
+	text-align: center;
+	padding: 20px 0;
+	background-color: #efefef;
+	margin-right: 14px;
+	margin-bottom: 14px;
+}
+.pic2 a img {
+	width: 160px;
+	height: 160px;
+}
+.name {
+	display: block;
+}
+.pic2 a .name {
+	color: #333;
+	font-size: 14px;
+	margin: 18px auto 5px;
+}
+.pic2 a .funk {
+	color: #b0b0b0;
+	font-size: 12px;
+	margin: 18px auto 5px;
+}
+.pic2 a .price {
+	color: #ff6700;
+	font-size: 14px;
+}
+.pic2 a .price del {
+	color: #b0b0b0;
+	font-size: 14px;
+}
+
+.pic3 {
+	width: 1226px;
+	margin: 0 auto;
+}
+
+.pic3 img {
+	width: 1226px;
+	height: 120px;
+}

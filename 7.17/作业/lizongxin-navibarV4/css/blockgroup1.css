@@ -1,0 +1,22 @@
+.blockgroup1{
+	margin: 0 auto;
+	width: 1226px;
+}
+
+.catagory-box{
+	display: block;
+	width: 234px;
+	height: 460px;
+	float: left;
+	background-color: #606365;
+	opacity: 0.6;
+}
+
+.img-big{
+	display: block;
+	width: 1226px;
+	height: 460px;
+	/*float: right;*/
+	background-color: #eff8fd;
+
+}

@@ -1,0 +1,110 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.box1 {
+	height: 460px;
+	position: relative;
+
+}
+
+.box1 .left {
+	width: 234px;
+	height: 460px;
+	background-color: rgba(0,0,0,0.6);
+	padding: 20px 0;
+	box-sizing: border-box;
+	float: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+
+	/*text-align: center;*/
+
+}
+.box1 .left > a {
+
+	line-height: 42px;
+	display: block;
+	font-size: 14px;
+	padding: 0 0 0 30px;
+	text-decoration: none;
+	color: #fff;
+	position: relative;
+}
+
+.box1 .left a:after {
+	height: 16px;
+	width: 16PX;
+	content: '';
+	display: block;
+	background: url(xvebi.png) no-repeat 0 -56px;
+	position: absolute;
+	top: 12PX;
+	left: 180px;
+
+}
+
+.box1 .left > a:hover {
+	background-color:#ff6700; 
+}
+
+ .box1 .left a:hover:after {
+	/*background-position-y: -82px;*/
+	background: url(xvebi.png) no-repeat 0 -82px;
+}
+
+.box1 .right {
+	height: 460px;
+	background: url(1.jpg) no-repeat center/cover;
+	margin: 0 auto;
+	position: relative;
+}
+
+.right .left-ear {
+	height: 69px;
+	width: 41px;
+	display: block;
+	background: url(7.png) no-repeat 0 -779px;
+	position: absolute;
+	top: 230px;
+	left: 234px;
+	margin-top: -35px;
+	display: none;
+}
+
+.right:hover .left-ear{
+
+ display: block;
+}
+
+.right .left-ear:hover{
+	background: url(7.png) no-repeat 0 -905px;
+
+}
+
+.right .right-ear {
+	height: 69px;
+	width: 41px;
+	display: block;
+	background: url(7.png) no-repeat 0 -1155px;
+	position: absolute;
+	top: 230px;
+	right: 0px;
+	margin-top: -35px;
+	display: none;
+}
+
+.right:hover .right-ear {
+	display: block;
+}
+
+.right .right-ear:hover{
+background: url(7.png) no-repeat 0 -1030px;
+}
+
+
+
+

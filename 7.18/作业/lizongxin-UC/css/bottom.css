@@ -1,0 +1,133 @@
+.bottom-container, .bottom-background{
+    height: 400px;
+    background-color: #333333;
+    outline: none;
+}
+
+.bottom-container-1{
+    width: 768px;
+    /*background-color: #6ab9c0;*/
+    height: 250px;
+    float: left;
+    margin-top: 20px;
+}
+
+.bottom-container-1 .bottom-column{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    float: left;
+    margin-right: 120px;
+    color: #aaaaaa;
+}
+
+.bottom-column div{
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+
+.bottom-container-2{
+    width: 256px;
+    height: 250px;
+    /*background-color: #ff6600;*/
+    float: left;
+}
+
+.bottom-container-2 .select-region{
+    height: 20px;
+    width: 150px;
+    margin: 20px auto 20px 30px;
+    background-color: #838383;
+}
+
+.bottom-container-2 .other-link{
+    margin: 20px auto 20px 30px;
+    font-size: 12px;
+}
+
+.other-link div{
+    margin: 6px 0;
+    color: #aaaaaa;
+}
+
+.bottom-container-3{
+    height: 50px;
+    width: 1024px;
+    /*background-color: #d2d4d9;*/
+    float: left;
+    font-size: 12px;
+    border-top: 1px dotted #838383;
+    border-bottom: 1px dotted #838383;
+}
+
+.bottom-container-3 .nav2{
+    width: 852px;
+    height: 10px;
+    margin: 20px auto;
+}
+
+
+.bottom-container-3 .nav2 div{
+    display: block;
+    color: #606060;
+    float: left;
+    line-height: 10px;
+}
+
+
+.bottom-container-3 .nav2 .link-container a{
+    color: #838383;
+    display: block;
+    float: left;
+    border-right: 1px solid #838383;
+    padding: 0 5px;
+    margin: 0 auto;
+    line-height: 10px;
+}
+
+.link-container{
+    float: left;
+}
+
+
+.bottom-container-4{
+    height: 100px;
+    width: 608px;
+    float: left;
+    /*background-color: #ff6600;*/
+}
+
+.bottom-container-4 .bottom-logo img{
+    margin-right: 10px;
+    float: left;
+    margin: 33px 10px 33px 0;
+}
+
+.bottom-container-4 .legal-info-text{
+    font-size: 12px;
+    width: 600px;
+    margin: 22px auto;
+    color: #606060;
+}
+
+.bottom-container-5{
+    height: 100px;
+    width: 416px;
+    float: left;
+}
+
+.bottom-container-5 .legal-logo-container .legal-logo{
+    float: left;
+}
+
+.legal-logo-container{
+    height: 40px;
+    width: 376px;
+    margin: 30px auto;
+
+}
+
+.legal-logo{
+    margin-right: 20px;
+
+}

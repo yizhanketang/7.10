@@ -1,0 +1,57 @@
+.download-container, .download-background{
+    height: 150px;
+    outline: none;
+}
+
+.download-background{
+    border-bottom: #f8f8f8 2px solid;
+}
+
+
+
+.download-container-left {
+    height: 150px;
+    width: 768px;
+    float: left;
+}
+
+.download-container-right{
+    height: 150px;
+    width: 256px;
+    float: right;
+    position: relative;
+    bottom: 50px;
+}
+
+.download-device-img{
+    margin: 20px;
+}
+
+.download-device-list{
+    display: block;
+    font-size: 10px;
+    line-height: 12px;
+    height: 200px;
+    margin: -10px 6px 0;
+    width: 768px;
+}
+
+.scan-qr-code-text {
+    display: block;
+    font-size: 10px;
+    text-align: center;
+}
+
+.download-device-list a{
+    display: block;
+    margin-right: 78px;
+    float: left;
+}
+
+.qr-code img{
+    margin: 0 64px;
+}
+
+
+
+

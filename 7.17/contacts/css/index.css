@@ -1,0 +1,51 @@
+
+html {
+	scroll-behavior: smooth;
+}
+
+.list {
+
+}
+
+.list dt {
+	height: 30px;
+	line-height: 30px;
+	background: #bfbfbf;
+	padding-left: 20px;
+	position: sticky;
+	top: 0;
+}
+
+.list dd {
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #bfbfbf;
+	padding-left: 20px;
+	font-size: 20px;
+}
+
+.list dd:hover {
+	background-color: #69f;
+	color: #fff;
+	cursor: pointer;
+}
+
+.fiexd-bar {
+	width: 50px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: #f00;
+	text-align: center;
+}
+
+.fiexd-bar a {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+}
+
+
+
+

@@ -1,0 +1,121 @@
+
+.wrap {
+  /*margin: 0 auto;*/
+  /*width: 500px;*/
+  /*height: 200px;
+  background: #00FA9A;
+  min-width: 200px;
+  max-width: 400px;
+  display: inline-block;*/
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background: #00FA9A;
+  border-image: url(../images/pic1.jpg) 30 30 round;
+}
+
+div
+{
+  border:15px solid transparent;
+  width:250px;
+  padding:10px 20px;
+}
+
+#round
+{
+  -webkit-border-image:url(../images/pic1.jpg) 30 30 round; /* Safari 5 and older */
+  -o-border-image:url(../images/pic1.jpg) 30 30 round; /* Opera */
+  border-image:url(../images/pic1.jpg) 30 30 round;
+}
+
+#stretch
+{
+  -webkit-border-image:url(../images/pic1.jpg) 30 30 stretch; /* Safari 5 and older */
+  -o-border-image:url(../images/pic1.jpg) 30 30 stretch; /* Opera */
+  border-image:url(../images/pic1.jpg) 30 30 stretch;
+}
+
+
+
+/*.ul li {}*/
+/*.ul > li {}*/
+/*.ul+.box {
+  background: blue;
+}
+
+紧邻的兄弟
+.first + li {
+  background: brown;
+}*/
+/* 通用兄弟 */
+/*.first ~ li {
+  background: #00FA9A;
+}*/
+
+/*.ul > li:nth-last-child(1) {
+  background: #00FA9A;
+}*/
+
+/*.ul li:empty {
+  height: 100px;
+  width: 100px;
+  background: #00FA9A;
+}*/
+
+.ul li {
+  /*height: 300px;*/
+}
+
+.ul li:target {
+  background: blue;
+}
+
+/*.ul > li:nth-child(2):first-letter {
+  color: blue;
+}
+.first-li span {
+  color: blue;
+}*/
+
+/*.ul > li:nth-child(2):first-line {
+  color: blue;
+}*/
+
+.ul > li:nth-child(2):first-letter {
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+
+
+
+
+#id {}
+.class {}
+div {}
+* {}
+
+.class p i {}
+.class > p i {}
+.class > p.class i {}
+
+
+/*属性*/
+/*[class] {*/
+
+/* 标签[属性] */
+/*div[class] {*/
+
+/* 标签[属性=值] */
+/*div[class=box] {*/
+
+/* 标签[属性^=开始字母/值] */
+/*div[class^=d] {*/
+
+/* 标签[属性$=结束字母/值] */
+/*div[class$=d] {*/
+
+/* 标签[属性*=包含字母/值] */
+/*div[class*=d] {
+  background: #00FA9A;
+}*/

@@ -1,0 +1,30 @@
+
+.line {
+  height: 100px;
+  width: 2px;
+  background: red;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  /*animation: xuanzhaun 6s linear infinite;*/
+  animation: xuanzhaun 6s cubic-bezier(.73,1.49,.17,-0.61) infinite;
+  transform-origin: 0 280px;
+  /* 贝塞尔曲线 */
+}
+
+.line .dian {
+  height: 20px;
+  width: 20px;
+  background: #2c323b;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  left: -9px;
+}
+
+@keyframes xuanzhaun {
+  to {
+    transform: rotate(360deg);
+  }
+}
+

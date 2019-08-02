@@ -1,0 +1,73 @@
+.all{
+	width: 100%;
+	height: auto;
+}
+.all .seve {
+	width: 1000px;
+	height: 78px;
+	font-size: 13px;
+	margin: 0 auto;
+	/*background-color: #808080;*/
+	line-height: 78px;
+}
+
+.all .seve .left{
+	width: 150px;
+	float: left;
+	height: 78px;
+}
+.all .seve .left img{
+	width: 150px;
+	padding-top: 20px; 
+	width: 100%
+}
+
+.all .seve .center{
+	width: 465px;
+	float: left;
+	margin-left: 50px;
+}
+.all .seve .center .sousuo{
+	border: 1px solid #eee; 
+	width: 35px; 
+	line-height: 35px; 
+	width: 300px;
+	display: block;
+    float: left;
+    margin: 20px 0 0 0;
+}
+.all .seve .center .sousuobtn{
+	background-image: url(../img/sousuo.png);
+	width: 35px;
+    height: 35px;
+    display: block;
+    float: left;
+    margin: 20px 0 0 -40px;
+    border: 0px;
+    background-color:transparent;
+}
+
+.all .seve .right{
+	width: 250px;
+	float: left;
+	text-align: center;
+}
+.all .seve .right span{
+	padding-right: 20px;
+}
+.all .seve .right span:last-child{
+	border-right: 1px solid #fff;
+}
+.all .seve .login{
+	 float:right;
+    width: 48px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #169af3;
+    border-radius: 2px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    background-color: #169af3;
+    margin: 25px 20px 0 0;
+}

@@ -1,0 +1,438 @@
+/*common-settings*/
+body{
+    margin: 0 auto;
+}
+/*header*/
+.header-container{
+    height: 60px;
+    width: 990px;
+    position: relative;
+    margin: 10px auto;
+}
+
+.header-left{
+    width: 300px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header-left img{
+    float: left;
+}
+
+/*problem?*/
+/*.header-left img:nth-child(2){*/
+/*    margin: 10px 0;*/
+/*}*/
+
+.header-left .welcome img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.header-right{
+    margin-bottom: 10px;
+}
+
+.header-right .questionnaire{
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.header-right .questionnaire:hover{
+    text-decoration-line: underline;
+    color: #E4393C;
+}
+
+.questionnaire .pop-icon{
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    margin: 0 5px;
+    background: url("../images/pop.png");
+
+    /*what's this?*/
+    vertical-align: middle;
+
+    overflow: hidden;
+    float: left;
+}
+
+/*notification1*/
+.notification1 .notification-text{
+    font-size: 12px;
+    text-align: center;
+    line-height: 38px;
+    float: left;
+    margin: 0 auto;
+    display: block;
+}
+
+.notification1{
+    width: 990px;
+    height: 38px;
+    background-color: #fff8f0;
+    margin: 0 auto;
+    display: block;
+    padding: 0 0px;
+}
+
+.notification1-background{
+    width: 100%;
+    height: 38px;
+    background-color: #fff8f0;
+}
+
+.notification-text .privacy-link{
+    color: #000000;
+}
+
+.privacy-link:hover{
+    text-decoration-line: underline;
+}
+
+.info-icon{
+    width: 16px;
+    height: 16px;
+    margin: 10px 5px 10px 0;
+    background: url("../images/info.png");
+    float: left;
+    display:block;
+}
+
+
+/*banner*/
+.banner-image{
+    margin: 0 auto;
+}
+
+.banner-container{
+    position: relative;
+    width: 990px;
+    margin: 0 auto;
+}
+
+.banner-background{
+    width: 100%;
+    background-color: #e93854;
+
+}
+/*notification2, login-box*/
+.notification2 .notification2-text{
+    font-size: 12px;
+    line-height: 38px;
+    margin: 0 29px;
+}
+
+.notification2{
+    width: 100%;
+    height: 38px;
+    background-color: #fff8f0;
+}
+
+.login-box{
+    width: 346px;
+    height: 398px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    bottom: -10px;
+    background-color: #fff;
+}
+
+.login-option1, .login-option2{
+    width: 173px;
+    height: 54px;
+    border-bottom: 1px solid #f4f4f4;
+    float: left;
+    /*outline: rgb(109, 109, 109) none 0px;*/
+    font-size: 18px;
+    line-height: 54px;
+    font-family: "microsoft yahei", sans-serif;
+    text-align: center;
+    background-color: transparent;
+}
+
+.login-option1:hover, .login-option2:hover{
+    font-weight: 700;
+    color: #e4393c;
+}
+
+.input-box1{
+    outline: none;
+    border: none;
+    width: 306px;
+    height: 73px;
+    margin: 0 20px;
+    float: left;
+    position: relative;
+}
+.input-box1-body{
+    outline: none;
+    border: none;
+    width: 254px;
+    height: 18px;
+    padding: 10px 0 10px 50px;
+    background-color: white;
+    font-size: 14px;
+    font-family: serif;
+    position: absolute;
+    bottom: 0;
+}
+
+.input-box2{
+    outline: none;
+    border: none;
+    width: 306px;
+    height: 80px;
+    margin: 0 20px;
+    float: left;
+    position: relative;
+}
+
+.input-box2-body{
+    outline: none;
+    border: none;
+    width: 254px;
+    height: 18px;
+    padding: 10px 0 10px 50px;
+    background-color: white;
+    font-size: 14px;
+    font-family: "microsoft yahei", sans-serif;
+    position: absolute;
+    bottom: 0;
+}
+
+.forgot-password{
+    width: 306px;
+    height: 18px;
+    float: left;
+    margin: 20px;
+}
+
+.input-box1-body, .input-box2-body{
+    border: 1px solid #bdbdbd;
+}
+
+.input-box1-icon, .input-box2-icon{
+    position: absolute;
+    z-index: 1;
+    bottom: 1px;
+    left: 1px;
+    width: 38px;
+    height: 38px;
+    border-right: 1px solid #bdbdbd;
+
+    /*what's this?*/
+    background: url("../images/pwd-icons-new.png") no-repeat;
+
+}
+
+.input-box1-icon{
+
+    /*what's this?*/
+    background-position: 0 0;
+}
+
+.input-box2-icon{
+
+    /*what's this?*/
+    background-position: -48px 0;
+}
+
+.forgot-password .forgot-link{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    color: #666666;
+    float: right;
+}
+
+.forgot-password .forgot-link:hover{
+    text-decoration-line: underline;
+    color: #E4393C;
+}
+
+.login-button{
+    width: 304px;
+    height: 33px;
+    background-color: #e4393c;
+    float: left;
+    margin: 0 21px;
+}
+
+.login-text{
+    width: 304px;
+    line-height: 31px;
+    margin: 1px auto;
+    display: inline-block;
+    font-family: "microsoft yahei", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.other-options-background{
+    width: 346px;
+    height: 50px;
+    background-color: #fcfcfc;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.other-options{
+    width: 306px;
+    height: 50px;
+    padding: 0 20px;
+    background-color: #fcfcfc;
+    position: absolute;
+    bottom: 0px;
+    border-top: 1px solid #f4f4f4;
+}
+
+.other-options .option-left{
+    float: left;
+    height: 50px;
+    width: 250px;
+    position: relative;
+}
+
+.other-options .option-left .option1-qq{
+    display: block;
+    width: 30px;
+    line-height: 12px;
+    font-family: sans-serif;
+    font-size: 12px;
+    /*float: left;*/
+}
+
+.other-options .option-left .option2-wx{
+
+    width: 30px;
+    line-height: 19px;
+    font-family: serif;
+    font-size: 12px;
+    float: left;
+}
+
+.other-options .option-left .option1-qq:hover, .other-options .option-left .option2-wx:hover{
+    color: #E4393C;
+    text-decoration-line: underline;
+}
+ .qq-logo{
+    width: 19px;
+    height: 19px;
+    display: block;
+    background: url("../images/QQ-weixin.png") no-repeat;
+    /*float: left;*/
+}
+
+.wx-logo{
+    width: 19px;
+    height: 19px;
+    display: block;
+    background: url("../images/QQ-weixin.png") no-repeat;
+    background-position: -20px 0;
+    /*float: left;*/
+}
+
+
+.other-options .option-right{
+    height: 50px;
+    float: right;
+}
+
+#left1, #left3, #left4{
+    float: left;
+    margin: 15.5px 0;
+}
+
+#left2{
+    float: left;
+    margin: 19px 0;
+}
+
+#left1, #left3{
+    position: relative;
+}
+
+#left1{
+    margin-right: 50px;
+}
+
+#left2{
+    border-right: 1px solid #eeeeee;
+}
+
+#left2, #left4{
+    position: absolute;
+    left: 25px;
+    bottom: -15.5px;
+}
+
+
+
+
+.other-options .option-right .regist-text{
+    font-size: 14px;
+    color: #b61d1d;
+    line-height: 50px;
+}
+
+.other-options .option-right .regist-text:hover{
+    text-decoration-line: underline;
+}
+
+/*bottom-nav*/
+.bottom-nav{
+    margin: 18px auto 0;
+    /*width: 990px;*/
+    height: 18px;
+}
+
+.navigation{
+    width: 774px;
+    /*how to determine the width of this box?
+    do I have to calculate all by myself?*/
+    height: 18px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.bottom-nav .navigation a{
+    display: block;
+    float: left;
+    font-size: 12px;
+    color: #666666;
+    border-right: 1px solid #666666;
+    padding:0 10px;
+    line-height: 12px;
+}
+
+.bottom-nav .navigation a:hover{
+    text-decoration-line: underline;
+    color: #E4393C;
+}
+
+
+#no_border{
+    border: none !important;
+}
+
+.appendix{
+    margin: 10px auto;
+    width: 990px;
+    height: 18px;
+}
+
+.append-text{
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    line-height: 18px;
+}
+

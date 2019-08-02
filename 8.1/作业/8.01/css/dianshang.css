@@ -1,0 +1,262 @@
+
+header {
+    ;
+    height:36px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    overflow: hidden;
+}
+header span {
+    font-size: 12px;
+    color: #999;
+}
+.scan {
+    width: 38px;
+    height: 40px;
+    float: left;
+
+}
+
+.scan i {
+    width: 19px;
+    height: 19px;
+    background: url("../img/扫一扫.svg") no-repeat center /cover;
+    display: block;
+    margin-left: 8px;
+}
+
+
+.search {
+    float: left;
+}
+
+.search p {
+    height: 28px;
+    border:1px solid #666;
+    border-radius: 25px;
+    position: absolute;
+    left: 52px;
+    top: 3px;
+    right: 98px;
+    float: left;
+
+}
+.search p span {
+    font-size: 14px;
+    color: #999;
+    float: left;
+    margin-left: 64px;
+    margin-top: 6px;
+}
+
+.search p i{
+    width: 15px;
+    height: 15px;
+    background: url("../img/search.svg") no-repeat center /cover;
+    position: absolute;
+    left: 18px;
+    top: 10px;
+}
+.search p i:after {
+    content: '';
+    display: block;
+    height: 15px;
+    width: 0;
+    border: 1px solid #999;
+    position: absolute;
+    left: 28px;
+    top: -3px;
+}
+
+.right {
+    float: right;
+    margin-left: 20px;
+}
+.right .sgin {
+    width: 38px;
+    height: 40px;
+    float: left;
+    text-align: center;
+}
+.sgin i {
+    width: 19px;
+    height: 19px;
+    background: url("../img/签到.svg") no-repeat center /cover;
+    display: block;
+    margin-left: 8px;
+}
+
+.right .msg{
+    width: 38px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.msg i {
+    width: 19px;
+    height: 19px;
+    background: url("../img/消息.svg") no-repeat center /cover;
+    display: block;
+    margin-left: 8px;
+}
+
+
+.shoppers {
+   height: 49px;
+    margin: 0 auto;
+    box-shadow: 0 0px 15px rgba(0,0,0,0.6);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*background-color: aquamarine;*/
+}
+
+.shoppers-left {
+    float: left;
+}
+.tab-bar i {
+    height: 20px;
+    width: 20px;
+    background: url("../img/home.svg") no-repeat center /cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.tab-bar {
+    float: left;
+    margin: 4px 22px 0 28px;
+}
+.tab-bar span {
+    color: #999;
+    font-size: 12px;
+}
+.select i {
+    height: 20px;
+    width: 20px;
+    background: url("../img/collect.svg") no-repeat center /cover;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.select {
+    float: left;
+    margin: 4px 22px 0 4px;
+}
+.select span {
+    color: #999;
+    font-size: 12px;
+}
+
+
+.shoppers-right  {
+    float: right;
+}
+
+.cart i {
+    height: 20px;
+    width: 20px;
+    background: url("../img/cart.svg") no-repeat center /cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.cart{
+    float: left;
+    margin: 4px 4px 0 22px;
+}
+
+.cart span {
+    color: #999;
+    font-size: 12px;
+}
+
+.user i {
+    height: 20px;
+    width: 20px;
+    background: url("../img/user.svg") no-repeat center /cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.user{
+    float: left;
+    margin: 4px 28px 0 22px;
+}
+
+.user span {
+    color: #999;
+    font-size: 12px;
+}
+
+.shoppers-center {
+    width: 55px;
+    height: 55px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    /*float: left;*/
+    /*margin-left: 12px;*/
+    background: url("../img/app.svg") no-repeat center / 54%;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    margin-left: -28px;
+    background-color: #fff;
+}
+
+.menu {
+    height: 31px;
+    /*width: 336px;*/
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.menu div:first-child{
+    width: 44px;
+    height: 20px;
+    background-color: #cc1d6b;
+    color: #fff;
+    text-align: center;
+}
+
+.banner {
+    height: 135px;
+    width: 100%;
+    background-image: linear-gradient( 135deg, #70F570 10%, #49C628 100%);
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

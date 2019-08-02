@@ -1,0 +1,74 @@
+
+.banner {
+  width: 1226px;
+  height: 460px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.banner .left {
+  width: 234px;
+  height: 100%;
+  background: rgba(0, 0, 0, .5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*float: left;*/
+  padding: 20px 0;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.banner .left > a {
+  display: block;
+  font-size: 14px;
+  line-height: 42px;
+  padding-left: 30px;
+  color: #fff;
+  position: relative;
+}
+
+.banner .left > a:after {
+  content: '';
+  width: 15px;
+  height: 15px;
+  display: block;
+  background: url(../images/search.png) no-repeat -21px -85px;
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  margin-top: -7.5px;
+}
+
+.banner .left > a:hover {
+  background-color: #f40;
+}
+
+.banner .left > a:hover:after {
+  background: url(../images/search.png) no-repeat -64px -85px;
+}
+
+.banner .right {
+  height: 100%;
+  background: url(../images/pic1.jpg) no-repeat center / cover;
+  position: relative;
+}
+
+.right > a {
+  height: 68px;
+  width: 40px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -34px;
+}
+
+.right > a.prev {
+  background-image: url(../images/icon-slides.png);
+  left: 234px;
+}
+
+.right > a.next {
+  background-image: url(../images/icon-slides.png);
+  right: 0;
+}

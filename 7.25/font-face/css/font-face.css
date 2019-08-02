@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'jay font';
+  src: url('../font/Midnight Signature.otf');
+}
+
+@font-face {
+  font-family: YuanDang;
+  src: url('../font/Beloved Teacher.otf'),
+        url('../font/Beloved Teacher.ttf');
+}
+
+@font-face {
+  font-family: yizhan;
+  src: url('../font/After_Shok.ttf');
+}

@@ -1,0 +1,33 @@
+
+ul {
+	/* 去除列表的样式（序号，。。。） */
+	list-style: none;
+}
+
+li {
+	float: left;
+	margin-right: 20px;
+}
+/* 鼠标滑动效果 */
+li:hover {
+	color: red;
+	background: black;
+}
+
+
+.meun div {
+	float: left;
+	margin-right: 30px;
+}
+
+.meun div:hover {
+	color: red;
+}
+
+
+
+
+
+
+
+

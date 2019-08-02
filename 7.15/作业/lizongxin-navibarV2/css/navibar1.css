@@ -1,0 +1,56 @@
+body, html{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	/*width: 1280px;*/
+	height: 100%;
+}
+
+.navi1-left{
+	float: left;
+}
+
+.navi1-left div{
+	margin-right: 15px;
+	float: left;
+	text-transform: capitalize;
+	color: #b0b0b0;
+	line-height: 40px;
+	/*can be achieved without
+	 using line-height?
+	calculation about width/height,
+	 margin/padding is needed*/
+}
+
+.navi1-left div:hover{
+	color: #fff;
+}
+
+.navi1-right{
+	float:right;
+}
+
+.navi1-right div{
+	margin-left: 15px;
+	float: left;
+	text-transform: capitalize;
+	color: #b0b0b0;
+	line-height: 40px;
+}
+
+.navi1-right div:hover{
+	color: #fff;
+}
+
+.navi1{
+	height: 40px;
+	background-color: #333333;
+	margin: 0 auto;
+	width: 1280px;
+}
+
+.navi1-bg{
+	background-color: #333333;
+	/*width: 100%;*/
+}
+

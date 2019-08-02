@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #b0b0b0;
+	margin: 5px;
+
+}
+a:hover {
+	color: red;
+}
+
+.top {
+	height: 25px;
+	background: #000;
+	margin: 0 auto;
+	font-size: 12px;
+	padding-top: 10px;
+	}
+.top1{
+	float: left;
+	}
+.top2 {
+	float: right;
+	}
+.top .top1 a {
+	height: 5px;
+	line-height: 5px;
+	float: left;
+	margin-right: 5px;
+	padding-right: 5px;
+	border-right: 1px solid #424242;
+	}
+.top .top2 a {
+	height: 5px;
+	line-height: 5px;
+	float: left;
+	margin-right: 5px;
+	padding-right: 5px;
+	border-right: 1px solid #424242;
+	}
+
+.chart {
+	height: 100px;
+	margin: 0 auto;
+}
+.logo {
+	float: left;
+	width: 55px;
+	height: 55px;
+	background: #ff6700;
+	background-image: url(mi-logo.png);
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+.logo:hover {
+	background-color: #000;
+	}
+
+li {
+	float: left;
+	list-style: none;
+	margin-left: 30px;
+	margin-top: 15px;
+	line-height: 40px;
+	}
+
+.box {
+	float: right;
+	height: 50px;
+	margin-top: 30px;
+}
+.box input[type=text]
+ {
+	float: left;
+	height: 20px;
+	width: 250px;
+}
+.box input[type=text] 
+.box button {
+	float: left;
+	height: 30px;
+	width: 40px;
+	background: #fff;
+}
+.box button:hover {
+	background: #ff6700;
+	color: #fff;}
+
+
+

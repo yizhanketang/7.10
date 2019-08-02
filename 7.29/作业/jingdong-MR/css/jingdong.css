@@ -1,0 +1,585 @@
+
+
+  /*  顶端 */
+
+.welconm {
+	width: 990px;
+	margin: 0 auto;
+	
+}
+
+
+
+  /*   图标  */
+
+.warp {
+	width: 300px;
+	height: 60px;
+	margin:10px 0;
+	color: #404040;
+	float: left;
+
+}
+
+.dog {
+	height: 60px;
+	width: 170px;
+	background-color: red;
+	background: url(../img/jd-logo.png) no-repeat center/cover;
+	display: block;
+	float: left;
+
+}
+
+
+     /*   中间一点点 */
+
+.center {
+	width: 110px;
+	height: 40px;
+    font-size: 22px;
+    float: left;
+    margin-top: 26px;
+    margin-left: 14px;
+    color: #404040;
+
+}
+  
+
+     
+
+     /*    问卷调查 */
+
+
+.ask {
+	width: 136px;
+	height: 18px;
+	font-size: 14px;
+	float:right;
+	color: #999;
+	margin-top: 50px;
+	position: relative;
+}
+
+.ask i {
+	width: 18px;
+	height: 14px;
+	background: url(../img/q-icon.png)no-repeat center/cover;
+	display: block;
+	position: absolute;
+	top: 4px;
+    left: -22px;
+}
+
+
+
+.ask:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+
+/*    大中间  */
+
+
+.out {
+	clear: both;
+	height: 39px;
+	background-color: #fff8f0;
+	margin:0 auto;
+}
+
+
+
+     /*  安全提示*/
+
+
+.seve {
+	height: 19px;
+	width: 990px;
+	font-size: 12px;
+	color: #999;
+    line-height: 39px;
+    margin: 0px auto;
+   /* position: absolute;*/
+
+}
+
+.seve i {
+
+	width: 16px;
+	height: 16px;
+	background-color: red;
+	background: url(../img/xiaotui.png) no-repeat center /cover;
+	float: left;
+    margin-top: 12px;
+    margin-left: 96px;
+    margin-right: 2px;
+}
+
+
+
+
+.seve .blank {
+	width: 96px;
+	height: 19px;
+	color: #000;
+}
+
+
+.blank:hover {
+	text-decoration: underline;
+}
+
+/*
+       中间大背景安全距离
+ */
+ 
+
+.inportent {
+	height: 476px;
+	background-color: #e93854;
+	
+}
+
+
+
+
+    /*   背景通栏*/
+
+.jingdong{
+	height: 476px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #e93854;
+	
+
+}	
+
+
+  /*  背景图片 */
+
+
+.background {
+	height: 476px;
+	width: 990px;
+	background-color: #000;
+	margin: 0 auto;
+    display: block;
+    background-image: url(../img/banan.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+/*   登陆栏  */
+
+.land {
+	width: 346px;
+	background-color: #fff;
+	float: right;
+	margin-top: 10px;
+
+}
+
+.herader {
+	width: 336px;
+	height: 19px;
+	margin: 0 auto;
+	background-color: #fff8f0;
+	font-size: 12px;
+	color: #666;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.herader i {
+	width: 16px;
+	height: 16px;
+	background: url(../img/xiaotui.png) no-repeat center/cover;
+	display: block;
+	float: left;
+	margin-left: 16px;
+}
+
+
+.land .landto {
+	height: 55px;
+	border-bottom: 1px solid #eee;
+	
+
+}
+
+.land .landto strong{
+    height: 55px;
+	width: 172px;
+	font-size: 18px;
+	text-align: center;
+	color:#999;
+	line-height: 55px;
+	float: left;
+	position: relative;
+
+}
+
+.land .landto strong:first-child:after {
+	content:'';
+	display: block;
+	height: 18px;
+	width: 0px;
+	border:1px solid #eee;
+    position: absolute;
+	top: 18px;
+	right:0px;
+
+}
+
+.free {
+	height: 18px;
+	width: 306px;
+	margin: 5px auto;
+}
+
+
+.land .landto strong:hover {
+	color: #e4393c;
+}
+
+.change {
+	height: 190px;
+	width: 243
+	margin: 0 auto;
+	position: relative;
+
+}
+
+
+
+
+.change img.saoma:hover {
+	transform: translateX(-50%);
+}
+
+.change img.iphone {
+	height: 168px;
+	width: 141px;
+	position: absolute;
+	top: -4px;
+	right: 6px;
+	display: none;
+}
+
+.change img.saoma {
+	height: 147px;
+	width: 147px;
+	border:1px solid #666;
+	padding: 10px 10px;
+	position: absolute;
+	top: 0;
+	left: 88px;
+	transition: 500ms;
+	
+
+}
+
+
+
+     /*  滑动都出来 la*/
+
+.change:hover img:last-child {
+  display: block;
+}
+
+
+
+.change-bunttm {
+	clear: both;
+	width: 275px;
+	height: 14px;
+	margin: 0 auto;
+	
+}
+
+.change-bunttm-1 {
+	width: 24px;
+	height: 14px;
+	font-size: 12px;
+	color : #666;
+	line-height: 14px;
+	margin-left: 60px;
+	
+
+}
+
+.change-bunttm-2 {
+	width: 48px;
+	height: 14px;
+	color: #e4393c;
+	font-size: 12px;
+	line-height: 14px;
+
+}
+
+.change-bunttm-3 {
+	width: 65px;
+	height: 18px;
+	font-size: 12px;
+	color: #666;
+	line-height: 14px;
+	margin-left: 12px;
+}
+
+
+
+
+.change-more {
+	height: 54px;
+	width: 266px;
+	margin: 0 auto;
+	font-size: 12px;
+	line-height: 59px;
+	color: #999;
+	position: relative;
+	border-bottom: 1px solid #eee;
+}
+
+
+
+
+/*   样式写不上去啊 */
+
+
+
+.change-more-1 {
+	width: 68px;
+	height: 25px;
+	margin-left: 45px;
+	
+	
+}
+
+.change-more-1 i {
+	width: 25px;
+	height: 25px;
+	background: url(../img/qr-coagent.png) no-repeat 0 0;
+	position: absolute;
+	top: 18px;
+	left: 16px;
+
+}
+
+.change-more-2 {
+	width: 68px;
+	height: 25px;
+	margin-left: 52px;
+
+}
+
+.change-more-2 i {
+	width: 25px;
+	height: 25px;
+	background: url(../img/qr-coagent.png) no-repeat -27px 1px;
+	display: block;
+	position: absolute;
+	top: 18px;
+	left: 108px;
+}
+
+
+.change-more-3 {
+	width: 68px;
+	height: 25px;
+	margin-left: 52px;
+
+}
+
+.change-more-3 i {
+	width: 25px;
+	height: 25px;
+	background: url(../img/qr-coagent.png) no-repeat -54px 1px;
+	display: block;
+	position: absolute;
+	top: 18px;
+	left: 186px;
+}
+
+
+.footer {
+	width: 306px;
+	height: 46px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.footer-1 i {
+	width: 19px;
+	height: 18px;
+	background: url(../img/QQ-weixin.png) no-repeat 0 0;
+	position: absolute;
+	top: 14px;
+	left: 2px;
+}
+
+.footer-1 {
+	height: 14px;
+	width: 18px;
+	font-size: 14px;
+	color: #666;
+	margin-left: 28px;
+	margin-right: 56px;
+	float: left;
+    margin-top: 14px;
+
+}
+
+.footer-1:after {
+	content: '';
+	display:block;
+	height: 14px;
+	width: 0px;
+	border: 1px solid #eee;
+	position: absolute;
+	top: 16px;
+	left: 62px;
+}
+
+.footer-1:hover {
+	text-decoration: underline;
+	color: #E4393C;
+}
+
+
+.footer-2 i {
+	width: 19px;
+	height: 18px;
+	background: url(../img/QQ-weixin.png) no-repeat -20px 0;
+	position: absolute;
+	top: 15px;
+	left: 76px;
+}
+
+
+.footer-2 {
+	height: 14px;
+	width: 30px;
+	font-size: 14px;
+	color: #666;
+	float: left;
+	margin-top: 14px;
+}
+
+.footer-2:hover {
+	text-decoration: underline;
+	color: #E4393C;
+}
+
+.footer-3 i {
+	width: 19px;
+	height: 18px;
+	background: url(../img/pwd-icons-new.png) no-repeat -104px -75px;
+	position: absolute;
+	top: 16px;
+	right: 78px;
+}
+
+
+
+.footer-3 {
+	height: 16px;
+	width: 77px;
+	font-size: 16px;
+	color: #E4393C;
+	float: right;
+	margin-top: 12px;
+}
+
+.footer-2:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* 最下面啦 */
+
+.over {
+	height: 96px;
+	width: 990px;
+	margin: 0 auto;
+
+}
+
+.all-over {
+	height: 18px;
+	width: 990px;
+	line-height: 18px;
+	border-right: : 4px solid red;
+	margin-top: 10px;
+}
+.over-on li {
+	font-size: 12px;
+	color: #666666;
+	float: left;
+	border-right: 1px solid #999999;
+	padding-right: 12px;
+	margin-left: 16px;
+	
+	
+}
+
+.over-on li:last-child {
+	border-right: 0px;
+}
+
+/*
+.over-onder {
+	font-size: 12px;
+	color: #666666;
+	margin-left: 136px;
+}*/
+
+
+.last-over {
+	font-size: 12px;
+	height: 18px;
+	width: 990px;
+	color: #666;
+	line-height: 18px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.over-on li:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

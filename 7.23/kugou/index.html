@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>酷狗音乐 - 就是歌多</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+
+  <div class="header container">
+    <div class="left">
+      <a href="index.html" class="logo"></a>
+      <div class="search">
+        <input type="text" value="易烊千玺" id="search">
+        <span class="icon-search"></span>
+      </div>
+    </div>
+    <div class="right">
+      <div class="nav">
+        <a href="javascript:;">客服中心</a>
+        <a href="javascript:;">招贤纳士</a>
+        <a href="javascript:;">会员中心 </a>
+      </div>
+      <i>|</i>
+      <a href="javascript:;" class="login">登录</a>
+    </div>
+  </div>
+
+  <div class="menu-wrap">
+    <div class="container menu">
+      <div class="left">
+        <a href="javascript:;" class="active">首页</a>
+        <a href="javascript:;">榜单</a>
+        <a href="javascript:;">下载客户端</a>
+        <span href="javascript:;" class="more">
+          更多<i></i>
+          <div class="more-list">
+            <a href="javascript:;">电台</a>
+            <a href="javascript:;">MV</a>
+            <a href="javascript:;">歌单</a>
+            <a href="javascript:;">歌手</a>
+          </div>
+        </span>
+      </div>
+      <div class="right"></div>
+    </div>
+  </div>
+
+
+  <div class="banner">
+    <ul>
+      <li><a href="javascript:void(0);"></a></li>
+    </ul>
+    <span class="btn prev"></span>
+    <span class="btn next"></span>
+    <div class="download-z"></div>
+    <div class="download">
+      <a href="javascript:void(0);">下载PC版</a>
+      <a href="javascript:void(0);">下载iPhone版</a>
+      <a href="javascript:void(0);">下载Android版</a>
+    </div>
+  </div>
+
+
+  <script>
+
+    var more = document.querySelector('.more')
+    var moreList = document.querySelector('.more-list')
+    // console.log(more)
+    more.onmouseenter = function () {
+      moreList.style.display = 'block'
+    }
+
+    more.onmouseleave = function () {
+      moreList.style.display = 'none'
+    }
+
+
+    var searchVal = document.getElementById('search')
+    console.log(searchVal.value)
+
+    var intNum = 1;
+    /*setInterval(function () {
+      console.log(intNum += 1)
+    }, 1000)*/
+    for (var i = 0; i < 10; i++) {
+      console.log(intNum += 1)
+    }
+
+    searchVal.onfocus = function () {
+      if (searchVal.value === '易烊千玺') {
+        searchVal.value = ''
+      }
+    }
+
+    searchVal.onblur = function () {
+      if(!searchVal.value) {
+        searchVal.value = '易烊千玺'
+      }
+      return
+    }
+  </script>
+
+</body>
+</html>

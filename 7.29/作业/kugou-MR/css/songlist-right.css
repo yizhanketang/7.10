@@ -1,0 +1,225 @@
+
+.songlist-right {
+	width: 320px;
+	height: 60px;
+	float: right;
+	margin-top: 30px;
+}
+
+.songlist-right-header {
+	width: 320px;
+	height: 30px;
+	/*background-color: blue;*/
+	margin-bottom: 30px;
+	color: #999;
+}
+
+
+.header-1{
+    width: 60px;
+	height: 30px;
+    font-size: 28px;
+   /* font-weight: bold;*/
+    float: left;
+    margin-right: -4px;
+    line-height: 30px;
+    color:#0c8ed9; 
+
+}
+
+
+
+
+.header-2 {
+	width: 60px;
+	height: 30px;
+    font-size: 28px;
+   /* font-weight: bold;*/
+    float: left;
+    margin-right: 10px;
+    line-height: 30px;
+
+}
+
+.header-3 {
+	width: 36px;
+	height: 19px;
+	font-size: 16px;
+	float: right;
+	line-height: 30px;
+}
+
+.songlist-right-1 {
+	width: 220px;
+	height: 98px;
+	background-color: #eee;
+	float: right;
+	position: relative;
+}
+
+.songlist-right-1 i {
+	width: 98px;
+	height: 98px;
+	background: url(../img/biaoshengbang.jpg) ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 0px;
+	left: -100px;
+}
+
+
+.songlist-right-1fugai {
+	width: 98px;
+	height: 98px;
+	background: rgba(0,0,0,0.6);
+	position: absolute;
+	top: 0px;
+	left: -100px;
+	display: none;
+}
+
+.songlist-right-1:hover .songlist-right-1fugai{
+	display: block;
+}
+
+
+
+.songlist-right-2 {
+	width: 220px;
+	height: 98px;
+	background-color: #eee;
+	float: right;
+	margin-top: 17px;
+	position: relative;
+}
+
+.songlist-right-2fugai {
+	width: 98px;
+	height: 98px;
+	background: rgba(0,0,0,0.6);
+	position: absolute;
+	top: 0px;
+	left: -100px;
+	display: none;
+}
+
+.songlist-right-2:hover .songlist-right-2fugai{
+	display: block;
+}
+
+
+
+
+.songlist-right-2 i {
+	width: 98px;
+	height: 98px;
+	background: url(../img/topbang.jpg) ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 0px;
+	left: -100px;
+}
+
+
+.songlist-right-3 {
+	width: 220px;
+	height: 98px;
+	background-color: #eee;
+	float: right;
+	margin-top: 18px;
+	position: relative;
+}
+
+.songlist-right-3fugai {
+	width: 98px;
+	height: 98px;
+	background: rgba(0,0,0,0.6);
+	position: absolute;
+	top: 0px;
+	left: -100px;
+	z-index: 2;
+	display: none;
+}
+
+.songlist-right-3:hover .songlist-right-3fugai{
+	display: block;
+}
+
+
+
+.songlist-right-3 i {
+	width: 98px;
+	height: 98px;
+	background: url(../img/wangluoge.jpg) ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 0px;
+	left: -100px;
+}
+
+
+.biaoshengbang {
+	width: 200px;
+	height: 24px;
+	color: #333;
+	font-size: 14px;
+	font-weight: 600;
+	margin-left: 10px;
+	margin-top: 16px;
+}
+
+.bangdan-1{
+    width: 180px;
+    height: 24px;
+    color: #555;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.bangdan-2{
+    width: 180px;
+    height: 24px;
+    color: #555;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+
+.dream {
+	width: 1000px;
+	height: 80px;
+	margin: 0 auto;
+	background: url(../img/dream.jpg) no-repeat center /cover;
+	display: block;
+	margin-top: 50px;
+	margin-bottom:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

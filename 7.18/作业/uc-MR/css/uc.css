@@ -1,0 +1,110 @@
+
+
+/*  导航栏 */
+
+.menu {
+	height: 50px;
+	width: 1000px;
+	margin: 0 auto;
+
+}
+
+
+.menu-left {
+	height: 36px;
+	width: 168px;
+	background-color: #e60f60;
+    background-image: url(../images/uc-logo.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: block;
+	float: left;
+	margin-top: 7px;
+
+}
+
+.menu-right {
+    float: right;
+    margin-right: 210px;
+
+}
+
+
+.menu-right li {
+	float: left;
+	font-size: 14px;
+	line-height: 50px;
+	color: #999;
+	margin-right: 40px;
+}
+
+
+/* 上半部分背景图 */
+
+.skayblue {
+
+	height: 274px;
+	margin: 0 auto;
+	display: block;
+	background-image: url(../images/banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+/*  中间部分  */
+
+
+.center {
+	height: 96px;
+	width:1000px;
+	margin: 0 auto;
+	display: block;
+
+}
+
+.img {
+	margin-left: 48px;
+	text-align: center;
+}
+
+
+.center .img a {
+    float: left;
+    margin-right: 44px;
+
+}
+
+.pic1 {
+	font-size: 12px;
+	margin-top: 6px;
+}
+
+
+.img span{
+    display: block;
+}
+
+.pic2 {
+	margin-top: -66px;
+	float: right;
+	display: block;
+}
+
+
+
+.pic4 {
+	margin-top: 18px;
+}
+
+.pic5 {
+    margin-top: 12px;
+}
+
+
+/*  中间偏下 */
+
+

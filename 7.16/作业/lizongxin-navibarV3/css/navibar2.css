@@ -1,0 +1,83 @@
+.navi2-left{
+	float: left;
+	width: 55px;
+	height: 55px;
+	margin-right: 150px;
+	background-color: #ff6700;
+	background-image: url(../images/improvement.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.navi2-left:hover{
+	background-color: #333333;
+}
+
+.navi2-mid{
+	float: left;
+
+}
+
+.navi2-mid div{
+	float: left;
+	margin-right: 20px;
+	font-size: 16px;
+	line-height: 55px;
+	text-transform: capitalize;
+}
+
+.navi2-mid div:hover{
+	color: #ff6700;
+}
+
+.navi2-mid div:focus{
+	color: #ff6700;
+}
+
+.navi2-right{
+	float: right;
+}
+
+.navi2-right input[name="text-input"]{
+	/*margin: 20px 0;*/
+	border: 1px solid;
+	width: 223px;
+	height: 48px;
+	padding: 0 10px;
+	margin-right: 0px;
+	float: left;
+}
+
+.navi2-right input[name="search-button"]{
+	border-style: none;
+	outline-style: none;
+	border: 1px solid;
+	width: 48.6667px;
+	height: 48.6667px;
+	background-color: #fff;
+	float: left;
+
+}
+
+.navi2-right input[name="text-input"]:hover{
+	border-color: #ff6700;
+}
+
+.navi2-right input[name="search-button"]:hover{
+	border-color: #ff6700;
+	outline-color: #ff6700;
+	background-color: #ff6700;
+}
+
+.navi2{
+	background-color: #fff;
+	margin: 36.25px auto;
+	width: 1226px;
+	height: 55px;
+}
+
+.navi2-bg{
+	background-color: #fff;
+	margin: 0 auto;
+}

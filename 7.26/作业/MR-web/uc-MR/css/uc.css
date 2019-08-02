@@ -1,0 +1,736 @@
+
+
+/*  导航栏 */
+
+.menu {
+	height: 70px;
+	width: 988px;
+	margin: 0 auto;
+
+}
+
+
+.menu-left {
+	height: 38px;
+	width: 200px;
+	background-color: #e60f60;
+    background-image: url(../images/uc-logo.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: block;
+	float: left;
+	margin-top: 10px;
+
+}
+
+.menu-right {
+    float: right;
+}
+
+
+.menu-right li {
+	float: left;
+	font-size: 20px;
+	line-height: 67px;
+	color:#7a7a7a;
+	padding: 0 12px;
+	margin: 0 25px;
+	
+}
+
+
+.menu-right li:hover{
+	 color: #ff6600;
+  border-bottom: 3px solid #ff6600;
+
+}
+
+
+/* 上半部分背景图 */
+
+.skayblue {
+
+	height: 400px;
+	margin: 0 auto;
+	display: block;
+	background-image: url(../images/banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+/*  中间部分  */
+
+
+.center {
+	height: 96px;
+	width:1000px;
+	margin: 0 auto;
+	display: block;
+
+}
+
+.img {
+	margin-left: 30px;
+	text-align: center;
+	position: relative;
+	
+}
+
+
+.center .img a {
+    float: left;
+    margin-right: 50px;
+
+}
+
+.pic1 {
+	font-size: 12px;
+	margin-top: 6px;
+}
+
+
+.img span{
+    display: block;
+    color: #999;
+}
+
+.pic2 {
+	display: block;
+	position: absolute;
+	top: -31px;
+	right: -40px;
+}   
+
+
+
+.pic4 {
+	margin-top: 18px;
+}
+
+.pic5 {
+    margin-top: 12px;
+}
+
+
+/*  中间偏下 */
+
+
+.onder-b {
+	border-top: 2px solid #eee;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.onder-all {
+	height: 270px;
+	width: 1000px;
+	margin: 0 auto;
+	/*background-color: #808080;*/
+	display: block;
+	color: #999;
+	margin-top: 30px;
+
+
+}
+
+/*  第一个文字片*/
+
+.onder-1 .onder-1-1{
+	width: 310px;
+	height: 268px;
+	text-align: center;
+	float: left;
+	
+}
+ 
+.write-1 {
+	float: left;
+	font-size: 22px;
+	color: #808080;
+	
+}
+
+.write-2 {
+	float: right;
+	color: #808080;
+	
+}
+
+/*第二个文字片*/
+
+.onder-1 .onder-1-2{
+	width: 310px;
+	height: 268px;
+	text-align: center;
+	float: left;
+	margin-left: 34px;
+}
+
+.write-3 {
+	float: left;
+	font-size: 22px;
+	color: #808080;
+	
+}
+
+.write-4 {
+	float: right;
+	color: #808080;
+}
+
+
+/*第三个文字片*/
+
+.onder-1 .onder-1-3 {
+	width: 310px;
+	height: 268px;
+	text-align: center;
+	float: right;
+}
+
+.write-5 {
+	float: left;
+	font-size: 22px;
+	color: #808080;
+	
+}
+
+.write-6 {
+	float: right;
+	color: #808080;
+}
+
+.span-1 {
+
+    background-color: #eee;
+    font-size: 14px;
+    color: #404040;
+}
+
+.span-2 {
+    background-color: #eee;
+    font-size: 14px;
+    color: #404040;
+}
+
+.span-3 {
+	background-color: #eee;
+    font-size: 14px;
+    color: #404040;
+}
+
+/*  下面小字 */
+
+
+.small-1 {
+	font-size: 14px;
+    color: #999;
+    font-weight: 600;
+}
+.small-2 {
+	font-size: 14px;
+    color: #999;
+    font-weight: 600;
+}
+.small-3 {
+	font-size: 14px;
+    color: #999;
+    font-weight: 600;
+}
+
+
+/*  灰色部分啦 */
+
+
+.last {
+	margin-top: -22px;
+	height: 500px;
+	background-color: #404040;
+
+
+}
+
+.last-all {
+	height: 500px;
+	width: 1000px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.last-on {
+	margin-top: 20px;
+	height: 310px;
+}
+.one {
+	height: 308px;
+	width: 136px;
+	/*background-color: blue;*/
+	float: left;
+	margin-top: 28px;
+    margin-right: 36px;
+    padding-bottom: 16px;
+    color: #999;
+    font-weight: 600;
+
+}
+
+.two {
+	height: 308px;
+	width: 136px;
+	/*background-color: blue;*/
+	float: left;
+	margin-top: 28px;
+	margin-right:36px;
+	color: #999;
+    font-weight: 600;
+}
+
+
+.three {
+	height: 308px;
+	width: 136px;
+	/*background-color: blue;*/
+	float: left;
+	margin-top: 28px;
+	margin-right:36px;
+	color: #999;
+    font-weight: 600;
+}
+.four {
+	height: 308px;
+	width: 136px;
+	/*background-color: blue;*/
+	float: left;
+	margin-top: 28px;
+	margin-right:36px;
+	color: #999;
+    font-weight: 600;
+}
+.five {
+	height: 308px;
+	width: 136px;
+	/*background-color: blue;*/
+	float: left;
+	margin-top: 28px;
+	margin-right:36px;
+	color: #999;
+    font-weight: 600;
+}
+
+
+
+.one-1 li{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.one-1-1 li{
+	font-size: 12px;
+	margin-bottom: 10px;
+	font-weight: 200px;
+}
+
+
+.six {
+	height: 308px;
+	width: 136px;
+	/*background-color: blue;*/
+	float: right;
+	margin-top: 28px;
+	color: #999;
+	font-weight: 600; 
+	
+}
+
+.chinese {
+	height:28px;
+	width: 138px;
+	border: 2px solid #666;
+	font-weight: 600;
+	position: relative;
+
+}
+
+
+
+.wenzi {
+	font-size: 16px;
+	text-align: center;
+	line-height:28px;
+	color: #999; 
+	margin-left:24px;
+}
+
+
+.diqiu {
+	height: 15px;
+	width: 15px;
+	background: url(../images/erweima.jpg) no-repeat center /cover;
+	display: inline-block;
+	position: absolute;
+	top: 7px;
+	left: 4px;
+}
+
+.sanjiaoxing {
+	height: 0;
+	width: 0;
+	border: 6px solid transparent;
+	border-top-color: #000;
+    position: absolute;
+	top: 12px;
+	left: 104px;
+
+}
+
+.phone {
+	font-size: 12px;
+	margin-left: 30px;
+	padding: 6px 0 6px 0;
+	position: relative;
+}
+
+.phone i{
+	height: 15px;
+	width: 15px;
+	background: url(../images/shubiao.jpg) no-repeat 0px 0px;
+    position: absolute;
+    top: 7px;
+    left: -24px;
+}
+
+
+.pad {
+	font-size: 12px;
+	margin-left: 30px;
+	padding: 6px 0 6px 0;
+	position: relative;
+}
+
+.pad i{
+	height: 15px;
+	width: 24px;
+	background: url(../images/shubiao.jpg) no-repeat 0px -25px;
+    position: absolute;
+    top: 7px;
+    left: -24px;
+}
+
+
+
+.TV {
+	font-size: 12px;
+	margin-left: 30px;
+	padding: 6px 0 6px 0;
+	position: relative;
+}
+
+.TV i {
+	height: 15px;
+	width: 20px;
+	background: url(../images/shubiao.jpg) no-repeat 0px -50px;
+	position: absolute;
+    top: 6px;
+    left: -24px;
+}
+
+
+.weibo {
+	font-size: 12px;
+	margin-left: 30px;
+	padding: 6px 0 6px 0;
+	position: relative;
+}
+
+.weibo i {
+	height: 20px;
+	width: 20px;
+	background: url(../images/shubiao.jpg) no-repeat 0px -74px;
+	position: absolute;
+    top: 6px;
+    left: -24px;
+}
+
+.tieba {
+	font-size: 12px;
+	margin-left: 30px;
+	padding: 6px 0 6px 0;
+	position: absolute;
+}
+
+.tieba i{
+	height: 21px;
+	width: 22px;
+	background: url(../images/shubiao.jpg) no-repeat 0px -99px;
+	position: absolute;
+    top: 5px;
+    left: -24px;
+}
+
+.weixin {
+	font-size: 12px;
+	margin-left: 30px;
+	padding: 36px 0 6px 0;
+	position: relative;
+}
+
+.weixin i {
+	height: 22px;
+	width: 22px;
+	background: url(../images/shubiao.jpg) no-repeat 0px -128px;
+	position: absolute;
+    top: 36px;
+    left: -24px;
+}
+
+
+
+
+/* 友情链接啦 */
+
+
+.last-center {
+	clear: both;
+	height: 48px;
+	width: 1000px;
+	margin: 0 auto;
+	border: 2px dotted #666;
+	border-bottom: : 2px dotted #666;
+	/*background-color: blue;*/
+	margin-top: 38px;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+/*.please-left {
+    font-weight: 200px;
+    text-align: center;
+    float: left;
+    font-size: 14px;
+}*/
+
+
+
+.please-left1 {
+    height:20px;
+    width: 156px;
+    /*background-color: red;*/
+    font-size: 12px;
+    float: left;
+    margin-right: 12px;
+    border-right: 1px solid #666;
+    padding-right: 4px;
+    margin-top: 12px;
+    color: #999;
+
+}
+
+.please-left2 {
+    height:20px;
+    width: 58px;
+    /*background-color: red;*/
+    font-size: 12px;
+    float: left;
+    margin-right:12px;
+    border-right: 2px solid #666;
+    padding-right: 4px;
+    margin-top: 12px;
+    color: #999;
+
+}
+.please-left3 {
+    height:20px;
+    width: 54px;
+    /*background-color: red;*/
+    font-size: 12px;
+    float: left;
+    margin-right: 12px;
+    border-right: 2px solid #666;
+    padding-right: 4px;
+    margin-top: 12px;
+    color: #999;
+}
+.please-left4 {
+    height:20px;
+    width: 80px;
+    /*background-color: red;*/
+    font-size: 12px;
+    float: left;
+    margin-right: 12px;
+    border-right: 2px solid #666;
+    padding-right: 4px;
+    margin-top: 12px;
+    color: #999;
+
+}
+.please-left5 {
+    height:20px;
+    width: 106px;
+    /*background-color: red;*/
+    font-size: 12px;
+    float: left;
+    margin-right: 12px;
+    border-right: 2px solid #666;
+    padding-right: 4px;
+    margin-top: 12px;
+    color: #999;
+
+}
+.please-left6 {
+    height:20px;
+    width: 54px;
+    /*background-color: red;*/
+    font-size: 12px;
+    float: left;
+    margin-right: 12px;
+    border-right: 2px solid #666;
+    padding-right: 4px;
+    margin-top: 12px;
+    color: #999;
+
+}
+.please-left7 {
+    height:20px;
+    width: 42px;
+    /*background-color: red;*/
+    font-size: 12px;
+    float: left;p
+    margin-right: 12px;
+    border-right: 2px solid #666;
+    padding-right: 4px;
+    margin-top: 12px;
+    color: #999;
+
+}
+
+
+.please-left9 {
+    height:20px;
+    width: 42px;
+    /*background-color: red;*/
+    font-size: 12px;
+    float: left;
+    margin-right: 12px;
+    border-right: 2px solid #666;
+    padding-right: 4px;
+    margin-top: 12px;
+    margin-left: 12px;
+    color: #999;
+
+}
+.please-lefta {
+    height:20px;
+    width: 40px;
+    /*background-color: red;*/
+    font-size: 12px;
+    float: left;
+    margin-right: 12px;
+    border-right: 2px solid #666;
+    padding-right: 4px;
+    margin-top: 12px;
+    color: #999;
+
+}
+.please-leftb {
+    height:20px;
+    width: 39px;
+    /*background-color: red;*/
+    font-size: 12px;
+    float: left;
+    margin-right: 12px;
+    border-right: 2px solid #666;
+    padding-right: 4px;
+    margin-top: 12px;
+    color: #999;
+
+}
+
+.please-leftc {
+    height:20px;
+    width: 50px;
+    /*background-color: red;*/
+    font-size: 12px;
+    float: left;
+    margin-right: 12px;
+    border-right: 2px solid #666;
+    padding-right: 12px;
+    margin-top: 12px;
+    color: #999;
+    
+}
+
+
+.please-leftd {
+    height:30px;
+    width: 74px;
+   /* background-color: red;*/
+    font-size: 12px;
+    float: right;
+    margin-top: 12px;
+    color: #999;
+    
+
+}
+
+/*  最下面啦 */
+
+
+.last-onder {
+	height: 96px;
+	width: 1000px;
+	margin: 0 auto;
+	/*background-color: #000;*/
+	font-size: 12px;
+
+}
+
+
+.finish-left {
+	width: 550px;
+	/*background-color: blue;*/
+	
+
+}
+
+.pic-youshi {
+	float: left;
+	margin-top: 12px;
+	margin-right: 20px;
+}
+
+.youshi {
+	float: right;
+}
+
+
+.finish-left a {
+	margin-top: 22px;
+}
+
+.uc-youshi {
+	color: #999;
+	font-weight: 200px;
+}
+
+.finish-right {
+	width: 400px;
+	height: 50px;
+	/*background-color: blue;*/
+	float: right;
+	margin-top: -46px;
+
+}
+
+.tubiao-1 {
+	margin-right: 24px;
+}
+
+
+.tubiao-2 {
+	float: right;
+}
+

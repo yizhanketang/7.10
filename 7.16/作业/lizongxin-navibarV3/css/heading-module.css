@@ -1,0 +1,13 @@
+.heading-module{
+	height: 58px;
+	width: 1226px;
+	margin: 0 auto;
+	background-color: #b0b0b0;
+}
+
+.heading{
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 58px;
+	color: #333;
+}

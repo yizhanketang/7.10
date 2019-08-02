@@ -1,0 +1,89 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.content-wrap {
+	background-color: #efe003;
+}
+.content {
+	width: 800px;
+	margin: 0 auto;
+	height: 50px;
+	/*background-color: #efe003;*/
+}
+
+.box {
+	height: 100px;
+	background-color: #eee;
+}
+.left {
+	float: left;
+	margin-top: 10px;
+}
+.right {
+	float: right;
+}
+
+.item {
+	/*float: left;*/
+	margin-right: 30px;
+	/*background-color: #f00;*/
+	border-right: 4px solid blue;
+	height: 30px;
+	line-height: 30px;
+	/*margin-top: 10px;*/
+	padding-right: 30px;
+}
+
+.border-none {
+	/*border-width: 0;*/
+}
+
+.text-center {
+	text-align: left;
+}
+
+.red-color {
+	color: blue;
+	color: red;
+}
+
+.right {
+	line-height: 50px;
+	position: relative;
+	 /* 相对 */
+}
+
+.shopping-cart {
+	display: none;
+	background-color: red;
+	height: 100px;
+	width: 240px;
+	text-align: center;
+	line-height: 100px;
+	/* 定位(position): relative, absolute */
+	position: absolute;/* 绝对 */
+	top: 50px;
+	right: 0;
+	/*right: 0;
+	bottom: 0;*/
+}
+
+.right:hover .shopping-cart {
+	display: block;
+}
+
+.box.text-right .zzz {
+	background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+

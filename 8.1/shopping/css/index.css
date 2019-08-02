@@ -1,0 +1,152 @@
+body,
+html {
+  /*background: green;*/
+}
+
+
+.clear:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+header {
+  padding: 10px 20px;
+  /*background: red;*/
+  position: relative;
+}
+
+header section {
+  float: left;
+}
+
+header .scan span {
+  background: url("../imgs/icon/scan.svg") no-repeat center / cover;
+}
+
+header .sign span {
+  background: url("../imgs/icon/sgin.svg") no-repeat center / cover;
+}
+
+header .msg span {
+  background: url("../imgs/icon/msg.svg") no-repeat center / cover;
+}
+
+header .sign {
+  margin-right: 20px;
+}
+
+header .right {
+  float: right;
+}
+
+.icon-wrap {
+  font-size: 12px;
+  color: #999;
+}
+
+.icon-wrap span {
+  display: block;
+  height: 19px;
+  width: 19px;
+  margin: 0 auto;
+}
+
+header .search {
+  /*width: 198px;*/
+  /*width: 57%;*/
+  height: 24px;
+  border: 1px solid #2c323b;
+  border-radius: 12px;
+  font-size: 12px;
+  line-height: 24px;
+  /*margin: auto 0;*/
+  /*position: absolute;
+  top: 50%;
+  margin-top: -12px;*/
+  /*margin: 5px 20px 0 18px;*/
+  /*margin: 5px 5% 0 5%;*/
+  margin-top: 5px;
+  position: absolute;
+  left: 65px;
+  right: 100px;
+}
+
+header .search span {
+  float: left;
+  height: 14px;
+  width: 14px;
+  margin-top: 5px;
+  margin-left: 10px;
+  background: url("../imgs/icon/search.svg") no-repeat center / cover;
+}
+
+header .search > div {
+  float: left;
+}
+
+.tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 49px;
+  /*border-top: solid 1px #d2d2d2;*/
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .4);
+  /*background: #00FA9A;*/
+  padding: 0 10px;
+}
+
+.tab-bar .left {
+  float: left;
+}
+
+.tab-bar .right {
+  float: right;
+}
+
+.tab-bar .item {
+  float: left;
+  font-size: 12px;
+  margin: 8px 20px 0;
+}
+
+.tab-bar .item span {
+  display: block;
+  margin: 0 auto;
+  height: 20px;
+  width: 20px;
+}
+
+.tab-bar .home span {
+  background: url("../imgs/icon/home.svg") no-repeat center / cover;
+}
+
+.tab-bar .collect span {
+  background: url("../imgs/icon/collect.svg") no-repeat center / cover;
+}
+
+.tab-bar .cart span {
+  background: url("../imgs/icon/cart.svg") no-repeat center / cover;
+}
+
+.tab-bar .user span {
+  background: url("../imgs/icon/user.svg") no-repeat center / cover;
+}
+
+.center {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+  /*background: #fff;*/
+  float: left;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -22.5px;
+  background: #fff url("../imgs/icon/app.svg") no-repeat center / 60%;
+}
+
+
+

@@ -1,0 +1,177 @@
+
+.header {
+  margin: 0 auto;
+  width: 1000px;
+  height: 70px;
+  background-image: linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
+}
+
+.clear:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.main {
+  height: 500px;
+  background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);
+}
+
+.content {
+  margin: 0 auto;
+  width: 1000px;
+  height: 100%;
+  /*border: 1px solid #00FA9A;*/
+  box-sizing: border-box;
+}
+
+.login-area {
+  float: right;
+  width: 346px;
+  background: #fff;
+  margin-top: 20px;
+}
+
+
+
+.login-area .title {
+  line-height: 55px;
+  border-bottom: 1px solid #000;
+}
+
+.login-area .title strong {
+  float: left;
+  width: 50%;
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  cursor: pointer;
+  position: relative;
+}
+
+.login-area .title strong:first-child:after {
+  content: '';
+  display: block;
+  height: 18px;
+  width: 0;
+  border-right: 1px solid #000;
+  position: absolute;
+  top: 18.5px;
+  right: 0;
+}
+
+.login-area .title strong:hover {
+  color: #e4393c;
+}
+
+.login-feature {
+  /*height: 100px;*/
+}
+
+.qrcode .img {
+  width: 160px;
+  height: 160px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  margin: 30px auto;
+  position: relative;
+  transition: .5s;
+}
+
+.qrcode .img img:first-child {
+   width: 100%;
+}
+
+.qrcode .img:hover {
+  transform: translateX(-66px);
+}
+
+.qrcode .img:hover img:last-child {
+  display: block;
+}
+
+.qrcode .img img:last-child {
+  width: 141px;
+  position: absolute;
+  right: -160px;
+  top: 1px;
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content-footer {
+  height: 51px;
+  border-top: 1px solid #000;
+  padding: 0 20px;
+}
+
+.content-footer-left {
+  float: left;
+}
+
+.content-footer-left a {
+  margin-top: 15px;
+  margin-right: 15px;
+  padding-right: 15px;
+  float: left;
+  padding-left: 25px;
+  position: relative;
+  line-height: 20px;
+}
+
+.content-footer-left a:before {
+  content: '';
+  display: block;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.content-footer-left a:first-child:before {
+  background: url(../imgs/QQ-weixin.png) no-repeat 0 1px;
+}
+
+.content-footer-left a:last-child:before {
+  background: url(../imgs/QQ-weixin.png) no-repeat -20px 1px;
+}
+
+.content-footer-left a:first-child {
+  border-right: 1px solid #000;
+}
+
+.regist {
+  float: right;
+  line-height: 50px;
+  position: relative;
+}
+
+.regist:before {
+  content: '';
+  display: block;
+  height: 16px;
+  width: 16px;
+  background: url(../imgs/pwd-icons-new.png) no-repeat -104px -75px;
+  position: absolute;
+  top: 18px;
+  left: -20px;
+
+}
+
+
+

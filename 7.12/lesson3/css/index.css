@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.left-menu {
+	float: left;
+	/*background: #f0f;*/
+}
+
+.left-menu .item {
+	float: left;
+	margin-right: 15px;
+}
+
+.right-menu {
+	float: right;
+	background-color: #f00;
+}
+
+.right-menu .item {
+	float: left;
+	margin-right: 15px;
+}
+
+.menu-wrap {
+	/* 清除浮动 */
+	/*height: 100px;*/
+	/*overflow:hidden;*/
+}
+
+.menu-wrap:after {
+	/*content: "";*/
+	display: block;
+	clear: both;
+}
+
+.green {
+	/* 写在高度坍塌的下一个元素上 */
+	/*clear: both;*/
+	height: 100px;
+	width: 500px;
+	background-color: green;
+}
+
+
+
+
+

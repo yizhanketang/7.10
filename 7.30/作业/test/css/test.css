@@ -1,0 +1,608 @@
+
+
+.header {
+	height: 30px;
+	border-bottom: 1px solid #999;
+	font-size: 14px;
+	text-decoration: underline;
+	/*background-color: blue;*/
+	display: flex;
+	justify-content: flex-end;	
+}
+
+.know {
+	color: #666;
+	line-height: 30px;
+	text-decoration:none !important;
+}
+
+.head-left {
+	width: 488px;
+	height: 30px;
+   /* background-color: red;*/	
+    position: relative;
+}
+
+
+.head-left strong {
+	text-decoration: underline;
+	margin: 0px 10px 0 10px;
+	line-height: 30px;
+
+}
+
+.head-left strong:hover{
+	cursor: pointer;
+}
+
+
+.head-left strong:last-child {
+	border-right: 1px solid #999;
+	padding-right: 20px;
+}
+
+
+.head-right {
+	width: 230px;
+	height: 31px;
+	display: flex;
+	justify-content: flex-end;
+	/*background-color: yellow;*/
+	align-items: center;	
+}
+
+.head-right span {
+    margin: 0 10px 0 10px;
+}
+
+.head-right span:hover{
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+.center {
+	height: 104px;
+	width: 1070px;
+	margin: 0 auto;
+
+	/*background-color: red;*/
+
+}
+
+.logo {
+	width: 240px;
+	height: 96px;
+	background:url(../img/bd_logo1.png) no-repeat center/cover;
+	display: block;
+	float: left;
+}
+
+.wenbenk {
+	width: 546px;
+    height: 34px;
+    color: #eee;
+    margin-left: 16px;
+    margin-top: 56px;
+}
+
+.sousuoniu {
+	height: 40px;
+	width: 103px;
+	background-color: #3388ff;
+	color: #fff;
+	border:0;
+	margin-left: -5px;
+}
+
+
+.tiwenkuang {
+	border: 1px solid #3388ff;
+	color: #3388ff;
+	height: 40px;
+	width: 103px;
+	background-color:transparent;
+	outline: none;
+}
+
+
+.menu {
+	height: 48px;
+	margin-top: 30px;
+	background-color: #4aca6d;
+
+}
+
+.menu-back {
+	width: 1176px;
+	height: 48px;
+	margin: 0 auto;
+	/*background-color: red;*/
+    display:flex;
+    justify-content: space-around; 
+    align-items: center;
+    
+
+}
+
+.menu-back a{
+	font-size: 18px;
+	color: #fff;
+	position: relative;
+}
+
+.menu-back a:nth-child(6){
+/*	content: '';
+	display: block;
+	height: 16px;
+	width: 0;
+	border:2px solid #000;
+	position: absolute;
+	top: 0;
+	right: 100px;*/
+
+	border-right: 2px solid #999;
+	line-height: 20px;
+	padding-right: 50px;
+}
+
+.menu-back a i{
+	width: 26px;
+	height: 26px;
+	background:url(../img/xiaoren.png) no-repeat center /cover;
+	position: absolute;
+	display: block;
+	top: 0;
+	right: 80px;
+}
+
+
+
+.banner {
+	height: 390px;
+	background-color: #d7f1fb;
+	
+}
+
+.banner .content {
+    width: 1070px;
+	height:  330px;
+	margin: 0 auto;
+   	/*background-color: #4aca6d;*/
+   	padding-top: 30px;
+}
+
+
+.content-left {
+	width: 760px;
+	height: 330px;
+	/*background-color: #666;*/
+	float: left;
+	display: flex;
+
+}
+
+
+
+.cat-1 {
+	width: 240px;
+	height: 330px;
+	background:url(../img/cat-1.png) no-repeat center /cover;
+	display: block;
+	position: relative;
+}
+
+.maoboli-1 {
+	width: 240px;
+	height: 80px;
+	background:rgba(166,164,161,0.8);
+	border-radius: 10px;
+	position: absolute;
+	top: 250px;
+	left: 0px;
+}
+
+.maoboli-a {
+	width: 180px;
+	height: 12px;
+	font-size: 12px;
+	color: #fff;
+	margin-top: 14px;
+	margin-left: 14px;
+}
+
+.maoboli-b {
+	width: 205px;
+	height: 31px;
+	font-size: 12px;
+	color: #fff;
+	margin-top:11px;
+	margin-left: 14px;
+}
+
+.cat-2 {
+	width: 240px;
+	height: 330px;
+	background:url(../img/cat2.png) no-repeat center /cover;
+    display: block;
+	position: relative;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+.maoboli-2 {
+	width: 240px;
+	height: 80px;
+	background:rgba(166,164,161,0.8);
+	border-radius: 10px;
+	position: absolute;
+	top: 250px;
+	left: 0px;
+}
+
+
+.cat-3 {
+	width: 240px;
+	height: 330px;
+	background:url(../img/cat-3.png) no-repeat center /cover;
+	display: block;
+	position: relative;
+}
+
+.maoboli-3 {
+	width: 240px;
+	height: 80px;
+	background:rgba(166,164,161,0.8);
+	border-radius: 10px;
+	position: absolute;
+	top: 250px;
+	left: 0px;
+}
+
+.content-right {
+    width: 254px;
+    height: 304px;
+    background-color: #fff;
+    float: right;
+    margin-top: 13px;
+    border-radius: 12px;
+}
+
+.content-right-1 {
+	width: 100%;
+	height: 236px;
+    background-color: #ebf5f8;
+    border-radius: 12px;
+    
+}
+
+.right-on {
+	width: 214px;
+	height: 38px;
+	margin: 0 auto;
+	border-bottom: 1px solid #c6ebd8;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 12px;
+	color: #9ca2a4;
+}
+
+.right-on i {
+	width: 16px;
+	height: 16px;
+	background:url(../img/tixing.png) no-repeat center / cover;
+	display: block;
+}
+
+.right-in-1 {
+	width: 126px;
+	height: 48px;
+	color: #4aca6d;
+	font-size: 18px;
+	margin-top: 36px;
+	margin-left: 20px;
+}
+
+
+.right-in-2 {
+	width: 193px;
+	height: 17px;
+	color: #666;
+	font-size: 12px;
+	margin-top: 48px;
+	margin-left: 28px;
+}
+
+.right-in-2 span:nth-child(2){
+	color: #f63434;
+	font-size: 18px;
+
+}
+
+.right-in-3 {
+	width: 49px;
+	height: 13px;
+	font-size: 12px;
+	color: #666;
+	margin: 25px 0 0 85px;
+	border-bottom: 1px solid #999;
+}
+
+
+.content-right-2 {
+	width: 100$;
+	height: 68px;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 12px;
+	border-radius: 12px;
+
+}
+
+.right-under-1 {
+	margin-top: 34px;
+	position: relative;
+}
+
+.right-under-1 i {
+	width: 18px;
+	height: 18px;
+	background:url(../img/tiwen.png) no-repeat center / cover;
+	position: absolute;
+	left: 14px;
+	bottom:26px;
+
+}
+
+.right-under-2 {
+	margin-top: 34px;
+	position: relative;
+}
+
+.right-under-2 i {
+	width: 18px;
+	height: 18px;
+	background:url(../img/shuxie.png) no-repeat center / cover;
+	position: absolute;
+	left: 14px;
+	bottom:26px;
+
+}
+
+
+/*    终于写完猫猫酱  辣辣         */
+
+
+
+.hot {
+	width: 1070px;
+	height: 430px;
+	margin: 0 auto;
+	/*background-color: #693693;*/
+}
+
+
+.hot-left {
+	width: 764px;
+	height: 430px;
+	/*background-color: yellow;*/
+	float: left;
+}
+
+
+.hot-left-1{
+	width: 100%;
+	height: 84px;
+	/*background-color: blue;*/
+	
+
+
+}
+
+.hot-left-1 span {
+    width: 96px;
+    height: 24px;
+    margin-top: 30px;
+}
+
+
+.hot-right {
+	width: 272px;
+	height: 430px;
+	/*background-color: yellow;*/
+	float: right;
+}
+
+.hot-left-1 span {
+	float: left;
+	padding-top: 8px;
+	color: #333;
+	font-size: 18px;
+}
+
+.lantu {
+	width: 500px;
+	height: 316px;
+	background: url(../img/timgDO2EFL1S.png) no-repeat center /cover;
+	display: block;
+	float: left;
+	border-radius: 12px;
+}
+
+.lantuzi {
+	width: 478px;
+	height: 80px;
+	margin-top: 230px;
+}
+
+.lantu-1 {
+	font-size: 14px;
+	color: #fff;
+	margin-left: 10px;
+}
+
+.lantu-2 {
+	font-size: 12px;
+	color: #fff;
+	margin-left: 10px;
+	margin-top: 6px;
+}
+
+.lantu-3{
+	font-size: 12px;
+	color: #fff;
+	margin-left: 30px;
+	margin-top: 6px;
+	position: relative;
+}
+
+.baiyuan {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	display: block;
+	background-color: #fff;
+	position: absolute;
+	top: 0px;
+	left: -22px;
+}
+
+.lantu-3 span:last-child {
+	float: right;
+    margin-right: 10px;
+}
+
+
+/*  xiao  tu   pian */
+
+.mihong {
+	width: 246px;
+	height: 150px;
+	background: url(../img/timgS1S9N2HE.png) no-repeat center / cover;
+	float: right;
+	border-radius: 12px;
+}
+
+.mihongzi {
+	width: 226px;
+	height: 40px;
+	margin-top: 100px;
+	color: #fff;
+}
+
+.xiaotuzi-1{
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+.xiaotuzi-2{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+.liangzi {
+	width: 246px;
+	height: 150px;
+	background: url(../img/11.png) no-repeat center / cover;
+	float: right;
+	border-radius: 12px;
+	margin-top: 16px;
+}
+
+/*    右边字啦  */
+
+
+.hot-right-1 {
+	width: 272px;
+	height: 100px;
+	border-bottom: 1px solid #eee;
+}
+
+.hot-right-on {
+	font-size: 16px;
+	color: #333;
+	margin-top: 8px;
+}
+
+.hot-right-on:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.hot-right-center {
+	font-size: 12px;
+	color: #666;
+	margin-top: 10px;
+}
+
+.hot-right-center:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.hot-right-under {
+	font-size: 12px;
+	color: #999;
+	margin-top: 10px;
+	margin-left: 16px;
+	position: relative;
+}
+
+.hot-right-under:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.huiyuan {
+	height: 14px;
+	width: 14px;
+	background-color: #999;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: -16px;
+}
+
+.hot-right-under span:last-child{
+	float: right;
+	margin-right: 20px;
+}
+
+/*    第二  第三 复制啦     */
+
+.hot-right-2 {
+	width: 272px;
+	height: 100px;
+	border-bottom: 1px solid #eee;
+
+}
+
+
+.hot-right-3 {
+	width: 272px;
+	height: 100px;
+	border-bottom: 1px solid #eee;
+}
+
+.influence {
+	height: 500px;
+	background-color: #eee;
+}
+
+
+
+
+
+
+
+
+

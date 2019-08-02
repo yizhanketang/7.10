@@ -1,0 +1,257 @@
+/*commom method*/
+.clear-float:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.container{
+    width: 984px;
+    margin: 0 auto;
+}
+
+.background{
+    width: 100%;
+}
+
+/*header-navigation*/
+.header-navigation{
+    height: 70px;
+}
+
+.header-navigation .main-logo{
+    background-image: url("../images/UC-logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 43px;
+    float: left;
+    margin-top: calc( calc(70px - 43px) / 2 );
+}
+
+.header-navigation .header-navigation-list{
+    font-size: 20px;
+    float: right;
+    box-sizing: border-box;
+}
+
+.header-navigation-list a{
+    display: block;
+    padding: 30px 14px 18px 14px;
+    margin: 0 18px;
+    float: left;
+    color: #373737;
+    border-bottom: 3px solid transparent;
+    box-sizing: border-box;
+}
+
+.header-navigation-list a:hover{
+    border-bottom: 3px solid #ff6600;
+}
+
+.banner{
+    background: #4D8596;
+    background: -webkit-linear-gradient(bottom right, #4D8596, #964F93);
+    background: -moz-linear-gradient(bottom right, #4D8596, #964F93);
+    background: linear-gradient(to top left, #4D8596, #964F93);
+}
+.banner .banner-image{
+    height: 400px;
+    width: 100%;
+    background: rgb(105,184,191);
+    background: linear-gradient(180deg, rgba(105,184,191,1) 0%, rgba(224,232,234,0.5402893579306722) 86%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*download*/
+.download{
+    box-sizing: border-box;
+    position: relative;
+    /*border-bottom: 1px solid #686874;*/
+    margin-top: 20px;
+    position: relative;
+}
+
+.download .download-device{
+    float: left;
+}
+
+.download .qr-code-download{
+    position: absolute;
+    bottom: -10px;
+    right: 0px;
+}
+
+.download .download-device-icon{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.download .download-device-text, .download .qr-code-text{
+    font-size: 14px;
+    color: #686874;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.qr-code-download .qr-code{
+    background-image: url("../images/QR-code.jpg");
+    width: 128px;
+    height: 128px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.download-android .device-icon-android{
+    background-image: url("../images/devices (3).jpg");
+    height: 68px;
+    width: 61px;
+}
+
+.download-iphone .device-icon-iphone{
+    background-image: url("../images/devices (4).jpg");
+    height: 62px;
+    width: 37px;
+}
+
+.download-computer .device-icon-computer{
+    background-image: url("../images/devices (5).jpg");
+    height: 61px;
+    width: 74px;
+}
+
+.download-tablet .device-icon-tablet{
+    background-image: url("../images/devices (1).jpg");
+    height: 45px;
+    width: 66px;
+}
+
+.download-tv .device-icon-tv{
+    background-image: url("../images/devices (6).jpg");
+    height: 51px;
+    width: 68px;
+}
+
+.download-wp .device-icon-wp{
+    background-image: url("../images/devices (2).jpg");
+    height: 60px;
+    width: 37px;
+}
+
+.download-device-text{
+    font-size: 12px !important;
+}
+
+.download-android{
+    margin-right: 61px;
+}
+/*content (3 columns)*/
+.content {
+    display: block;
+    width: 100%;
+    border-top: 1px solid #eeeeee;
+}
+
+
+
+.content-wrap {
+    display: block;
+    overflow-x: hidden;
+}
+
+.content-column-1 .column-image{
+    background-image: url("../images/content1.jpg");
+    width: 290px;
+    height: 120px;
+}
+
+.content-column-2 .column-image{
+    background-image: url("../images/content2.jpg");
+    width: 290px;
+    height: 120px;
+}
+
+.content-column-3 .column-image{
+    background-image: url("../images/content3.jpg");
+    width: 290px;
+    height: 120px;
+}
+
+.content-column-1, .content-column-2, .content-column-3{
+    float: left;
+    width: 290px;
+}
+
+.column-header-wrap .column-header-text{
+    float: left;
+    font-size: 19px;
+}
+
+.column-header-wrap .column-header-more{
+    float: right;
+    font-size: 14px;
+}
+
+.content-column-1, .content-column-2, .content-column-3{
+    margin: 46px 57px 46px 0;
+}
+
+.column-item-text a{
+    display: block;
+    font-size: 16px;
+}
+
+.column-item-text{
+    margin-top: 16px;
+}
+
+.column-image-description{
+    text-align: center;
+    background: #f2f2f2;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.column-image{
+    margin-top: 23px;
+}
+
+.column-item-text a{
+    color: #5a5654;
+    margin-bottom: 4px;
+}
+/*bottom*/
+div.bottom-background{
+    width: 100%;
+    background-color: #333333;
+}
+
+.bottom-navigation-column{
+    padding: 30px 0;
+
+}
+.other-link{
+    border-top: 2px solid #565656;
+    border-bottom: 2px solid #565656;
+}
+
+.column-left a{
+    display: block;
+    color: #a4a4a4;
+    font-size: 14px;
+}
+
+.column-left-element-1, .column-left-element-2, .column-left-element-3, .column-left-element-4, .column-left-element-5{
+    float: left;
+    margin-right: 80px;
+}
+
+.link-wrap{
+    line-height: 36px;
+}
+
+.link-wrap a{
+    color: #777777;
+    font-size: 14px;
+}

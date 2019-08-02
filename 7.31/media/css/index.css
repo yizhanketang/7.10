@@ -1,0 +1,22 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background: #00FA9A;
+}
+
+/*@media screen and (min-width: 1000px){
+  body {
+    background: red;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 999px){
+  body {
+    background: blue;
+  }
+}*/
+
+

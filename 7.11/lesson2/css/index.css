@@ -1,0 +1,45 @@
+/* 通配符 */
+
+* {
+	background: red;
+}
+
+/*
+#guozhao {
+	width: 200px;
+	height: 200px;
+	background: red;
+}
+
+#guozhao1 {
+	width: 200px;
+	height: 200px;
+	background: yellow;
+}
+*/
+
+.wrap {
+	width: 200px;
+	height: 501px;
+	border: 1px solid red;
+}
+
+.blue1 {
+	width: 20px;
+	height: 50px;
+	border: 1px solid blue;
+}
+
+.yellow {
+	width: 2000px;
+	height: 50px;
+	background: yellow;
+}
+
+ /* css选择器权重 */
+
+div {
+	/*background: red;*/
+}
+
+

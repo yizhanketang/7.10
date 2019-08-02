@@ -1,0 +1,82 @@
+
+body {
+	/*overflow: hidden;*/
+	/*overflow-y: auto;*/
+}
+
+.list-wrap {
+	height: 628px;
+	width: 1226px;
+	margin: 0 auto;
+}
+
+.list-wrap .left {
+	float: left;
+	width: 234px;
+	/* 清除浮动， 隐藏超出内容 */
+	overflow: hidden;
+}
+
+.list-wrap .left img {
+	width: 238px;
+}
+
+.list-wrap .right {
+	float: left;
+	margin-left: 14px;
+	width: 978px;
+}
+
+.right a {
+	float: left;
+	width: 234px;
+	text-align: center;
+	padding: 20px 0;
+	background: #efefef;
+	margin-right: 14px;
+	margin-bottom: 14px;
+}
+
+.right a.margin-right-none {
+	margin-right: 0;
+}
+
+.right a img {
+	width: 160px;
+	height: 160px;
+}
+
+.block {
+	display: block;
+}
+
+.right a .tit {
+	color: #333;
+	font-size: 14px;
+	margin: 18px auto 5px;
+}
+
+.right a .desc {
+	color: #b0b0b0;
+	font-size: 12px;
+	margin: 18px auto 5px;
+}
+
+.right a .price span {
+	color: #ff6700;
+	font-size: 14px;
+}
+
+.right a .price del {
+	color: #b0b0b0;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+

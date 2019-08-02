@@ -1,0 +1,30 @@
+.navi3-bg{
+	/*background-color: #b0b0b0;*/
+	padding: 0 4.5px;
+	/*width: 100%;*/
+	height: 55px;
+}
+
+.navi3{
+	height: 55px;
+	width: 1226px;
+	margin: 27px auto;
+	background-color: #b0b0b0;
+}
+
+.navi3 div{
+	float: left;
+	margin: 0 0 0 54.3734px;
+	padding-right: 54.3734px;
+	margin-top: 19.5px;
+	/*width:228.4px;*/
+	height: 16px;
+	/*line-height: 55px; */
+	font-size: 16px;
+	color: #616161;
+}
+
+.add-border{
+	border-right: 2px solid #424242;
+	
+}

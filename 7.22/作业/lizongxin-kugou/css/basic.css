@@ -1,0 +1,160 @@
+/*top-nav1*/
+.top-nav1-container{
+    height: 78px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.top-nav1-container .top-logo{
+    height: 38px;
+    width: 158px;
+    display: block;
+    margin: 20px 34px 20px 0;
+}
+
+.top-nav1-container .top-search-combi .search-input{
+    width: 298px;
+    height: 34px;
+    border: 1px solid #ccc;
+    line-height: 34px;
+    font: 13px/1.5 "Microsoft YaHei",SimSun,sans-serif;
+    margin: 22px 0;
+    position: relative;
+}
+
+/*.top-search-combi{*/
+/*    position: relative;*/
+/*}*/
+
+.search-input input{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 249px;
+    height: 24px;
+    line-height: 24px;
+    border: none;
+    margin-left: 14px;
+    padding: 5px 0;
+    color: #666;
+    outline: none;
+
+}
+
+
+
+.top-search-combi .search-button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 34px;
+    height: 34px;
+    margin: 0;
+    border: none;
+    padding: 0;
+    background: 0 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.search-button .search-icon{
+    display: block;
+    margin: 9px 0 0 9px;
+    width: 16px;
+    height: 16px;
+    background: url(../images/search.png) no-repeat -40px -56px;
+    cursor: pointer;
+}
+
+.top-nav1-container .top-nav1-link-combi{
+    width: 250px;
+    border-right: 1px solid #e6e6e6;
+    padding-right: 11px;
+    margin-left: 170px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.top-nav1-link-combi a{
+    padding: 0 15px;
+    font: 13px/1.5 "Microsoft YaHei",simsun,sans-serif;
+    color: #777;
+}
+
+.top-nav1-container .top-login-button{
+    position: relative;
+    float: left;
+    width: 110px;
+    margin-top: -5px;
+    margin-left: 30px;
+}
+
+.top-login-button a{
+    float: left;
+    display: block;
+    width: 48px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #169af3;
+    border-radius: 2px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    background-color: #169af3;
+}
+
+/*top-nav2*/
+.top-nav2-container .top-nav2-link-left{
+
+}
+
+.top-nav2-link-left a{
+
+}
+
+.top-nav2-container .top-nav2-link-right{
+
+}
+
+.top-nav2-link-right a{
+
+}
+
+/*main-banner*/
+.banner-container{
+
+}
+
+.banner-container .banner-img{
+
+}
+
+/*download-nav*/
+.download-banner-container{
+
+}
+
+.download-banner-container .download-banner-container{
+
+}
+
+.download-banner .download-pc, .download-banner .download-iphone, .download-banner .download-android{
+
+}
+
+.download-banner .download-pc a, .download-banner .download-iphone a, .download-banner .download-android a{
+
+}
+
+/*selected-list*/
+
+/*hot-list*/
+
+/*common function*/
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}

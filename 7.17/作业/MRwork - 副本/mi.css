@@ -1,0 +1,202 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.dabeijing {
+	height: 40px;
+	background-color: #000000;
+	position: relative;
+}
+.all-menu{
+	height: 40px;
+	width: 1226px;
+	font-size: 12px;
+	color: #b0b0b0;
+	line-height: 40px;
+	margin: 0 auto;
+
+}
+.menu-befor li{
+	float: left;
+	margin-right: 20px;
+}
+
+.menu-befor li:hover{
+	color:#ffffff;
+}
+
+.menu-after li {
+	float: left;
+	margin-right: 20px;
+}
+.menu-after {
+	float: right;
+}
+.menu-after li:hover{
+	color:#ffffff;
+}
+
+/***********导购栏*********/
+
+/* 导购栏 */
+
+/*
+ * 导购栏
+ */
+
+.on-befor li{
+	float:left;
+	margin-right: 20px;
+}
+
+.on-after {
+	font-size: 12px;
+}
+.on-after li{
+	float:left;
+	text-align: center;
+	position: absolute;
+	top: 40px;
+	left: 1194px;
+	z-index: 1;
+}
+
+/*   变色未生效 */
+.on-after li：hover{
+	color: #ff6600;
+}
+
+.logo{
+	float: left;
+	margin-right: 160px;
+	margin-top: 26px;
+}
+
+.all-on{
+	margin: 0 auto;
+	height: 100px;
+	width: 1226px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.ask {
+	float: right;
+	height: 35px;
+	width:170px; 
+	
+}
+.ask input[type="text"] {
+	float: left;
+	height: 35px;
+	width: 170px;
+	border: 1px solid #808080;
+	margin-top: 26px;
+	position: absolute;
+	top: 46px;
+	right: 84px;
+}
+
+.ask input[type=submit] {
+	float: left;
+	height: 35px;
+	width: 45px;
+	border: 1px solid #808080;
+	position: absolute;
+	top: 73px;
+	right: 39px;
+}
+.ask input[type=submit]:hover {
+	background: #ff6600;
+	color: #fff;
+}
+
+
+
+
+
+/******第一部分*******/
+
+
+.first {
+	height: 500px;
+	width: 1300px;
+	margin: 0 auto;
+
+}
+
+
+.first-left{
+	width: 250px;
+	height: 500px;
+	color:#fff;
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 10px;
+	background-color:#808080 
+	
+}
+.first-left li{
+	text-align: center;
+	margin-bottom: 7px;
+	line-height: 44px;
+}
+
+
+/*.first-right {
+	width: 976px;
+	height: 500px;
+	float: left;
+	background-image: url(imgeas/xmtv.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+    background-color: #404040;
+}
+*/
+
+.top-one {
+	height: 500px;
+	width: 975px;
+	position: absolute;
+	top: 150px;
+	left: 250px;
+	background-color: #693;
+	background-image: url(imgeas/xmtv.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+
+}
+
+/*******第二部分*****/
+
+.second {
+	height: 170px;
+	width: 1226px;
+}
+.second-left {
+	height: 170px;
+	width: 243px;
+	position: absolute;
+	top: 664px;
+	left: 25px;
+	background-color: #693;
+	background-image: url(imgeas/sixge.png);
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+
+}

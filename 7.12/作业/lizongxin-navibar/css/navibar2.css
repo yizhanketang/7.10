@@ -1,0 +1,50 @@
+.navi2-1{
+	width: 40px;
+	height: 40px;
+	background-color: #ff6817;
+	margin: 20px;
+	float: left;
+	margin-right: 150px;
+}
+
+.navi2-2{
+	float: left;
+	margin-right: 100px;
+}
+
+.navi2-2 div{
+	float: left;
+	margin-right: 30px;
+	font-size: 16px;
+	float: left;
+	line-height: 80px;
+	/*color: #b0b0b0;*/
+}
+
+.navi2-2 div:hover{
+	color: #ff6817;
+	/*font-weight: bold;*/
+}
+
+/*how to do calculations for px?*/
+
+.navi2-3{
+	width: 200px;
+	height: 20px;
+	margin: 30px;
+	background-color: #dedede;
+	float: left;
+
+}
+
+.navi2{
+	height: 80px;
+	margin: 0 auto;
+	width: 1280px;
+	margin-top: 20px;
+}
+
+.navi2-background{
+	margin: 0, auto;
+	background-color: #fff;
+}

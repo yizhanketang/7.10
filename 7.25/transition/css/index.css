@@ -1,0 +1,117 @@
+body,
+html {
+  height: 100%;
+}
+
+.box1 {
+  height: 100%;
+  width: 100%;
+  background: #008ad4;
+  /*animation: myfirst 5s;*/
+  animation-name: myfirst1;
+  animation-duration: .5s;
+  animation-timing-function: linear;
+  /*animation-fill-mode: forwards;*/
+  /*animation-fill-mode: backwards;*/
+  animation-fill-mode: both;
+  /*animation-delay: 3s;*/
+  /*animation-iteration-count: 3;*/
+  animation-iteration-count: infinite;
+  /*animation-direction: alternate;*/
+  animation-direction: alternate-reverse;
+  /*animation: name duration timing-function delay iteration-count direction fill-mode play-state;*/
+}
+
+/*.box1:hover {
+  animation-play-state: paused;
+}*/
+
+
+@keyframes myfirst {
+  to {
+    background: yellow;
+    height: 100px;
+    width: 100px;
+    opacity: .5;
+    /*transform: rotate(1000deg);*/
+  }
+}
+
+@keyframes myfirst1 {
+  0%   {
+    background: #008ad4;
+  }
+  25%  {
+    background: yellow;
+  }
+  50%  {
+    background: #38a553;
+  }
+  75%  {
+    background: blue;
+  }
+  100% {
+    background: red;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box {
+  height: 300px;
+  width: 300px;
+  background: #008ad4;
+  transition: 1s;
+  /*transition: width 500ms;*/
+  /*transition-property: all;*/
+  /*transition-duration: 1s;*/
+  /*transition-delay: 1s;*/
+  /*transition-timing-function: ease;*/
+  /*transition-timing-function: ease-in;*/
+  /*transition-timing-function: ease-in-out;*/
+  /*transition-timing-function: ease-out;*/
+  /*position: absolute;
+  top: 50px;
+  left: 50%;*/
+  /*margin-left: -150px;*/
+  /*transform: translate(x, y);*/
+  /*transform: translateX(-50%);*/
+  /*transform: translateY(-50%);*/
+  margin: 100px auto;
+  transform-origin: 0 0;
+}
+
+.box:hover {
+  /*width: 1000px;*/
+  /*height: 300px;*/
+  /*transform: translate(50px, 50px);*/
+  /*background: yellow;*/
+  /*transform: rotate(-90deg);*/
+  transform: scale(1.5);
+  /*box-shadow: 0 0 50px rgba(0,0,0, 1);*/
+  /*transform: skewX(45deg);*/
+  /*transform: skewY(90deg);*/
+  /*旋转，缩放，移动（平移）和倾斜*/
+  /*transform: matrix(0.866, 0.5, -0.5, 0.866, 0, 0);*/
+  /*transform: matrix(1.2, 0.5, -0.5, 0.866, 0, 0);*/
+  /*transform:matrix(1,1,0,1,0,0)*/
+/*1: 水平缩放比例。默认1
+0：缩放
+0：缩放
+1.5：垂直方向缩放比例
+40：水平方向位移
+50：垂直方向位移*/
+
+}
+

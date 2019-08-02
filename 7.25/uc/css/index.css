@@ -1,0 +1,44 @@
+
+.container {
+  margin: 0 auto;
+  width: 988px;
+}
+
+.header {
+  height: 70px;
+  /*background: #00FA9A;*/
+}
+
+.header .logo {
+  float: left;
+  width: 200px;
+  height: 43px;
+  background: url("../imgs/logo.jpg") no-repeat center;
+  margin-top: 13px;
+}
+
+.header .menu {
+  float: right;
+  font-size: 20px;
+  line-height: 67px;
+}
+
+.header .menu a {
+  float: left;
+  padding: 0 12px;
+  color: #000;
+  margin: 0 25px;
+}
+
+.header .menu a.active {
+  color: #ff6600;
+  border-bottom: 3px solid #ff6600;
+}
+
+.header .menu a:hover {
+  color: #ff6600;
+  border-bottom: 3px solid #ff6600;
+}
+
+
+
