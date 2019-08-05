@@ -1,0 +1,58 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  position: relative;
+}
+header {
+  height: 50px;
+  background-color: cornflowerblue;
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 50px;
+  text-align: left;
+  letter-spacing: 5px;
+}
+section {
+  /*padding: 0 20px;*/
+  font-size: 18px;
+  background-color: skyblue;
+  overflow-y: auto;
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  top: 50px;
+  right: 0;
+  text-align: center;
+}
+footer {
+  height: 50px;
+  background-color: blueviolet;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+footer i {
+  width: 2px;
+  height: 50px;
+  background-color: white;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+footer a {
+  height: 50px;
+  width: 50%;
+  font-size: 20px;
+  float: left;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,145 @@
+header{
+  height: 48px;
+  width: 100%;
+  background-color: #f2f2f2;
+  position: relative;
+}
+.logo{
+  margin-left: 10px;
+}
+.logo a{
+  float: left;
+  margin-top: 11px;
+}
+.logo a img{
+  display: block;
+  height: 22px;
+}
+.hunt {
+  float: right;
+  margin-right: 10px;
+}
+.hunt a{
+  float: left;
+  margin-top: 11px;
+}
+.hunt a img{
+  display: block;
+  height: 22px;
+}
+.search{
+  height: 29px;
+  position: absolute;
+  left: 67px;
+  right: 49px;
+  top: 8px;
+  border: solid 1px #e5e5e5;
+  line-height: 20px;
+}
+.search i{
+  display: block;
+  padding-left: 5px ;
+  width: 16px;
+  height: 25px;
+  float: left;
+  background: url("../images/3.png") no-repeat center/cover;
+  margin: 2px 2px;
+}
+.search span{
+  margin-top: 5px;
+  color: #747474;
+  display: block;
+}
+.navigation-bar{
+  width: 100%;
+  height: 30px;
+  float: left;
+  background-color:#f2f2f2;
+  margin-top: 5px;
+}
+.navigation-bar span{
+  color: #747474;
+  font-size: 12px;
+  margin-left: 10%;
+}
+.advertising-picture{
+  width: 100%;
+  float: left;
+}
+.advertising-picture img{
+  width: 100%;
+}
+.navigation-bar-two{
+  width: 96%;
+  float: left;
+  padding-left: 4%;
+}
+.navigation-bar-two img {
+  width: 18%;
+  float: left;
+}
+.ending{
+  width: 100%;
+  height: 52px;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, .5);
+
+}
+.ending a{
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding-top: 5px;
+}
+.ending a img{
+  height: 20px;
+}
+.ending a span{
+  display: block;
+  font-size: 12px;
+  color: #747474;
+}
+.advertising{
+  width: 100%;
+  float: left;
+}
+.advertising img{
+  float: left;
+}
+
+
+.advertising-1{
+  width: 50%;
+}
+.advertising-2{
+  width: 50%;
+}
+.advertising-3{
+  width: 50%;
+}
+.advertising-two{
+  margin-top: 2px;
+}
+.advertising-two img{
+  float: left;
+}
+.advertising-4{
+  width: 50%;
+}
+.advertising-5{
+  width: 50%;
+}
+.coldplay{
+    width: 100%;
+    margin-top: 10px;
+}
+.select{
+  width: 100%;
+  margin-top: 10px;
+}
+.cellphone-1 img{
+  width: 50%;
+  float: left;
+}

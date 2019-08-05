@@ -1,0 +1,163 @@
+header{
+    height: 100vw;
+    width: 100%;
+    background-color: #1890ff;
+    overflow:hidden;
+    position: relative;
+}
+header img{
+    float: left;
+    width: 240px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+header>div{
+    float: right;
+    width: 298px;
+    height: 38px;
+    margin-top: 20px;
+}
+header>div a{
+    float: left;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 10px;
+}
+.edge{
+    display: block;
+    width: 120px;
+    height: 18px;
+    border-left: solid 1px  #ffffff;
+    border-right: solid 1px #ffffff;
+    text-align: center;
+}
+.yzkj{
+    width: 586px;
+    height: 65px;
+    position: absolute;
+    top: 20%;
+    left: 27%;
+}
+.introduce{
+    width: 100%;
+    background-color: #ffffff;
+    margin: 240px 0;
+}
+.introduce-1{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.introduce-2{
+    padding-bottom: 60px;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+    color: #3f4b6a;
+}
+.introduce-3{
+    font-size: 18px;
+    line-height: 2;
+    color: #444;
+}
+.business-big{
+    width: 100%;
+    background: #f4f4f4;
+}
+.business{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.business-1{
+    width: 100%;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+    color: #3f4b6a;
+    margin-bottom: 40px;
+}
+.business-2{
+    float: left;
+    margin-bottom: 40px;
+}
+.business-3{
+    background: url("../images/3.png");
+    width: 365px;
+    height: 238px;
+    position: relative;
+    border-radius:5%;
+    float: left;
+    margin-right: 35px;
+}
+.business-4{
+    position: absolute;
+    bottom: 44px;
+    left: 36px;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    color: #fff;
+}
+.business-5{
+    position: absolute;
+    bottom: 18px;
+    left: 36px;
+    font-size: 16px;
+    color: white;
+}
+.business-6{
+    width: 1200px;
+    height: 620px;
+}
+.business-6>div{
+    margin-left: 130px;
+}
+.cooperative-enterprise{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.cooperative-enterprise-1{
+    width: 100%;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+    color: #3f4b6a;
+}
+.cooperative-enterprise-2{
+    margin: 50px 0;
+}
+.cooperative-enterprise-2 img{
+    width: 100%;
+}
+.slogan{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    position: relative;
+}
+.slogan-1 img{
+    width: 100%;
+}
+.slogan-2{
+    font-size: 44px;
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+.slogan-3{
+    font-size: 22px;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+.ending img{
+    width: 100%;
+}

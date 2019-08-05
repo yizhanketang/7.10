@@ -1,0 +1,318 @@
+
+header {
+    background-color: #f2f2f2;
+
+}
+
+.nav {
+    height: 44px;
+    width: 100%;
+    /*background-color:aquamarine ;*/
+    position: relative;
+}
+
+.logo img {
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin: 12px 16px;
+}
+
+.user {
+    width: 32px;
+    height: 32px;
+    background: url("../img/user.png") no-repeat center /cover;
+    float: right;
+    margin: 4px 16px;
+}
+
+.search {
+    height: 33.3px;
+    background-color: #fff;
+    position: absolute;
+    left: 66px;
+    top: 6px;
+    right: 80px;
+}
+
+.search i {
+    width: 26px;
+    height: 26px;
+    background: url("../img/search.png") no-repeat center /cover;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+}
+
+.search span {
+    font-size: 12px;
+    color: #999;
+    float: left;
+    margin: 8px 0 0 40px;
+}
+
+
+.menu {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu div {
+    font-size: 12px;
+    color: #747474;
+}
+.menu .active {
+    color: rgb(237, 91, 0);
+    position: relative;
+}
+
+.menu .active:after {
+    content: '';
+    display: block;
+    height: 0;
+    width: 22px;
+    border:1px solid rgb(237, 91, 0);
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+footer {
+    height: 52px;
+    /*width: 100%;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    background-color: #fff;
+}
+
+footer a {
+    font-size: 12px;
+    color: #747474;
+}
+
+.footer-one i {
+    width: 23px;
+    height: 23px;
+    background: url(../img/download.png) no-repeat center /cover;
+    display: block;
+
+}
+
+.footer-two i {
+    width: 23px;
+    height: 23px;
+    background: url(../img/download2.png) no-repeat center /cover;
+    display: block;
+
+}
+
+.footer-three i {
+    width: 23px;
+    height: 23px;
+    background: url(../img/download3.png) no-repeat center /cover;
+    display: block;
+    margin-left: 4px;
+}
+
+.footer-four i {
+    width: 23px;
+    height: 23px;
+    background: url(../img/user.png) no-repeat center /cover;
+    display: block;
+}
+
+
+section {
+    overflow-y: auto;
+}
+
+.banner-1 {
+    height: 207px;
+    background: url(../img/redmi1.jpg) no-repeat center /cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.section-on-one {
+    height: 88px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.section-on-6 {
+    width: 83px;
+    height: 88px;
+    background: url(../img/xinpin.webp) no-repeat center /cover;
+    display: block;
+}
+
+.section-on-7 {
+    width: 83px;
+    height: 88px;
+    background: url(../img/zhongchou.webp) no-repeat center /cover;
+    display: block;
+}
+
+.section-on-8 {
+    width: 83px;
+    height: 88px;
+    background: url(../img/cc.webp) no-repeat center /cover;
+    display: block;
+}
+
+.section-on-9 {
+    width: 83px;
+    height: 88px;
+    background: url(../img/huanxin.webp) no-repeat center /cover;
+    display: block;
+}
+
+.section-on-0 {
+    width: 83px;
+    height: 88px;
+    background: url(../img/rmz.jpg) no-repeat center /cover;
+    display: block;
+}
+
+.section-on-two {
+    height: 88px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.section-on-1 {
+    width: 83px;
+    height: 88px;
+    background: url(../img/miao.png) no-repeat center /cover;
+    display: block;
+}
+
+.section-on-2 {
+    width: 83px;
+    height: 88px;
+    background: url(../img/biji.png) no-repeat center /cover;
+    display: block;
+}
+
+.section-on-3 {
+    width: 83px;
+    height: 88px;
+    background: url(../img/tv.png) no-repeat center /cover;
+    display: block;
+}
+
+.section-on-4{
+    width: 83px;
+    height: 88px;
+    background: url(../img/kongtiao.webp) no-repeat center /cover;
+    display: block;
+}
+
+.section-on-5{
+    width: 83px;
+    height: 88px;
+    background: url(../img/mifenka.png) no-repeat center /cover;
+    display: block;
+}
+
+.section-center {
+    height: 292px;
+    margin: 0 auto;
+    /*background-color: blue;*/
+}
+
+.section-center-1 {
+    height: 293px;
+    width: 206px;
+    background: url(../img/redmi.jpg) no-repeat center /cover;
+    float: left;
+}
+
+.section-center-2 {
+    height: 146px;
+    width: 206px;
+    background: url(../img/shouhuan.jpg) no-repeat center /cover;
+    float: left;
+}
+
+.section-center-3 {
+    height: 146px;
+    width: 206px;
+    background: url(../img/qixi.jpg) no-repeat center /cover;
+    float: left;
+}
+
+.section-center-one{
+    height: 150px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section-center-4 {
+    clear: both;
+    height: 145px;
+    width: 207px;
+    background: url(../img/ccxh.webp) no-repeat center /cover;
+    float: left;
+}
+
+.section-center-5 {
+    height: 145px;
+    width: 207px;
+    background: url(../img/4800xs.webp) no-repeat center /cover;
+    float: left;
+}
+
+.section-center-two{
+    height: 164px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section-center-6 {
+    height: 161px;
+    width: 100%;
+    background: url(../img/coolwan.jpg) no-repeat center /cover;
+    display: block;
+}
+
+.section-center-three {
+    height: 255px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section-center-7 {
+    height: 254px;
+    width: 100%;
+    background: url(../img/meirijingxuan22.jpg) no-repeat center /cover;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
