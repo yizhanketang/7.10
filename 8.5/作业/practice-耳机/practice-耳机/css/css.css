@@ -1,0 +1,264 @@
+.advertising-picture{
+  background: url("../images/1.png") no-repeat center/cover;
+  width: 3.75rem;
+  height:3.75rem;
+  position: relative;
+}
+.advertising-picture img{
+  width: .3rem;
+  height: .3rem;
+  position: absolute;
+  top: 0.1rem;
+  left: 0.1rem;
+}
+.advertising-picture span{
+  display: block;
+  width: .3rem;
+  height: .3rem;
+  background: url("../images/3.svg") no-repeat center/cover;
+  position: absolute;
+  top: 0.1rem;
+  right: 0.1rem;
+}
+.advertising-picture>div{
+  width: .4rem;
+  height: .2rem;
+  font-size: .14rem;
+  color: #fff;
+  background-color: rgba(100,100,100,.6);
+  border-radius: 10px;
+  text-align: center;
+  position: absolute;
+  bottom: 0.1rem;
+  right: 0.1rem;
+}
+.price{
+  width: 100%;
+  height: .36rem;
+  color: #FF0036;
+}
+.price i{
+  font-size: .18rem;
+  /*font-family: arial;*/
+  line-height: 0.34rem;
+  font-style: normal;
+  display: block;
+  float: left;
+ padding-left: .1rem;
+}
+.price span{
+    font-size: .24rem;
+  display: block;
+  float: left;
+}
+.price-big .name{
+  width: 100%;
+  height: .2rem;
+  font-size: .14rem;
+  color: #051B28;
+  /*padding-left: .1rem;*/
+}
+.express{
+  width: 100%;
+  height: .3rem;
+  /*padding: 0 .1rem;*/
+  display: flex;
+  justify-content: space-between;
+}
+.express span{
+  font-size: .12rem;
+  line-height: .26rem;
+  color: #999;
+}
+.margin{
+  width: 100%;
+  height:.1rem;
+  background-color:#666;
+}
+.promotion{
+  padding: 12px 10px;
+  height: .5rem;
+  position: relative;
+}
+.promotion-left{
+  font-size: .12rem;
+  float: left;
+  color: #999;
+}
+.promotion-right{
+  background: url("../images/2.svg") no-repeat center/cover;
+  width: .14rem;
+  height: .14rem;
+  position: absolute;
+  right: .12rem;
+  top: .13rem;
+}
+.promotion-center{
+  width: 100%;
+  height: .18rem;
+}
+.promotion-center-1 span{
+  font-size: .10rem;
+  display: block;
+  width: .36rem;
+  height: .18rem;
+  float: left;
+  text-align: center;
+  line-height: .16rem;
+  color: #FF0036;
+}
+.promotion-center-1 p{
+  font-size: .12rem;
+  float: left;
+}
+.promotion-center-2 span{
+  font-size: .10rem;
+  display: block;
+  width: .36rem;
+  height: .18rem;
+  text-align: center;
+  line-height: .16rem;
+  color: #FF0036;
+  margin-left: .24rem;
+}
+.promotion-center-2 p{
+  font-size: .12rem;
+  margin-left: .6rem;
+}
+.service{
+  width: 3.75rem;
+  height: .3rem;
+  /*padding: 10px;*/
+  position: relative;
+}
+.service-left span{
+  font-size: .12rem;
+  float: left;
+  margin-left: .08rem;
+}
+.service-left span:first-child{
+  font-size: .12rem;
+  color: #999;
+}
+.point{
+  display: block;
+  width: .02rem;
+  height: .02rem;
+  background-color: #000;
+  border-radius: 50%;
+  margin-top: .08rem;
+}
+.service-right{
+  background: url("../images/2.svg") no-repeat center/cover;
+  width: .14rem;
+  height: .14rem;
+  position: absolute;
+  right: .12rem;
+  top: 0;
+}
+.promotion-two{
+  padding: 12px 10px;
+  height: .18rem;
+  position: relative;
+}
+.evaluation{
+  height: .4rem;
+  font-size: .14rem;
+  line-height: .4rem;
+}
+.evaluation-left{
+  float: left;
+  color: #666;
+}
+
+.evaluation-right{
+  float: right;
+  width: .93rem;
+  height: .2rem;
+  position: relative;
+  color: #FF0036;
+}
+.evaluation-right span:first-child{
+  float: left;
+}
+.evaluation-right span:last-child {
+  display: block;
+  background: url("../images/2.svg") no-repeat center/cover;
+  width: .14rem;
+  height: .14rem;
+  float: right;
+  position: absolute;
+  top: .13rem;
+  right: .12rem;
+}
+
+.inquire{
+  height: 1.3rem;
+  padding:  0 .1rem;
+  line-height: .3rem;
+}
+.inquire-1{
+  font-size: .12rem;
+}
+.inquire-1 span{
+  color: #666;
+}
+.inquire-1 i{
+  display: block;
+  width: .24rem;
+  height: .24rem;
+  background: url("../images/5.webp") no-repeat center/cover;
+}
+.inquire-2{
+  font-size: .14rem;
+}
+.inquire-3{
+  font-size: .1rem;
+  color: #666;
+}
+.evaluation-right-2{
+  float: right;
+  width: 1.4rem;
+  height: .2rem;
+  position: relative;
+  color: #FF0036;
+}
+.evaluation-right-2 span:last-child {
+  display: block;
+  background: url("../images/2.svg") no-repeat center/cover;
+  width: .14rem;
+  height: .14rem;
+  float: right;
+  position: absolute;
+  top: .13rem;
+  right: .12rem;
+}
+.evaluation-two{
+  height: .5rem;
+  padding:  0 .1rem;
+}
+.evaluation-two-1{
+  height: .25rem;
+  font-size: .13rem;
+}
+.evaluation-two-1 span:first-child{
+  display: block;
+  width: .14rem;
+  height: .14rem;
+  text-align: center;
+  background: #ff7b3f;
+  color: white;
+  font-size: .1rem;
+  border-radius: 25%;
+  float: left;
+  margin-top: .03rem;
+}
+.evaluation-two-1 span:last-child{
+ color: #666666;
+  /*float: right;*/
+  margin-left: .99rem;
+}
+.evaluation-two-2{
+   height: .25rem;
+ }
+

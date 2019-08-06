@@ -1,0 +1,115 @@
+/*common*/
+* {
+    box-sizing: border-box;
+}
+
+body, html{
+    padding: 0;
+    margin: 0;
+    font-size: 100px;
+    font-family: sans-serif;
+}
+
+/*header*/
+header{
+    display: flex;
+    height: .6rem;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(239,239,239,1) 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+}
+
+header div, header div i{
+    font-size: .3rem;
+    line-height: .6rem;
+    margin: 0 .1rem;
+}
+
+header .login{
+    font-size: .16rem;
+    margin-right: -.1rem;
+}
+
+.header-right{
+    display: flex;
+    margin-right: 0;
+}
+
+/*banner*/
+.banner{
+    display: flex;
+    margin-top: .6rem;
+    width: 100vw;
+    height: 60vw;
+}
+
+.banner .banner-image-holder{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient( 135deg, #FF9D6C 10%, #BB4E75 100%);
+}
+
+/*content*/
+.content-group{
+    width: 100vw;
+    display: flex;
+}
+
+.content-group-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.content-group-1 .click-combi{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-group-1 .click-text{
+    font-size: .12rem;
+}
+
+
+.content-group-2{
+    flex-direction: column;
+    margin-bottom: .6rem;
+}
+
+.content-group2-element1, .content-group2-element2{
+    height: 60vw;
+}
+
+.content-group2-element1{
+    background-image: linear-gradient( 135deg, #3C8CE7 10%, #00EAFF 100%);
+}
+
+.content-group2-element2{
+    background-image: linear-gradient( 135deg, #70F570 10%, #49C628 100%);
+}
+
+/*footer*/
+footer{
+    display: flex;
+    flex-direction: row;
+    height: .6rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(180deg, rgba(239,239,239,1) 0%, rgba(255,255,255,1) 100%);
+    justify-content: space-around;
+}
+
+footer i{
+    display: flex;
+    font-size: .3rem;
+}
+
+.footer-btn-text1, .footer-btn-text2, .footer-btn-text3, .footer-btn-text4, .footer-btn-text5{
+    font-size: .12rem;
+}
+

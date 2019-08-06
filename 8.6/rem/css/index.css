@@ -1,0 +1,10 @@
+html {
+  /* 100px / (375px / 100vw) = 26.67vw */
+  font-size: 26.67vw;
+  /* 1rem === 100px */
+}
+
+.text {
+  line-height: 1;
+  /*216.333px*/
+}
