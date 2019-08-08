@@ -1,0 +1,26 @@
+header {
+  height: 120px;
+  padding: 0 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  width: 150px;
+  height: 48px;
+  display: block;
+  background: #fff url("../images/logo.png") no-repeat center/cover;
+}
+header .menu {
+  font-size: 16px;
+}
+header .menu a {
+  color: #333;
+  height: 16px;
+  display: block;
+  float: left;
+  margin-left: 20px;
+}
+header .menu .blue {
+  color: #3EBAEE;
+}

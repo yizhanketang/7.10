@@ -1,0 +1,65 @@
+.header {
+  width: 1200px;
+  margin: 0 auto;
+  height: 120px;
+  /*background: #00FA9A;*/
+}
+
+.header .logo {
+  float: left;
+  width: 150px;
+  height: 48px;
+  background: red;
+  margin-top: 36px;
+}
+
+.header .nav {
+  float: right;
+}
+
+.header .nav a {
+  float: left;
+  /*margin-left: 66px;*/
+  line-height: 120px;
+  color: #333;
+  padding: 0 33px;
+  position: relative;
+}
+
+.header .nav a:last-child {
+  padding-right: 0;
+}
+
+.header .nav a:after {
+  content: '';
+  /*display: block;*/
+  height: 3px;
+  border-bottom: 3px solid #3EBAEE;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+  display: none;
+}
+
+.header .nav a.active {
+  color: #3EBAEE;
+  /*border-bottom: 3px solid #3EBAEE;*/
+}
+
+.header .nav a.active:after {
+  /*display: block;*/
+}
+
+.header .nav a:after {
+
+}
+
+.header .nav a:hover {
+  color: #3EBAEE;
+  /*border-bottom: 3px solid #3EBAEE;*/
+}
+
+.header .nav a:hover:after {
+  /*display: block;*/
+}

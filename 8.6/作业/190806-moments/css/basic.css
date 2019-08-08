@@ -1,0 +1,218 @@
+/*common*/
+/*design-screen-width:375px*/
+
+* {
+    box-sizing: border-box;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    font-size: 100px;
+    font-family: sans-serif;
+}
+
+/*header*/
+header{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .16rem;
+    height: .6rem;
+    background: rgb(60,61,64);
+    background: linear-gradient(180deg, rgba(60,61,64,1) 0%, rgba(50,54,58,1) 100%);
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
+}
+
+header div, header i{
+    color: #ffffff;
+    font-size: .18rem;
+}
+
+header .heading{
+    font-size: .2rem;
+}
+
+header i{
+    font-size: .3rem;
+}
+
+header .back-btn{
+    display: flex;
+    align-items: center;
+    width: .3rem;
+    height: .3rem;
+}
+
+.back-arrow-icon i{
+    font-size: .2rem;
+}
+
+.back-arrow-icon i:after{
+    content: "Back";
+    font-family: sans-serif;
+    display: inline;
+    margin-left: .1rem;
+    color: #ffffff;
+    font-size: .18rem;
+}
+
+/*user*/
+.user{
+    height: 2.1rem;
+    background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);
+    position: relative;
+}
+
+.user-banner{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: flex-end;
+    margin: 0 .16rem .16rem;
+    height: .5rem;
+    /*background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);*/
+}
+
+.avatar-and-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.avatar-and-name div{
+    margin: 0 .06rem;
+}
+
+.user-name{
+    order: 1;
+    font-size: .16rem;
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, .7);
+    display: flex;
+}
+
+.user-avatar{
+    order: 2;
+    background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);
+    width: .48rem;
+    height: .48rem;
+    border: 1px solid white;
+    border-radius: .04rem;
+    overflow: hidden;
+    display: flex;
+}
+
+/*moment-wrap*/
+.moment-wrap{
+    border-bottom: 1px solid #f3f3f3;
+    display: flex;
+}
+
+.moment-wrap-inner{
+    display: flex;
+    margin: .16rem;
+    align-items: flex-start;
+    background-color: lightgrey;
+}
+
+.moment-user-avatar{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient( 135deg, #FD6E6A 10%, #FFC600 100%);
+    border-radius: .04rem;
+    margin-right: .08rem;
+    width: .4rem;
+    height: .4rem;
+}
+
+.moment-wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.moment-user{
+    display: flex;
+    font-size: .15rem;
+    font-weight: bold;
+    color: #41454D;
+    margin-bottom: .02rem;
+}
+
+.moment-content{
+    display: flex;
+    font-size: .14rem;
+    color: #41454D;
+    margin-bottom: .08rem;
+}
+
+.moment-link-wrap{
+    display: flex;
+    flex-direction: row;
+    background-color: #f7f7f7;
+}
+
+.moment-link-img{
+    margin: .06rem;
+    width: .4rem;
+    height: .4rem;
+    background-image: linear-gradient( 135deg, #FFF720 10%, #3CD500 100%);
+}
+
+.moment-link-text{
+    color: #41454D;
+    font-size: .13rem;
+}
+
+.moment-time{
+    font-size: .12rem;
+    color: #acb1b7;
+}
+
+.moment-btn-wrap{
+    font-size: .16rem;
+    color: #80858c;
+}
+
+.moment-btn-wrap i{
+    margin-right: .14rem;
+}
+
+.moment-btn-wrap i:nth-child(1):after{
+    display: inline;
+    content: "Like";
+    font-family: sans-serif;
+    font-size: .12rem;
+    line-height: .2rem;
+    color: #80858c;
+}
+
+.moment-btn-wrap i:nth-child(2):after{
+    display: inline;
+    content: "Comment";
+    font-family: sans-serif;
+    font-size: .12rem;
+    line-height: .2rem;
+    color: #80858c;
+}
+
+.moment-btn-wrap i:nth-child(3):after{
+    display: inline;
+    content: "Delete";
+    font-family: sans-serif;
+    font-size: .12rem;
+    line-height: .2rem;
+    color: #80858c;
+}
+
+
+
+
+
+

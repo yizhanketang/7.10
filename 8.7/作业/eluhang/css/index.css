@@ -1,0 +1,285 @@
+
+header {
+    height: 119px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 48px;
+    background: url("../img/logo.png")no-repeat center /cover;
+    float: left;
+    margin-top: 36px;
+}
+
+.nav {
+    float: right;
+    line-height: 119px;
+}
+
+.nav a {
+    font-size: 16px;
+    color: #333333;
+    margin-left: 66px;
+}
+
+.nav .active {
+    color: #3EBAEE;
+}
+
+section {
+    height: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+.banner-warp {
+    height: 800px;
+    width: 100%;
+    background: url("../img/banner_02.jpg")no-repeat center /cover;
+    margin: 0 auto;
+
+}
+
+.banner {
+    height: 800px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.banner button{
+    width: 220px;
+    height: 68px;
+    background:rgba(0,0,0,.1);
+    border: 1px solid #fff;
+    color: #fff;
+    position: absolute;
+    right: 26px;
+    bottom: 133px;
+}
+
+.text-one {
+    width: 1200px;
+    height: 182px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.text-one-1 {
+    width: 180px;
+    height: 40px;
+    font-size: 30px;
+    color: #333333;
+    border-bottom: 1px solid #3EBAEE;
+    margin-left: 520px;
+    padding-top: 60px;
+
+}
+
+.text-one-2 {
+    font-size: 12px;
+    color: #333333;
+}
+
+.chanpin-picter {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.picter-left-1 {
+    width: 575px;
+    height: 350px;
+    background: url("../img/pic1.png")no-repeat center /cover;
+}
+
+.picter-left-2 {
+    width:575px;
+    height: 105px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.4);
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+}
+
+.picter-left-3 {
+    width: 575px;
+    height: 45px;
+    background: url("../img/shadow.png")no-repeat center /cover;
+}
+
+.picter-right-1 {
+    width: 575px;
+    height: 350px;
+    background: url("../img/pic2.png")no-repeat center /cover;
+}
+
+.picter-right-2 {
+    width:575px;
+    height: 105px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.4);
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+}
+
+.picter-right-3 {
+    width: 575px;
+    height: 45px;
+    background: url("../img/shadow.png")no-repeat center /cover;
+}
+
+.us-text {
+    width: 1200px;
+    height: 220px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.us-text-1 {
+    width: 289px;
+    height: 220px;
+}
+
+.biaozhi-1 {
+    width: 64px;
+    height: 64px;
+    background: url("../img/icon1_03.png") no-repeat center /cover;
+    margin: 0 auto;
+}
+
+.text-1-1 {
+    width: 289px;
+    height: 104px;
+    margin-top: 54px;
+}
+
+.text-1-1-on {
+    font-size: 16px;
+    color: #333333;
+    font-weight: 600;
+    text-align: center;
+}
+.text-1-1-under {
+    font-size: 12px;
+    color: #333333;
+    text-align: center;
+}
+
+.biaozhi-2 {
+    width: 64px;
+    height: 64px;
+    background: url("../img/icon2_03.png") no-repeat center /cover;
+    margin: 0 auto;
+}
+.biaozhi-3 {
+    width: 64px;
+    height: 64px;
+    background: url("../img/icon3_03.png") no-repeat center /cover;
+    margin: 0 auto;
+}
+
+.news-picter {
+    width: 1200px;
+    height: 266px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.news-picter-left {
+    width: 350px;
+    height: 266px;
+}
+.news-left-1 {
+    width: 350px;
+    height: 152px;
+    background: url("../img/pic_03.jpg")no-repeat center /cover;
+}
+
+.news-left-2 {
+    width: 344px;
+    height: 54px;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #333333;
+    text-align: left;
+}
+
+.news-left-3 {
+    width: 26px;
+    height: 26px;
+    background: url("../img/pic6.png")no-repeat center /cover;
+    display: block;
+    margin-top: 19px;
+}
+.news-center-1 {
+    width: 350px;
+    height: 152px;
+    background: url("../img/pic_05.jpg")no-repeat center /cover;
+}
+.news-right-1 {
+    width: 350px;
+    height: 152px;
+    background: url("../img/pic_07.jpg")no-repeat center /cover;
+}
+
+.text-one-3 {
+    width: 180px;
+    height: 40px;
+    font-size: 30px;
+    color: #333333;
+    border: 1px solid #3EBAEE;
+    margin-left: 520px;
+    margin-top: 60px;
+    border-radius: 24px;
+}
+
+.timming {
+    width: 1114px;
+    height: 202px;
+    margin: 0 auto;
+}
+
+
+.timming-1 {
+    font-size: 62px;
+    color: #333333;
+    text-align: center;
+}
+.timming-2 {
+    font-size: 30px;
+    color: #807C7C;
+    text-align: center;
+}
+
+.timming button {
+    width: 151px;
+    height: 60px;
+    background-color: #3EBAEE;
+    color: #fff;
+    margin-top: 38px;
+    margin-left: 506px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

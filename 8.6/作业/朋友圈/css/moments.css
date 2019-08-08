@@ -1,0 +1,555 @@
+html {
+  font-size: 26.67vw;
+  /*padding: 0 0.16rem;*/
+}
+header {
+  height: 0.5rem;
+  background: #3a3c3f;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+header .head {
+  width: 0.6rem;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  font-size: 0.15rem;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+header .head i {
+  width: 0.15rem;
+  height: 0.28rem;
+  background: url("../moments/zjt.svg") no-repeat center/cover;
+  display: block;
+  position: absolute;
+  top: 0.03rem;
+  left: -0.1rem;
+}
+header .moments {
+  width: 0.6rem;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  font-size: 0.15rem;
+  text-align: center;
+  color: white;
+}
+header .camera {
+  width: 0.3rem;
+  height: 0.3rem;
+  background: url("../moments/camera.svg") no-repeat center/cover;
+
+}
+section {
+  height: 2.1rem;
+  background: url("../moments/00.jpg") no-repeat center/cover;
+  position: relative;
+}
+section b {
+  font-size: 0.16rem;
+  color: #fff;
+  position: absolute;
+  bottom: 0.3rem;
+  right: 0.84rem;
+  text-shadow: 0.1rem 0.1rem 0.05rem rgba(0,0,0,0.7);
+
+}
+section i {
+  width: 0.48rem;
+  height: 0.48rem;
+  background: url("../moments/02.jpg") no-repeat center/cover;
+  position: absolute;
+  bottom: 0.16rem;
+  right: 0.16rem;
+}
+.details {
+  height: 0.4rem;
+  padding: 0.16rem 0.16rem 0.08rem 0.16rem;
+}
+.details .left {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: #3a3c3f url("../moments/01.jpg") no-repeat center/cover;
+  float: left;
+}
+.details .right{
+  height: 0.4rem;
+  float: left;
+  /*width: 100%;*/
+}
+
+.details .right b {
+  display: block;
+  height: 0.2rem;
+  width: 0.35rem;
+  background: #fff0f0;
+  font-size: 0.15rem;
+  color: #41454d;
+  margin: 0 0 0.02rem 0.08rem;
+}
+.details .right span {
+  display: block;
+  height: 0.18rem;
+  width: 124%;
+  background: #fff0f0;
+  font-size: 0.14rem;
+  color: #41454d;
+  margin: 0 0.16rem 0 0.08rem;
+}
+.message {
+  height: 0.52rem;
+  margin: 0 0.16rem 0 0.64rem;
+  background: #f7f7f7;
+  position: relative;
+}
+.message i {
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url("../moments/07.jpg") no-repeat center/cover;
+  position: absolute;
+  top: 0.06rem;
+  left: 0.06rem;
+  bottom: 0.06rem;
+}
+.message span {
+  display: block;
+  height: 0.18rem;
+  font-size: 0.13rem;
+  color: #41454d;
+  position: absolute;
+  top: 0.2rem;
+  left: 0.52rem;
+}
+.discuss {
+  height: 0.4rem;
+  margin: 0 0.16rem 0 0.64rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  /*background: orange;*/
+}
+.discuss .good {
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 0.12rem;
+  color: #80858c;
+  padding: 0 0.2rem;
+  position: relative;
+  text-align: right;
+}
+.discuss .good i {
+  display: block;
+  width: 0.3rem;
+  height: 0.3rem;
+  background: url("../moments/up.svg") no-repeat center/70%;
+  position: absolute;
+  top: 0.05rem;
+  left: 0;
+}
+.time {
+  font-size: 0.12rem;
+  color: #acb1b7;
+  height: .2rem;
+  line-height: .2rem;
+  margin-left: 0.64rem;
+}
+.forum{
+  margin-left: 0.64rem;
+
+
+}
+.forum .friend {
+  font-size: 0.14rem;
+  display: block;
+  overflow: hidden;
+  margin-top: 0.08rem;
+}
+.forum .friend .name {
+  float: left;
+  color: #5bafff;
+}
+.forum .friend .item {
+  float: left;
+  color: #41454d;
+}
+.dad {
+  height: 0.4rem;
+  padding: 0.16rem 0.16rem 0.08rem 0.16rem;
+}
+.dad .left {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: #3a3c3f url("../moments/09.jpg") no-repeat center/cover;
+  float: left;
+}
+.dad .right{
+  height: 0.4rem;
+  overflow: hidden;
+  float: left;
+  /*width: 100%;*/
+}
+.dad .right b {
+  display: block;
+  height: 0.2rem;
+  width: 0.35rem;
+  background: #fff0f0;
+  font-size: 0.15rem;
+  color: #41454d;
+  margin: 0 0 0.02rem 0.08rem;
+}
+.dad .right span {
+  display: block;
+  height: 0.18rem;
+  width: 150%;
+  background: #fff0f0;
+  font-size: 0.14rem;
+  color: #41454d;
+  margin: 0 0.16rem 0 0.08rem;
+}
+.picture-1 {
+  width: 1.72rem;
+  height: 1.72rem;
+  background: url("../moments/09.jpg") no-repeat center/cover;
+  margin: 0.08rem 1.39rem 0.12rem 0.64rem;
+}
+.critic {
+  height: 0.4rem;
+  margin: 0 0.16rem 0 0.64rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  /*background: orange;*/
+}
+.critic .good {
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 0.12rem;
+  color: #80858c;
+  padding: 0 0.2rem;
+  position: relative;
+  text-align: right;
+}
+.critic .good i {
+  display: block;
+  width: 0.3rem;
+  height: 0.3rem;
+  background: url("../moments/heart.svg") no-repeat center/70%;
+  position: absolute;
+  top: 0.05rem;
+  left: 0;
+}
+.text {
+  margin: 0.08rem 0.16rem 0 0.64rem;
+  font-size: 0.14rem;
+  color: #41454d;
+  background: #fff0f0;
+}
+.text span {
+  color: #5bafff;
+}
+.down {
+  margin: 0.08rem 0.16rem 0 0.64rem;
+  font-size: 0.12rem;
+  color: #acb1b7;
+  background: #fff0f0;
+  position: relative;
+}
+.down i {
+  width: 0.12rem;
+  height: 0.12rem;
+  display: block;
+  background: url("../moments/2.svg") no-repeat center/cover;
+  position: absolute;
+  top: 0;
+  left: 1rem;
+}
+.up {
+  margin: 0.08rem 0.16rem 0 0.64rem;
+  font-size: 0.12rem;
+  color: #acb1b7;
+  background: #fff0f0;
+  position: relative;
+}
+.up i {
+  width: 0.12rem;
+  height: 0.12rem;
+  display: block;
+  background: url("../moments/up.svg") no-repeat center/cover;
+  position: absolute;
+  top: 0;
+  left: 0.5rem;
+}
+.mam {
+  height: 0.4rem;
+  padding: 0.16rem 0.16rem 0.08rem 0.16rem;
+}
+.mam .left {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: #3a3c3f url("../moments/30.jpg") no-repeat center/cover;
+  float: left;
+}
+.mam .right{
+  height: 0.4rem;
+  overflow: hidden;
+  float: left;
+  /*width: 100%;*/
+}
+.mam .right b {
+  display: block;
+  height: 0.2rem;
+  width: 0.35rem;
+  background: #fff0f0;
+  font-size: 0.15rem;
+  color: #41454d;
+  margin: 0 0 0.02rem 0.08rem;
+}
+.mam .right span {
+  display: block;
+  height: 0.18rem;
+  width: 150%;
+  background: #fff0f0;
+  font-size: 0.14rem;
+  color: #41454d;
+  margin: 0 0.16rem 0 0.08rem;
+}
+.picture-2 {
+  /*width: 1.72rem;*/
+  height: 1.34rem;
+
+  margin: 0.08rem 0.39rem 0.12rem 0.64rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.picture-2 .picture-left {
+  width: 1.34rem;
+  height: 1.34rem;
+  background: url("../moments/01.jpg") no-repeat center/cover;
+}
+.picture-2 .picture-right {
+  width: 1.34rem;
+  height: 1.34rem;
+  background: url("../moments/03.jpg") no-repeat center/cover;
+}
+.mather {
+  height: 0.4rem;
+  margin: 0 0.16rem 0 0.64rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  /*background: orange;*/
+}
+.mather .good {
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 0.12rem;
+  color: #80858c;
+  padding: 0 0.2rem;
+  position: relative;
+  text-align: right;
+}
+.mather .good i {
+  display: block;
+  width: 0.3rem;
+  height: 0.3rem;
+  background: url("../moments/heart.svg") no-repeat center/70%;
+  position: absolute;
+  top: 0.05rem;
+  left: 0;
+}
+
+.prince {
+  height: 0.4rem;
+  padding: 0.16rem 0.16rem 0.08rem 0.16rem;
+}
+.prince .left {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: #3a3c3f url("../moments/04.jpg") no-repeat center/cover;
+  float: left;
+}
+.prince .right{
+  height: 0.4rem;
+  overflow: hidden;
+  float: left;
+  /*width: 100%;*/
+}
+.prince .right b {
+  display: block;
+  height: 0.2rem;
+  width: 0.9rem;
+  background: #fff0f0;
+  font-size: 0.15rem;
+  color: #41454d;
+  margin: 0 0 0.02rem 0.08rem;
+}
+.prince .right span {
+  display: block;
+  height: 0.18rem;
+  width: 150%;
+  background: #fff0f0;
+  font-size: 0.14rem;
+  color: #41454d;
+  margin: 0 0.16rem 0 0.08rem;
+}
+.picture-3 {
+  /*width: 1.72rem;*/
+  height: 0.88rem;
+  margin: 0.08rem 0.39rem 0.12rem 0.64rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.picture-3 .picture-left {
+  width: 0.88rem;
+  height: 0.88rem;
+  background: url("../moments/21.jpg") no-repeat center/cover;
+}
+.picture-3 .picture-mid {
+  width: 0.88rem;
+  height: 0.88rem;
+  background: url("../moments/22.jpg") no-repeat center/cover;
+}
+.picture-3 .picture-right {
+  width: 0.88rem;
+  height: 0.88rem;
+  background: url("../moments/23.jpg") no-repeat center/cover;
+}
+.son {
+  height: 0.4rem;
+  margin: 0 0.16rem 0 0.64rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  /*background: orange;*/
+}
+.son .good {
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 0.12rem;
+  color: #80858c;
+  padding: 0 0.2rem;
+  position: relative;
+  text-align: right;
+}
+.son .good i {
+  display: block;
+  width: 0.3rem;
+  height: 0.3rem;
+  background: url("../moments/heart.svg") no-repeat center/70%;
+  position: absolute;
+  top: 0.05rem;
+  left: 0;
+}
+
+.pig {
+  height: 0.4rem;
+  padding: 0.16rem 0.16rem 0.08rem 0.16rem;
+}
+.pig .left {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: #3a3c3f url("../moments/50.jpg") no-repeat center/cover;
+  float: left;
+}
+.pig .right{
+  height: 0.4rem;
+  overflow: hidden;
+  float: left;
+  /*width: 100%;*/
+}
+.pig .right b {
+  display: block;
+  height: 0.2rem;
+  width: 0.9rem;
+  background: #fff0f0;
+  font-size: 0.15rem;
+  color: #41454d;
+  margin: 0 0 0.02rem 0.08rem;
+}
+.pig .right span {
+  display: block;
+  height: 0.18rem;
+  /*width: 150%;*/
+  background: #fff0f0;
+  font-size: 0.14rem;
+  color: #41454d;
+  margin: 0 0.16rem 0 0.08rem;
+}
+.picture-4 {
+  overflow: hidden;
+  height: 2.72rem;
+  margin: 0.08rem 0.39rem 0.12rem 0.64rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.picture-4 .picture-left1 {
+  width: 1.34rem;
+  height: 1.34rem;
+  background: url("../moments/01.jpg") no-repeat center/cover;
+}
+.picture-4 .picture-left2 {
+  width: 1.34rem;
+  height: 1.34rem;
+  background: url("../moments/07.jpg") no-repeat center/cover;
+}
+.picture-4 .picture-right1 {
+  width: 1.34rem;
+  height: 1.34rem;
+  background: url("../moments/20.jpg") no-repeat center/cover;
+}
+.picture-4 .picture-right2 {
+  width: 1.34rem;
+  height: 1.34rem;
+  background: url("../moments/99.jpg") no-repeat center/cover;
+}
+.pork {
+  height: 0.4rem;
+  margin: 0 0.16rem 0 0.64rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  /*background: orange;*/
+}
+.pork .good {
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 0.12rem;
+  color: #80858c;
+  padding: 0 0.2rem;
+  position: relative;
+  text-align: right;
+}
+.pork .good i {
+  display: block;
+  width: 0.3rem;
+  height: 0.3rem;
+  background: url("../moments/heart.svg") no-repeat center/70%;
+  position: absolute;
+  top: 0.05rem;
+  left: 0;
+}
+
+
+

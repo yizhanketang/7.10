@@ -1,0 +1,505 @@
+
+html {
+    font-size: 26.67vw;
+}
+
+
+header {
+    height: .46rem;
+    background-color: #404040;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .16rem;
+    color: #fff;
+    padding: 0 .22rem;
+
+}
+.header-left {
+    position: relative;
+}
+
+.header-left i{
+    height: .2rem;
+    width: .14rem;
+    background: url("../img/back.svg") no-repeat center /cover;
+    position: absolute;
+    top: 0;
+    left: -.2rem;
+}
+
+.header-center {
+    font-size: .2rem;
+}
+
+.header-right {
+    width: .28rem;
+    height: .24rem;
+    background: url("../img/camer1.svg") no-repeat center /cover;
+}
+.banner {
+    height: 2.1rem;
+    width: 100%;
+    background: url("../img/timg(7).jpg") no-repeat center /cover;
+    position: relative;
+}
+.banner-one {
+    border-bottom: 1px solid #eee;
+}
+
+
+.user {
+    width: 1.1rem;
+    height: .48rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: .16rem;
+    bottom: .16rem;
+}
+
+.user-name {
+    font-size: .16rem;
+    color: #fff;
+    text-shadow: .01rem .01rem .12rem rgba(0,0,0,0.7);
+}
+.user-photo {
+    width: .48rem;
+    height: .48rem;
+    background: url("../img/timg.jpg") no-repeat center /cover;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+.banner-center-1 {
+    height: .4rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: .16rem;
+    margin-left: .16rem;
+}
+
+.friend-1-photo {
+    width: .4rem;
+    height: .4rem;
+    background: url("../img/touxiang-1.jpg") no-repeat center /cover;
+    margin-right: .08rem;
+    border-radius: 4px;
+}
+
+.friend-1-name {
+    font-size: .15rem;
+    color: #41454D;
+}
+
+.friend-under-text {
+    font-size: .14rem;
+    color: #41454D;
+    margin-top: 2px;
+}
+
+.banner-center-1-1 {
+    height: .4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: .12rem;
+    margin-left: .64rem;
+    background-color: #f7f7f7;
+}
+
+.friend-1-photo-1{
+    width: .4rem;
+    height: .4rem;
+    background: url("../img/touxiang-2.jpg") no-repeat center /cover;
+    margin-right: .06rem;
+    border-radius: 4px;
+}
+
+.friend-under-text-1 {
+    font-size: .13rem;
+    color: #41454D;
+}
+
+.friend-ather {
+    height: .18rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: .12rem;
+    margin-left: .64rem;
+}
+
+.nice {
+    font-size: .12rem;
+    color: #80858C;
+    margin-right: .76rem;
+    margin-left: .22rem;
+    position: relative;
+}
+.nice i{
+    width: .17rem;
+    height: .17rem;
+    background: url("../img/dianzan.svg")no-repeat center /cover;
+    position: absolute;
+    left: -.22rem;
+    top: 0;
+}
+
+.talk {
+    font-size: .12rem;
+    color: #80858C;
+    margin-right: .76rem;
+    position: relative;
+}
+
+.talk i {
+    width: .17rem;
+    height: .17rem;
+    background: url("../img/pinglun.svg") no-repeat center /cover;
+    position: absolute;
+    left: -.22rem;
+    top: 0;
+}
+.howtime {
+    height: .16rem;
+    font-size: .12rem;
+    color: #ACB1B7;
+    line-height: .16rem;
+    margin-top: .12rem;
+    margin-left: .64rem;
+    margin-bottom: .16rem;
+}
+
+.luren-1{
+    height: .16rem;
+    margin-top: .12rem;
+    margin-left: .64rem;
+    font-size: .14rem;
+    margin-bottom: .16rem;
+}
+.lurenjia {
+    font-size: .14rem;
+    color: #5BAFFF;
+}
+
+.talkabout {
+    font-size: .14rem;
+    color: #41454D;
+}
+
+
+
+.banner-two {
+    border-bottom: 1px solid #eee;
+}
+
+.banner-center-2 {
+    height: .4rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: .16rem;
+    margin-left: .16rem;
+}
+.friend-2-photo {
+    width: .4rem;
+    height: .4rem;
+    background: url("../img/timg (9).jpg") no-repeat center /cover;
+    margin-right: .08rem;
+    border-radius: 4px;
+}
+
+.friend-1-photo {
+    width: .4rem;
+    height: .4rem;
+    background: url("../img/touxiang-4.jpg") no-repeat center /cover;
+    margin-right: .08rem;
+    border-radius: 4px;
+}
+
+.lese {
+    font-size: .12rem;
+    color: #80858C;
+    position: relative;
+}
+.lese i {
+    width: .17rem;
+    height: .17rem;
+    background: url("../img/shanchu.svg") no-repeat center /cover;
+    position: absolute;
+    left: -.22rem;
+    top: 0;
+}
+
+.morelist{
+    height: .16rem;
+    margin-top: .12rem;
+    margin-left: .64rem;
+    font-size: .12rem;
+    margin-bottom: .16rem;
+    position: relative;
+}
+.morelist-1 {
+    font-size: .12rem;
+    color: #acb1b7;
+}
+.morelist i{
+    width: .16rem;
+    height: .16rem;
+    background: url("../img/zhankai.svg") no-repeat center /cover;
+    display: block;
+    position: absolute;
+    right: 1.9rem;
+    top: 0;
+}
+.friend-1-photo-2{
+    width: .4rem;
+    height: .4rem;
+    background: url("../img/touxiang-7.jpg") no-repeat center /cover;
+    margin-right: .06rem;
+    border-radius: 4px;
+}
+
+.banner-three {
+    border-bottom: 1px solid #eee;
+}
+
+.friend-3-photo{
+    width: .4rem;
+    height: .4rem;
+    background: url("../img/touxiang-5.jpg") no-repeat center /cover;
+    margin-right: .06rem;
+    border-radius: 4px;
+}
+
+.pcter-1 {
+    height: 1.72rem;
+    width: 1.72rem;
+    background: url("../img/timg (3).jpg")no-repeat center /cover;
+    margin-top: .12rem;
+    margin-left: .64rem;
+}
+
+.morelist-shou {
+    height: .16rem;
+    margin-top: .12rem;
+    margin-left: .64rem;
+    font-size: .12rem;
+    margin-bottom: .16rem;
+    position: relative
+}
+
+.morelist-shou i{
+    width: .16rem;
+    height: .16rem;
+    background: url("../img/shouqi.svg") no-repeat center /cover;
+    display: block;
+    position: absolute;
+    right: 2.6rem;
+    top: 4px;
+}
+
+.banner-four {
+    border-bottom: 1px solid #eee;
+}
+.nice-blue {
+    font-size: .12rem;
+    color: #80858C;
+    margin-right: .76rem;
+    margin-left: .22rem;
+    position: relative;
+}
+.nice-blue i{
+    width: .17rem;
+    height: .17rem;
+    background: url("../img/bulezan.svg")no-repeat center /cover;
+    position: absolute;
+    left: -.22rem;
+    top: 0;
+}
+
+.friend-4-photo {
+    width: .4rem;
+    height: .4rem;
+    background: url("../img/touxiang-8.jpg") no-repeat center /cover;
+    margin-right: .06rem;
+    border-radius: 4px;
+}
+
+.pcter-2 {
+    height: 1.34rem;
+    width: 2.72rem;
+    margin-top: .12rem;
+    margin-left: .64rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pcter-2-1{
+    height: 1.34rem;
+    width: 1.34rem;
+    background: url("../img/timg (14).jpg")no-repeat center /cover;
+}
+
+.pcter-2-2{
+    height: 1.34rem;
+    width: 1.34rem;
+    background: url("../img/timg (13).jpg")no-repeat center /cover;
+}
+
+.banner-five {
+    border-bottom: 1px solid #eee;
+}
+.friend-5-photo{
+    width: .4rem;
+    height: .4rem;
+    background: url("../img/touxiang-6.jpg") no-repeat center /cover;
+    margin-right: .06rem;
+    border-radius: 4px;
+}
+
+.pcter-3{
+    height: .88rem;
+    width: 2.72rem;
+    margin-top: .12rem;
+    margin-left: .64rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pcter-3-1 {
+    height: .88rem;
+    width: .88rem;
+    background: url("../img/friendcircle-banner.png")no-repeat center /cover;
+}
+
+.pcter-3-2 {
+    height: .88rem;
+    width: .88rem;
+    background: url("../img/timg (1).jpg")no-repeat center /cover;
+}
+
+.pcter-3-3 {
+    height: .88rem;
+    width: .88rem;
+    background: url("../img/timg (3).jpg")no-repeat center /cover;
+}
+
+.banner-six {
+    border-bottom: 1px solid #eee;
+}
+
+.friend-6-photo{
+    width: .4rem;
+    height: .4rem;
+    background: url("../img/timg (13).jpg") no-repeat center /cover;
+    margin-right: .06rem;
+    border-radius: 4px;
+}
+
+.pcter-4 {
+    height: 2.72rem;
+    width: 2.72rem;
+    margin-top: .12rem;
+    margin-left: .64rem;
+}
+.pcter-4-1{
+    height: 1.34rem;
+    width: 2.72rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pcter-4-1-1 {
+    height: 1.34rem;
+    width: 1.34rem;
+    background: url("../img/timg (5).jpg")no-repeat center /cover;
+}
+.pcter-4-1-2 {
+    height: 1.34rem;
+    width: 1.34rem;
+    background: url("../img/timg (10).jpg")no-repeat center /cover;
+}
+.pcter-4-2{
+    height: 1.34rem;
+    width: 2.72rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pcter-4-2-1 {
+    height: 1.34rem;
+    width: 1.34rem;
+    background: url("../img/timg (11).jpg")no-repeat center /cover;
+}
+.pcter-4-2-2 {
+    height: 1.34rem;
+    width: 1.34rem;
+    background: url("../img/timg (12).jpg")no-repeat center /cover;
+}
+.banner-seven {
+    border-bottom: 1px solid #eee;
+}
+
+.friend-7-photo {
+    width: .4rem;
+    height: .4rem;
+    background: url("../img/timg (1).jpg") no-repeat center /cover;
+    margin-right: .06rem;
+    border-radius: 4px;
+}
+
+.pcter-5 {
+    height: 1.8rem;
+    width: 2.72rem;
+    margin-top: .12rem;
+    margin-left: .64rem;
+}
+
+.pcter-5-1 {
+    height: .88rem;
+    width: 2.72rem;
+    display: flex;
+    justify-content: space-between;
+}
+.pcter-5-1-1{
+    height: .88rem;
+    width: .88rem;
+    background: url("../img/timg (13).jpg")no-repeat center /cover;
+}
+.pcter-5-1-2{
+    height: .88rem;
+    width: .88rem;
+    background: url("../img/timg (14).jpg")no-repeat center /cover;
+}
+.pcter-5-1-3{
+    height: .88rem;
+    width: .88rem;
+    background: url("../img/timg(7).jpg")no-repeat center /cover;
+}
+
+
+.pcter-5-2 {
+    height: .88rem;
+    width: 2.72rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pcter-5-2-1{
+    height: .88rem;
+    width: .88rem;
+    background: url("../img/timg (8).jpg")no-repeat center /cover;
+}
+
+.pcter-5-2-2{
+    height: .88rem;
+    width: .88rem;
+    background: url("../img/timg (9).jpg")no-repeat center /cover;
+}
+.pcter-5-2-3{
+    height: .88rem;
+    width: .88rem;
+    background: url("../img/timg (4).jpg")no-repeat center /cover;
+}

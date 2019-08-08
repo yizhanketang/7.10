@@ -1,0 +1,44 @@
+/*content-heading (common)*/
+.home-content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.content-heading{
+    margin: 80px 0 20px;
+}
+
+.content-heading-upper{
+    font-size:30px;
+    font-weight:bold;
+    color:rgba(51, 51, 51, 1);
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.content-heading-upper:after{
+    display: block;
+    margin: 0 auto;
+    content: "";
+    width: 160px;
+    height: 2px;
+    background-color: rgba(62, 186, 238, 1);
+}
+
+.content-heading-lower{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    letter-spacing: 2px;
+}
+
+/*content-1-main*/
+.content-1-main{
+    display: flex;
+}
+
+
+
+
