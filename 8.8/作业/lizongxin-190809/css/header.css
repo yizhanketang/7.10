@@ -1,0 +1,35 @@
+header{
+    width: 100%;
+}
+
+header .header-inner{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.header-inner .header-inner-left{
+    background-image: url("../images/home_images/logo.png");
+    width: 150px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.header-inner .header-inner-right{
+    display: flex;
+}
+
+.header-inner-right a{
+    font-size:16px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:82px;
+    margin-left: 60px;
+}
+
+.active-session{
+    color: #3EBAEE !important;
+}

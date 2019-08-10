@@ -1,0 +1,219 @@
+.show {
+  height:600px;
+  width: 1919px;
+  margin: 0 auto;
+}
+.show .print {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: url("../produce/6.jpg") no-repeat center/cover;
+  display: block;
+}
+
+.products-center {
+  max-width: 1577px;
+  height: 1812px;
+  border: 1px solid #ddd;
+  box-shadow: 10px 0 20px rgba(0,0,0,0.2);
+  margin: -230px auto 0;
+  position: relative;
+  background: #fff;
+}
+.products-center .left {
+  width:176px;
+  height:176px;
+  display: block;
+  background: url("../produce/03.png") no-repeat center/cover;
+  position: absolute;
+  top: 50%;
+  margin-top: -88px;
+  left: -88px;
+}
+.products-center .right {
+  width:176px;
+  height:176px;
+  display: block;
+  background: url("../produce/05.jpg") no-repeat center/cover;
+  position: absolute;
+  top: 50%;
+  margin-top: -88px;
+  right: -88px;
+}
+.products {
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
+.products-center .products .products-list {
+  width: 125px;
+  height: 179px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+  position: absolute;
+  top: 56px;
+  left: 188px;
+}
+.products-center .products .products-list a {
+  color: #333;
+  font-size: 16px;
+}
+.products-center .products .products-list .big {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.products .text-1 {
+  width: 400px;
+  height: 42px;
+  font-size: 49px;
+  vertical-align: middle;
+  text-align: center;
+  margin: 128px auto;
+}
+.products .text-1 i {
+  width:307px;
+  height:4px;
+  margin: 23px auto 0;
+  background:rgba(62,186,238,1);
+  display: block;
+
+}
+.products .text-2 {
+  width: 80px;
+  height: 16px;
+  text-align: center;
+  font-size: 16px;
+  color: rgba(51, 51, 51, 1);
+  line-height: 24px;
+  margin: 15px auto;
+}
+.products .photo {
+  width: 1200px;
+  height: 1390px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.products .photo .photo-1 {
+  width:387px;
+  height:414px;
+  background: #ddd;
+  position: relative;
+}
+.products .photo .photo-1 .one {
+  width: 100%;
+  height: 100%;
+  background:url("../produce/06.jpg") no-repeat center/cover;
+  display: block;
+}
+.products .photo .photo-1 .two {
+  width: 100%;
+  height: 100%;
+  background:url("../produce/03.jpg") no-repeat center/cover;
+  display: block;
+}
+.products .photo .photo-1 .three {
+  width: 100%;
+  height: 100%;
+  background:url("../produce/08.jpg") no-repeat center/cover;
+  display: block;
+}
+.products .photo .photo-1 .four {
+  width: 100%;
+  height: 100%;
+  background:url("../produce/14.jpg") no-repeat center/cover;
+  display: block;
+}
+.products .photo .photo-1 .five {
+  width: 100%;
+  height: 100%;
+  background:url("../produce/16.jpg") no-repeat center/cover;
+  display: block;
+}
+.products .photo .photo-1 .six {
+  width: 100%;
+  height: 100%;
+  background:url("../produce/18.jpg") no-repeat center/cover;
+  display: block;
+}
+.products .photo .photo-1 .seven {
+  width: 100%;
+  height: 100%;
+  background:url("../produce/24.jpg") no-repeat center/cover;
+  display: block;
+}
+.products .photo .photo-1 .eight {
+  width: 100%;
+  height: 100%;
+  background:url("../produce/26.jpg") no-repeat center/cover;
+  display: block;
+}
+.products .photo .photo-1 .nine {
+  width: 100%;
+  height: 100%;
+  background:url("../produce/28.jpg") no-repeat center/cover;
+  display: block;
+}
+
+.products .photo .photo-1 p {
+  width:100px;
+  height:17px;
+  font-size:20px;
+  color:rgba(255,255,255,1);
+  line-height:16px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  bottom: 30px;
+}
+.surbscribe {
+  height: 600px;
+  background: url("../produce/02.jpg") no-repeat center/cover;
+}
+.surbscribe .up {
+  width:251px;
+  height:38px;
+  font-size:50px;
+  font-family:PingFang-SC-Bold;
+  font-weight:bold;
+  color:rgba(255,255,255,1);
+  padding-top: 123px;
+  margin: 0 auto;
+}
+.surbscribe .mid {
+  width:800px;
+  height:29px;
+  font-size:30px;
+  font-family:PingFang-SC-Light;
+  font-weight:300;
+  color:rgba(255,255,255,1);
+  margin: 49px auto;
+}
+.surbscribe .down {
+  width:1347px;
+  height:130px;
+  background:rgba(246,246,246,1);
+  opacity:0.5;
+  position: relative;
+  margin: 14px auto;
+}
+.surbscribe .down p {
+  width:323px;
+  height:130px;
+  display: block;
+  line-height: 130px;
+  text-align: center;
+  font-size: 35px;
+  background:rgba(62,186,238,1);
+  color: #f6f6f6;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+

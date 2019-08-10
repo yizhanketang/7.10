@@ -1,0 +1,137 @@
+header {
+  height: 120px;
+  width: 1200px;
+  margin: 0 auto;
+  /*padding: 0 180px;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  width: 150px;
+  height: 48px;
+  display: block;
+  background: #fff url("../images/logo.png") no-repeat center/cover;
+}
+header .menu {
+  font-size: 16px;
+}
+header .menu a {
+  color: #333;
+  height: 16px;
+  display: block;
+  float: left;
+  margin-left: 60px;
+}
+header .menu .blue {
+  color: #3EBAEE;
+}
+header .menu a:hover {
+  color: #3EBAEE;
+}
+
+
+footer {
+  height: 445px;
+  margin: 0 auto;
+  background: #141414;
+  position: relative;
+}
+footer .open {
+  height: 80px;
+  background: #000;
+}
+footer .foot-bar {
+  height: 80px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .foot-bar a {
+  height: 16px;
+  font-size: 16px;
+  color: #fff;
+}
+.code {
+  height: 270px;
+  margin: 84px auto 0;
+  width: 1200px;
+}
+.code .code-1 {
+  width: 100px;
+  height: 120px;
+  color: #fff;
+  float: left;
+  margin-right: 64px;
+}
+.code .code-1 b {
+  font-size: 16px;
+}
+.code .code-1 p {
+  font-size: 12px;
+  margin-top: 27px;
+}
+.code .part-right {
+  width: 481px;
+  float: right;
+}
+.code .code-2{
+  height: 120px;
+  color: #fff;
+  float: left;
+}
+.code .code-2 p {
+  font-size: 12px;
+}
+.code .code-2 .strong {
+  font-size: 16px;
+  width: 100%;
+  height: 20px;
+  position: relative;
+}
+.code .code-2 .strong i {
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: url(../images/tele.svg) no-repeat center/cover;
+  position: absolute;
+  left: -39px;
+  top: 0;
+}
+.code .code-3 {
+  width: 120px;
+  height: 120px;
+  background: url(../images/03.jpg) no-repeat center/cover;
+  float: left;
+  margin-left: 30px;
+}
+.code .code-4 {
+  width: 120px;
+  height: 120px;
+  background: url(../images/05.jpg) no-repeat center/cover;
+  float: left;
+  margin-left: 30px;
+}
+footer .last-1 {
+  height: 106px;
+  /*display:inline-block;*/
+  border-top: 1px solid rgba(40,40,40,1);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+footer .last-1  .last {
+  font-size:10px;
+  width:730px;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 53px;
+}

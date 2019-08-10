@@ -1,0 +1,39 @@
+
+.calc-wrap {
+  width: 500px;
+  margin: 50px auto;
+  border: 1px solid #008ad4;
+}
+
+.calc-wrap input[type=text] {
+  width: 90%;
+  height: 80px;
+  margin: 20px auto;
+  display: block;
+  outline: none;
+  font-size: 40px;
+  text-align: right;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.key-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.key-wrap div {
+  width: 25%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border: 1px solid #008ad4;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.key-wrap div.operator {
+  background: #00FA9A;
+}
+

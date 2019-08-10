@@ -1,0 +1,89 @@
+section {
+  height:600px;
+  /*width: 1919px;*/
+  margin: 0 auto;
+  background: url("../new/11.jpg") no-repeat center/cover;
+  display: block;
+}
+.xia {
+  width:351px;
+  height:13px;
+  font-size:16px;
+  font-family:Adobe Heiti Std R;
+  font-weight:normal;
+  color:rgba(51,51,51,1);
+  margin-top: 34px;
+  letter-spacing: 25px;
+  text-indent: 1em;
+}
+.equipment {
+  /*width:535px;*/
+  height:58px;
+  font-size:60px;
+  font-family:Adobe Heiti Std R;
+  font-weight:normal;
+  color:rgba(51,51,51,1);
+  margin-top: 34px;
+}
+.box {
+  margin-top: 58px;
+  height: 50px;
+  /*display: block;*/
+}
+.box .box-1{
+  width:104px;
+  height:51px;
+  line-height: 51px;
+  text-align: center;
+  background:rgba(255,255,255,1);
+  box-shadow:0px 5px 10px 0px rgba(0, 0, 0, 0.18);
+  border-radius:26px;
+  float: left;
+}
+.box .box-2{
+  width:104px;
+  height:51px;
+  line-height: 51px;
+  text-align: center;
+  background:rgba(255,255,255,1);
+  box-shadow:0px 5px 10px 0px rgba(0, 0, 0, 0.18);
+  border-radius:26px;
+  float: right;
+}
+.recommend {
+  width:100%;
+  height:601px;
+  margin-top: 40px;
+  background: url("../new/14.png") no-repeat center/cover;
+}
+.car {
+  height: 311px;
+  margin-top: 180px;
+}
+
+.car .car-1{
+  width:45%;
+  height:311px;
+  background: url("../new/12.jpg") no-repeat center/cover;
+  position: relative;
+  float: left;
+}
+.car .car-2{
+  width:45%;
+  height:311px;
+  background: url("../new/13.jpg") no-repeat center/cover;
+  position: relative;
+  float: right;
+}
+.car p {
+  width:300px;
+  height:29px;
+  font-size:30px;
+  font-family:Adobe Heiti Std R;
+  font-weight:normal;
+  color:rgba(51,51,51,1);
+ position: absolute;
+  left: 0;
+  top: -88px;
+}
+

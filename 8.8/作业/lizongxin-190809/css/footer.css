@@ -1,0 +1,22 @@
+/*footer*/
+footer{
+    background-color: #141414;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+footer *{
+    color: white !important;
+}
+
+.footer-nav {
+    margin: 0 auto;
+    display: flex;
+    height: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+

@@ -1,0 +1,31 @@
+
+/* 16px == em */
+/* % */
+html {
+  line-height: 1;
+  font-size: 50px;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.text {
+  font-size: 30px;
+  /*font-size: 16px;*/
+  /*font-size: 1em;*/
+  /*font-size: 1rem;*/
+  height: 100%;
+}
+
+.text span {
+  /*font-size: 2em;*/
+  font-size: 2rem;
+}
+
+/*
+vw
+vh
+*/
+
