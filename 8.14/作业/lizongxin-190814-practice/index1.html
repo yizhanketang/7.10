@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>index1</title>
+  <link rel="stylesheet" href="css/index1.css">
+</head>
+<body>
+  
+<section>
+  <div class="left-wrap">
+    <h1>免费计算你的身体质量指数 (BMI)</h1>
+    <div class="pop-ups-add"></div>
+    <div class="operation-wrap">
+      
+      <div class="units operation-label" style="grid-area: a1">度量单位:</div>
+      <div class="row1-radio-wrap" style="grid-area: b1">
+        <input type="radio" name="unit" value="metric" checked>
+        <label for="metric">公制</label>
+        <input type="radio" name="unit" value="imperial">
+        <label for="imperial">英制</label>
+      </div>
+    
+    
+      <div class="height operation-label" style="grid-area: a2">我的身高:</div>
+      <input type="text" placeholder="enter your height" name="heightUser" style="grid-area: b2">
+      <div class="quantity-unit" style="grid-area: c2">单位: 厘米 cm</div>
+    
+    
+      <div class="weight operation-label" style="grid-area: a3">我的体重:</div>
+      <input type="text" placeholder="enter your weight" name="weightUser" style="grid-area: b3">
+      <div class="quantity-unit" style="grid-area: c3">单位: 千克 kg</div>
+
+      <div class="bmi-standard operation-label" style="grid-area: a4">BMI 标准:</div>
+      <select name="BMI-standard" id="BMI-std" style="grid-area: b4">
+        <option></option> 
+      </select>
+
+      
+      <label for="save-history" style="grid-area: b5">自动保存 BMI 历史记录</label>
+
+      <button style="grid-area: b6">计算 BMI</button>
+
+      
+    </div>
+  </div>
+</section>
+
+
+</body>
+</html>

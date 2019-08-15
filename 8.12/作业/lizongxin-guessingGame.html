@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>guessingGame</title>
+  <style type="text/css">
+    * {
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+
+    body, html{
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  
+  <h1>number guessing game</h1>
+  <p>a random integer number between 1 and 100 was generated</p>
+  <p>enter your guess in the input box and press the button to check your guess</p>
+  <input type="text" placeholder="enter your guess" id="enterGuess">
+  <button onclick="guess()">check my guess</button>
+
+  <script>
+
+    let randomInteger = parseInt(( Math.random() * 100 + 1 ));
+    console.log(randomInteger);
+
+    function guess(){
+      let userGuess = document.getElementById("enterGuess").value;
+
+      if (userGuess < randomInteger){
+        alert("your guess is smaller than the number I have");
+      }
+
+      if(userGuess > randomInteger){
+        alert("your guess is larger than the number I have");
+      }
+
+      if(userGuess == randomInteger){
+        alert("that's it")
+      }
+
+    }
+
+  </script>
+
+</body>
+</html>

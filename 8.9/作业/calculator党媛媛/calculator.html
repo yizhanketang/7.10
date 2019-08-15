@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>免费在线 BMI 计算器 - 免费计算你的身体质量指数 (BMI)</title>
+	<link rel="stylesheet" type="text/css" href="css/calculator.css">
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+	<link rel="icon" href="images/favicon.ico" type="images/x-icon">
+</head>
+<body>
+	<header>
+		<div class="head-top">
+			<div class="head-text">
+				<a href="###" class="model-1">语言：</a>
+				<a href="###" class="model-2">English<i></i></a>
+				<a href="###" class="model-3">简体中文<i></i></a>
+				<a href="###" class="model-2">繁体中文</a>
+			</div>
+			<div class="head">
+				<div class="left"></div>
+				<div class="right">
+					<div class="up">免费在线 BMI 计算器</div>
+					<div class="down">身体质量指数 (Body Mass Index, 简称BMI), 亦称克托莱指数, 是目前国际上常用的衡量人体胖瘦程度以及是否健康的一个标准。BMI 值超标，意味着你必须减肥了。</div>
+				</div>
+			</div>	
+		</div>
+	</header>
+	<section>
+		<div class="bmi-left">
+			<h1>免费计算你的身体质量指数 (BMI)</h1>
+				<p></p>
+			<form method=post>
+				<input type="text" name="BMI" value="你的BMI值：" readonly id="BMI">
+			</form>	
+			<div class="metric">
+				<div class="left-1">度量单位:</div>
+				<div class="right-1">
+					<input type="radio" name="f_units" value="units_is" id="f_units_is" checked="" onclick="Unit('单位: 厘米 cm', '单位: 千克 kg');">
+					<label for="f_units_is">公制</label>
+					 &nbsp;
+					 <input type="radio" name="f_units" value="units_us" id="f_units_us" onclick="Unit('单位: 英寸 in', '单位: 磅 lb');">
+					 <label for="f_units_us">英制</label>
+				</div>
+			</div>
+			<div class="hight-1">
+				<div class="left-2">我的身高:</div>
+				<form method=post>
+					<input type="text" id="height" value="">
+				</form>
+				<div class="right-2">单位：cm</div>
+			</div>
+			<div class="weight-1">
+				<div class="left-3">我的体重:</div>
+				<form method=post>
+					<input type="text" id="weight" value="">
+				</form>
+				<div class="right-3">单位：kg</div>
+			</div>
+			<div class="standard">
+				<div class="left-4">BMI标准:</div>
+				<select>
+					<option>中国标准</option>
+					<option>国际标准</option>
+					<option>日本标准</option>
+					<option>新加坡标准</option>
+				</select>
+			</div>	
+			<div class="history">
+				<input type="checkbox" name="f_autosave" value="1" checked=""> 自动保存 BMI 历史记录
+			</div>
+			<div class="compute">
+				<form method=post>
+					<input type="button" value="计算 BMI" title="计算 BMI" name="f_submit" onclick="Cal()">
+				</form>
+			</div>
+			
+		</div>
+		<div class="bmi-right">
+			<b>BMI中国标准</b>
+			<table>
+				<thead>
+					<tr>
+						<th class="arrow"></th>
+						<th bgcolor="#8dd8f8">分类</th>
+						<th bgcolor="#8dd8f8">BMI范围</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="arrow"></td>
+						<td bgcolor="#CCCCCC">偏瘦</td>
+						<td bgcolor="#CCCCCC">&lt;= 18.4</td>
+					</tr>
+					<tr>
+						<td class="arrow"></td>
+						<td bgcolor="#66cc00">正常</td>
+						<td bgcolor="#66cc00">18.5 ~ 23.9</td>
+					</tr>
+					<tr>
+						<td class="arrow"></td>
+						<td bgcolor="#ffff00">过重</td>
+						<td bgcolor="#ffff00">24.0 ~ 27.9</td>
+					</tr>
+					<tr>
+						<td class="arrow"></td>
+						<td bgcolor="#ff9900">肥胖</td>
+						<td bgcolor="#ff9900">&gt;= 28.0</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+	<footer>
+		<b>我的 BMI 历史记录</b>
+		<table width="99%" border="0" cellpadding="3" cellspacing="1" class="DarkLines">
+    		<tbody>
+    			<tr class="fieldtitle">
+    				<td>#</td>
+    				<td>日期</td>
+    				<td>身高</td>
+    				<td>体重</td>
+    				<td>BMI</td>
+    				<td>操作</td>
+    			</tr>
+    			<tr>
+    				<td colspan="13" class="fieldbody">
+    					<p class="nodata">当前没有任何 BMI 记录。请输入你的身高和体重，并选中“自动保存 BMI 历史记录”，记算你的 BMI 指数。</p>
+    				</td>
+    			</tr>
+    		</tbody>
+    	</table>
+    	<p class="note"> 提示: 浏览器的 Cookie 和 JavaScript 必须启用. &nbsp; </p>
+	</footer>
+	<div class="foot">
+		<div class="footer">
+			版权所有 © 2010 - 2019 onlinebmicalculator.com. 保留所有权利
+  			<br>
+  			Email: Andrew [at] onlinebmicalculator.com
+  		</div>
+	</div>
+	<script src="js/index.js"></script>
+<!--<script type="js/calculator.js"></script>-->
+</body>
+</html>

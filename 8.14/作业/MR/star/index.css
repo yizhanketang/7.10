@@ -1,0 +1,83 @@
+html,
+body{
+	width: 100%;
+}
+
+
+.star {
+	height: 40px;
+	width: 100%;
+	font-size: 16px;
+	color: #fff;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 100px;
+}
+
+
+.starone {
+	background-color: blue;
+	width: 25%;
+	height:300px;
+}
+
+.starone input {
+	height: 40px;
+	width: 300px;
+}
+.starone button {
+	height: 40px;
+	width: 90px;
+}
+.startwo {
+	background-color: blue;
+	width: 25%;
+	height: 300px;
+}
+
+.startwo input {
+	height: 40px;
+	width: 300px;
+}
+.startwo button {
+	height: 40px;
+	width: 90px;
+}
+
+.starthree {
+	background-color: blue;
+	width: 25%;
+	height: 300px;
+}
+
+.starthree input {
+	height: 40px;
+	width: 300px;
+}
+.starthree button {
+	height: 40px;
+	width: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

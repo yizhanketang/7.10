@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>免费在线 BMI 计算器 - 免费计算你的身体质量指数</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="icon" href="img/favicon.ico">
+</head>
+<body>
+	<header>
+		<div class="nav">
+			<span>语言：</span>
+			<a href="###" class="nav-1">Englishi</a>
+		    <a href="###" class="nav-2">简体中文</a>
+		    <a href="###" class="nav-1">繁体中文</a>
+		</div>
+		<div class="menu">
+			<div class="menu-left">
+				
+			</div>
+			<div class="menu-right">
+				<strong class="menu-right-on">
+					免费在线 BMI 计算器
+				</strong>
+				<div class="menu-right-under">
+					身体质量指数 (Body Mass Index, 简称BMI), 亦称克托莱指数, 是目前国际上常用的衡量人体胖瘦程度以及是否健康的一个标准。BMI 值超标，意味着你必须减肥了。
+				</div>	
+			</div>
+		</div>
+	</header>
+
+	<section>
+		<div class="section-left">
+			<strong class="section-left-1">
+				免费计算你的身体质量指数 (BMI)
+			</strong>
+			<div class="section-left-2">
+				<span class="section-left-2-1">度量单位：</span>
+				<form>
+					<input type="radio" class="danxuan1"> 公制
+					<input type="radio" class="danxuan2"> 英制
+                </form>
+			</div>
+			<div class="section-left-2">
+				<span class="section-left-2-1">我的身高：</span>
+				<input type="text" class="search1">
+				<span class="section-left-2-2">单位: 厘米 cm</span>
+			</div>
+			<div class="section-left-2">
+				<span class="section-left-2-1">我的体重:</span>
+				<input type="text" class="search1">
+				<span class="section-left-2-2">单位: 千克 kg</span>
+			</div>
+			<div class="section-left-2">
+				<span class="section-left-2-1">BMI 标准：</span>
+				<input type="text" value="中国标准" class="search2" >
+			</div>
+
+			<form class="form-two">
+				<input type="checkbox"> 自动保存 BMI 历史记录
+			</form>
+			<button onclick="f()">计算 BMI</button>
+		</div>
+
+		<div class="section-right">
+			<strong>BMI 中国标准</strong>
+
+			<div class="section-right-1">
+				<strong class="section-right-1-1">分类</strong>
+				<strong class="section-right-1-2">BMI 范围</strong>
+			</div>
+			<div class="section-right-2">
+				<div class="section-right-1-1">偏瘦</div>
+				<div class="section-right-1-2"><= 18.4</div>
+			</div>
+			<div class="section-right-3">
+				<div class="section-right-1-1">正常</div>
+				<div class="section-right-1-2">18.5 ~ 23.9</div>
+			</div>
+			<div class="section-right-4">
+				<div class="section-right-1-1">过重</div>
+				<div class="section-right-1-2">24.0 ~ 27.9</div>
+			</div>
+			<div class="section-right-5">
+				<div class="section-right-1-1">肥胖</div>
+				<div class="section-right-1-2">>= 28.0</div>
+			</div>
+		</div>
+	</section>
+	<div class="last">
+		<strong>我的 BMI 历史记录</strong>
+	</div>
+    
+    <div class="footer-warp">
+		<footer>
+			<div class="footer-top">
+				<span>#</span>
+				<span>日期</span>
+				<span>身高</span>
+				<span>体重</span>
+				<span>BMI</span>
+				<span>操作</span>
+			</div>
+			<div class="footer-center">
+				当前没有任何 BMI 记录。请输入你的身高和体重，并选中“自动保存 BMI 历史记录”，记算你的 BMI 指数。
+			</div>
+		</footer>
+		<div class="footer-under">
+			提示: 浏览器的 Cookie 和 JavaScript 必须启用. 
+		</div>
+    </div>
+
+    <div class="last-end">
+    	<div class="last-end-1">
+    	    版权所有 © 2010 - 2019 onlinebmicalculator.com. 保留所有权利
+        </div>
+        <div class="last-end-2">
+        	Email: Andrew [at] onlinebmicalculator.com
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

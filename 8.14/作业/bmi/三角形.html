@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" onclick="f3()" value="等腰">
+<input type="button" onclick="f1()" value="上下镜像">
+<input type="button" onclick="f2()" value="正常">
+<input type="button" onclick="f()" value="左右镜像">
+<hr>
+<script>
+    //正常
+    function f2() {
+        for (var i = 1; i <= 9; i++) {
+            for (var j = 1; j <= i; j++) {
+                document.write("a")
+            }
+            document.write("<br>")
+        }
+    }
+    // 上下反向
+    f1()
+    function f1() {
+        for (var i = 9; i >= 1; i--) {
+            for (var j = 1; j <= i; j++) {
+                document.write("&ensp;")
+            }
+          for (var x = 1; x <= 10 - i; x++) {
+            document.write("* ")
+          }
+          // document.write(j)
+            document.write("<br>")
+
+        }
+    }
+//左右反向
+    function f() {
+        for(i=1;i<=9;i++){
+            for(j=1;j<=9-i;j++){
+                document.write("&ensp;");
+            }
+            for(k=1;k<=i;k++){
+                document.write("*")
+            }
+            document.write("<br/>")
+        }
+    }
+    // 等腰
+    function f3() {
+            for (var i=1; i <= 9; i++) {
+                for (var j = 1; j <= 9 - i; j++) {
+                    document.write("&nbsp;");
+                }
+                for (var k = 1; k <= i; k++) {
+                    document.write('a');
+                }
+                document.write("<br/>");
+            }
+    }
+    // function f() {
+    //     for(i=1;i<=9;i++){
+    //         for(j=1;j<=9-i;j++){
+    //             document.write("&nbsp;");
+    //         }
+    //         for(k=1;k<=2*i-1;k++){
+    //             document.write("*")
+    //         }
+    //         document.write("<br/>")
+    //     }
+    // }
+</script>
+</body>
+</html>

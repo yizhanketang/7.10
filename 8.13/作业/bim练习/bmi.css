@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    /*
+    16 * 62.5% == 10px
+    */
+    font-family: "Segoe UI", verdana,arial,sans-serif,"微软雅黑","宋体";
+}
+.header {
+    height: 160px;
+    width: 100%;
+    background: -webkit-linear-gradient(#8ED9F8, white);
+    background: -o-linear-gradient(#8ED9F8, white);
+    background: -moz-linear-gradient(#8ED9F8, white);
+    background: linear-gradient(#8ED9F8, white);
+    box-shadow: 0 2px 1px #e7e7e7;;
+}
+.header .header-top{
+    height: 18px;
+    width: 900px;
+    margin: 0 auto;
+    text-align: right;
+    padding-top: 5px;
+}
+.header .header-top a{
+    padding-top: 5px;
+}
+.header-bottom{
+    height: 135px;
+    width: 900px;
+    margin: 0 auto;
+}
+.header-bottom .header-bottom-left{
+    height: 135px;
+    width: 220px;
+    float: left;
+}
+.header-bottom .header-bottom-right{
+    height: 135px;
+    width: 670px;
+    float: right;
+}
+.header-bottom .header-bottom-right span{
+    height: 27px;
+    font-weight: bold;
+    display: block;
+    padding-top: 15px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #666;
+}
+.header-bottom .header-bottom-right p{
+    color: #666;
+    font-size: 1.2rem;
+    line-height: 160%;
+}
+.footer-adv{
+       height: 92px;
+       width: 900px;
+       margin: 20px auto;
+   }
+.footer{
+    width: 900px;
+    height: 244px;
+    margin: 0 auto;
+}
+.footer-left{
+       height: 244px;
+   }
+.footer-left .footer-adv-1{
+       height: 30px;
+       width: 500px;
+       font-size: 30px;
+       padding-bottom: 10px;
+   }
+.footer-adv-12{
+    height: 204px;
+    font-size: 6rem;
+}
+.footer-left .footer-adv-2{
+    height: 204px;
+    width: 480px;
+    float: left;
+}
+.a1{
+    background-color: #eff8ff;
+    height: 22px;
+    border: 1px solid #999;
+    font-size: 16px;
+}
+.adv-2-1-1{
+    font-size: 16px;
+}
+.adv-2-1-2 span{
+    font-size: 16px;
+}
+.footer-left .footer-adv-2 .adv-2-1-1{
+    height: 34px;
+    width: 120px;
+    float: left;
+}
+.footer-left .footer-adv-2 .adv-2-1-2{
+    height: 34px;
+    width: 360px;
+    float: left;
+}
+.footer-left .footer-adv-2 .adv-2-2{
+    width: 360px;
+    margin-left: 120px;
+    font-size: 14px;
+    line-height: 180%;
+}
+.a3{
+    height: 23px;
+    width: 176px;
+    background: #eff8ff;
+    border: 1px solid #999;
+}
+.a4{
+    height: 27px;
+    width: 180px;
+    padding: 2px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.footer-right{
+    width: 300px;
+    height: 175px;
+    float: right;
+    margin-top: -40px;
+}
+.footer-right .b1{
+    font-size: 16px;
+    width: 320px;
+    font-weight: bold;
+    position: relative;
+}
+.footer-right>div{
+    height: 27px;
+    width: 300px;
+}
+.footer-right .b11{
+    height: 27px;
+    width: 95px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+}
+.footer-right .b12{
+    height: 27px;
+    width: 195px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+}
+.b2{
+    background-color: #8dd8f8;
+    line-height: 27px;
+}
+.footer-right .b3{
+    background-color: rgb(204,204,204);
+    line-height: 27px;
+}
+.footer-right .b4{
+    background-color: rgb(102,204,0);
+    line-height: 27px;
+}
+.footer-right .b5{
+    background-color: rgb(255,255,0);
+    line-height: 27px;
+}
+.footer-right .b6{
+    background-color: rgb(255,153,0);
+    line-height: 27px;
+}
+.record{
+    width: 900px;
+    height: 170px;
+    margin: 20px auto;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+.record h1{
+    width: 900px;
+    height: 22px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.record-top{
+    width: 888px;
+    margin: 0 auto;
+}
+.record-top p{
+    height: 30px;
+    width: 148px;
+    float: left;
+    background-color: #74b5ec;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: white;
+}
+.record-foot{
+    height: 75px;
+    width: 888px;
+    text-align: center;
+    margin: 10px auto;
+    line-height: 75px;
+    border: 1px solid #74b5ec;
+    font-size: 16px;
+    overflow: hidden;
+}
+.record-right{
+    height: 16px;
+    margin: 12px 0;
+    text-align: right;
+}
+.state{
+    height: 32px;
+    margin: 20px auto;
+    color: #666;
+    text-align: center;
+}
+#finder{
+    font-size: 20px;
+    margin-bottom: 5px;
+    display: none;
+}
+#finder-1{
+    color: red;
+    font-size: 20px;
+}
+#finder-2{
+    font-size: 20px;
+}
+.bb1{
+    position: relative;
+}
+#finder-3{
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: -30px;
+}

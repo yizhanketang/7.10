@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.text {
+  color: red;
+  background: #000;
+  /*text-align: center;*/
+  display: inline-block;
+  padding: 0 .5em;
+  line-height: 180px;
+  font-size: 130px;
+}
