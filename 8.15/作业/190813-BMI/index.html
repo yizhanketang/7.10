@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BMI Calc</title>
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/basic.css">
+</head>
+<body>
+
+  <header>
+    <div class="header1 container">
+      语言：
+      <span><a href="javascript: void(0)">English</a></span> |
+      <span><a href="javascript: void(0)">简体中文</a></span> |
+      <span><a href="javascript: void(0)">繁体中文</a></span>
+    </div>
+    <div class="header2 container">
+      <div class="header2-img"></div>
+      <div class="header2-text">
+        <h1>免费在线 BMI 计算器</h1>
+        <p>身体质量指数 (Body Mass Index, 简称BMI), 亦称克托莱指数,
+          是目前国际上常用的衡量人体胖瘦程度以及是否健康的一个标准。
+          BMI 值超标，意味着你必须减肥了。</p>
+      </div>
+    </div>
+  </header>
+
+  <section class="ad container"></section>
+
+  <section class="main container">
+    <div class="section-left">
+      <div class="section-left-header">免费计算你的身体质量指数 (BMI)</div>
+      <div class="section-left-add"></div>
+      <div class="section-left-grid">
+        <div class="left-grid-item-1">度量单位:</div>
+        <div class="left-grid-item-2">
+          <!-- label for="id of the input" |
+           name should be common for a group of selection -->
+          <input type="radio" name="unit" id="radio-metric" checked>
+          <label for="radio-metric">公制</label>
+          <input type="radio" name="unit" id="radio-imperial">
+          <label for="radio-imperial">英制</label>
+        </div>
+        <div class="left-grid-item-3">我的身高:</div>
+        <div class="left-grid-item-4">
+          <input type="text" placeholder="enter your height" id="user-height">
+        </div>
+        <div class="left-grid-item-5"><span>单位: 厘米 cm</span></div>
+        <div class="left-grid-item-6">我的体重:</div>
+        <div class="left-grid-item-7">
+          <input type="text" placeholder="enter your weight" id="user-weight">
+        </div>
+        <div class="left-grid-item-8">单位: 千克 kg</div>
+        <div class="left-grid-item-9">BMI 标准:</div>
+        <div class="left-grid-item-10">
+          <select name="BMI-standard" id="BMI-standard-select">
+            <option value="option1">option</option>
+            <option value="option2">option</option>
+            <option value="option3">option</option>
+            <option value="option4">option</option>
+          </select>
+        </div>
+        <div class="left-grid-item-11">
+          <input type="checkbox" id="save-record-check">
+          <label for="save-record-check">自动保存 BMI 历史记录</label>
+        </div>
+        <div class="left-grid-item-12">
+          <button id="calcBtn" onclick="calc()">计算 BMI</button>
+        </div>
+
+      </div>
+    </div>
+    <!-- 面向对象编程 this -->
+    <div class="section-right">
+      <div class="section-right-grid">
+        <div class="section-right-heading right-grid-item-1">BMI 中国标准</div>
+        <div class="right-grid-item-2">分类</div>
+        <div class="right-grid-item-3">BMI 范围</div>
+        <div class="right-grid-item-4">偏瘦</div>
+        <div class="right-grid-item-5"><= 18.4</div>
+        <div class="right-grid-item-6">正常</div>
+        <div class="right-grid-item-7">18.5 ~ 23.9</div>
+        <div class="right-grid-item-8">过重</div>
+        <div class="right-grid-item-9">24.0 ~ 27.9</div>
+        <div class="right-grid-item-10">肥胖</div>
+        <div class="right-grid-item-11">>= 28.0</div>
+        
+      </div>
+    </div>
+  </section>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>日期</th>
+        <th>身高cm</th>
+        <th>体重kg</th>
+        <th>bmi</th>
+        <th>操作</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  
+  <section class="note container">
+    提示: 浏览器的 Cookie 和 JavaScript 必须启用.
+  </section>
+
+  <footer class="container">
+    <p>版权所有 © 2010 - 2019 onlinebmicalculator.com. 保留所有权利</p>
+    <p>Email: Andrew [at] onlinebmicalculator.com</p>
+  </footer>
+<script src="js/index.js"></script>
+</body>
+</html>

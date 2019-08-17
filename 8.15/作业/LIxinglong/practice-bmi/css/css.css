@@ -1,0 +1,300 @@
+header .lang {
+  width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #8DD8F8), color-stop(1, #F4FAFD));
+  box-shadow: 0 0 10px #888888;
+}
+
+.lang {
+  text-align: right;
+  font-size: 12px;
+}
+
+.head {
+  width: 900px;
+  margin: 0 auto
+}
+
+header .lang a {
+  text-decoration: underline;
+}
+
+header .head .head-1 {
+  float: left;
+  margin-right: 22px;
+}
+
+header .head .head-1 img {
+  width: 200px;
+  height: 135px;
+}
+
+.head-2-1 {
+  padding-top: 17px;
+  font-size: 22px;
+}
+
+.head-2-2 {
+  font-size: 12px;
+  color: #666;
+  margin-top: 10px;
+  padding-bottom: 50px;
+}
+
+.margin {
+  width: 900px;
+  margin: 0 auto;
+  height: 120px;
+}
+
+.numeration-standard {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.numeration-standard .numeration {
+  width: 500px;
+
+}
+
+.numeration-standard .numeration>div {
+  display: flex;
+}
+
+.numeration-standard .numeration .numeration-1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.numeration-standard .numeration .numeration-2>span {
+  margin-right: 85px;
+}
+
+.numeration-3 span:first-child {
+  margin-right: 85px;
+}
+
+.numeration-3 span:last-child {
+  margin-left: 20px;
+}
+
+.numeration-3 {
+  line-height: 34px;
+  margin-top: 6px;
+}
+
+.numeration-standard .numeration .numeration-2-1 {
+  float: left;
+}
+
+.numeration-standard .numeration .numeration-2>span {
+  float: left;
+}
+
+.numeration-standard .numeration .numeration-3 input {
+  width: 184px;
+  height: 31px;
+  background: #eff8ff;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.numeration-standard .numeration .numeration-4 {
+  display: block;
+}
+
+.numeration-standard .standard {
+  width: 315px;
+  float: right;
+}
+
+.numeration-standard .standard>div {
+  display: flex;
+}
+
+.numeration-4 {
+  margin-left: 161px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.numeration-5 {
+  margin-left: 161px;
+}
+
+.numeration-5 input {
+  padding: 3px 62px;
+}
+
+.numeration-standard .standard .standard-1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.standard{
+  position: relative;
+}
+.standard-boult{
+  background: url(../images/arrow.png) no-repeat center/cover;
+  width: 24px;
+  height: 20px;
+  position: absolute;
+  top: 74px;
+  left: -40px;
+  display: none;
+}
+
+.standard-2 {
+  font-weight: bold;
+  height: 27px;
+  line-height: 27px;
+}
+
+.standard-3 {
+  height: 27px;
+  line-height: 27px;
+}
+
+.standard-4 {
+  height: 27px;
+  line-height: 27px;
+}
+
+.standard-5 {
+  height: 27px;
+  line-height: 27px;
+}
+
+.standard-6 {
+  height: 27px;
+  line-height: 27px;
+}
+
+.standard-2 div:first-child {
+  margin-right: 120px;
+  margin-left: 40px;
+}
+
+.standard-3 div:first-child {
+  margin-right: 120px;
+  margin-left: 40px;
+}
+
+.standard-4 div:first-child {
+  margin-right: 120px;
+  margin-left: 40px;
+}
+
+.standard-5 div:first-child {
+  margin-right: 120px;
+  margin-left: 40px;
+}
+
+.standard-6 div:first-child {
+  margin-right: 120px;
+  margin-left: 40px;
+}
+
+.standard>div:nth-child(3) {
+  background-color: aqua;
+}
+
+.standard>div:nth-child(4) {
+  background-color: #cccccc;
+}
+
+.standard>div:nth-child(5) {
+  background-color: chartreuse;
+}
+
+.standard>div:nth-child(6) {
+  background-color: gold;
+}
+
+.standard>div:nth-child(7) {
+  background-color: yellow;
+}
+.history{
+  width: 898px;
+  margin: 0 auto;
+  border: 1px solid #7CB5EC;
+  border-top: none;
+  position: relative;
+  margin-top: 100px;
+}
+.history-one{
+  width: 2px;
+  height: 30px;
+  background: #fff;
+  position: absolute;
+  top: -4px;
+  left: -2px;
+}
+.history-two{
+  width: 2px;
+  height: 30px;
+  background: #fff;
+  position: absolute;
+  top: -4px;
+  right: -2px;
+}
+.history .history-1{
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #fff;
+}
+.history-2{
+	height:27px;
+	background-color: #7CB5EC;
+	color: #fff;
+}
+.history-2 span{
+  font-size: 12px;
+	margin: 0 60px;
+}
+.history-3{
+  font-size: 14px;
+	text-align: center;
+	line-height: 75px;
+}
+.history-4{
+  font-size: 11px;
+	line-height: 60px;
+	text-align: right;
+}
+footer {
+  width: 900px;
+  height: 40px;
+  border-top: #eff8ff solid 1px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 60px;
+  color: #666;
+  font-size: 12px;
+}
+
+.result {
+  background-color: darkgoldenrod;
+display: none
+}
+
+
+.numeration .result img {
+  width: 24px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.result-1 {
+  color: red;
+}
+.historyTwo{
+  background: #fff;
+  color: #000;
+}
