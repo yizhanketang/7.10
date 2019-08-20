@@ -1,0 +1,254 @@
+/* 导航栏 */
+header {
+    width: 1200px;
+    margin: 0 auto;
+    height: 140px;
+}
+
+header .navigation-bar-left {
+    background: url(../images/home/home-logo.png.png) no-repeat center/cover;
+    width: 184px;
+    height: 48px;
+    margin-top: 46px;
+    float: left;
+}
+
+header .navigation-bar-right {
+    float: right;
+}
+
+header .navigation-bar-right a {
+    font-size: 18px;
+    color: #333;
+    line-height: 140px;
+    margin-left: 75px;
+}
+
+header .navigation-bar-right a:nth-child(6) {
+    color: #267AFF;
+}
+
+header .navigation-bar-right a:hover {
+    color: #267AFF;
+}
+
+/* 轮播图 */
+.banner {
+    background: url(../images/help/help_banner.png) no-repeat center/cover;
+    width: 100%;
+    height: 600px;
+}
+
+.banner .banner-1 {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner .banner-1-1 {
+    width: 571px;
+    height: 49px;
+    font-size: 60px;
+    font-family: HYQiHeiY3;
+    font-weight: normal;
+    color: rgba(96, 109, 138, 1);
+    position: absolute;
+    top: 145px;
+    left: 0;
+}
+
+.banner .banner-1-2 {
+    background: #fff;
+    outline: none;
+    border: none;
+    width: 980px;
+    height: 68px;
+    position: absolute;
+    top: 268px;
+    left: 0;
+    font-size: 30px;
+}
+
+.banner .banner-1-3 {
+    background: url(../images/help/help_03.png)no-repeat center/cover;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 286px;
+    right: 250px;
+}
+
+.Home-appliance {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 163px;
+}
+
+.Home-appliance .Home-appliance-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Home-appliance .Home-appliance-1 .Home-appliance-1-1 {
+    background: url(../images/help/help_01.png.jpg)no-repeat center/cover;
+    width: 90px;
+    height: 150px;
+}
+
+.Home-appliance .Home-appliance-1 .Home-appliance-1-2 {
+    background: url(../images/help/help_02.png.jpg)no-repeat center/cover;
+    width: 200px;
+    height: 66px;
+    margin-top: 42px;
+}
+
+.Home-appliance .Home-appliance-1 .Home-appliance-1-3 {
+    background: url(../images/help/help_03.png.jpg)no-repeat center/cover;
+    width: 103px;
+    height: 144px;
+    margin-top: 3px;
+}
+
+.Home-appliance .Home-appliance-1 .Home-appliance-1-4 {
+    background: url(../images/help/img_04.png)no-repeat center/cover;
+    width: 152px;
+    height: 120px;
+    margin-top: 22px;
+}
+
+.Home-appliance .Home-appliance-2 {
+    font-size: 24px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    margin-top: 59px;
+}
+
+.Home-appliance .Home-appliance-2>span:nth-child(1) {
+    margin-left: 18px;
+    color: #2D6FFD;
+}
+
+.Home-appliance .Home-appliance-2>span:nth-child(2) {
+    margin-left: 310px;
+}
+
+.Home-appliance .Home-appliance-2>span:nth-child(3) {
+    margin-left: 305px;
+}
+
+.Home-appliance .Home-appliance-2>span:nth-child(4) {
+    margin-left: 300px;
+}
+
+.Home-appliance .Home-appliance-2>span:hover {
+    color: #2D6FFD;
+}
+
+.introduce {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 62px;
+
+}
+
+.introduce .introduce-1 {
+    height: 65px;
+    width: 900px;
+    margin: 0 auto;
+    border-top: 2px solid rgba(220, 220, 220, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 65px;
+    position: relative;
+}
+.introduce .introduce-1 a{
+    color: rgba(51, 51, 51, 1);
+}
+.introduce .introduce-1 span{
+    position: absolute;
+    right: 60px;
+}
+.introduce .introduce-2 a{
+    color: rgba(51, 51, 51, 1);
+}
+.introduce .introduce-2 {
+    height: 65px;
+    width: 900px;
+    margin: 0 auto;
+    border-bottom: 2px solid rgba(220, 220, 220, 1);
+    border-top: 2px solid rgba(220, 220, 220, 1);
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 65px;
+    margin-bottom: 49px;
+}
+.introduce .introduce-2 span{
+    margin-left: 320px;
+}
+.help{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 结尾 */
+footer {
+    width: 100%;
+    height: 340px;
+    background: #131820;
+}
+
+footer .footer-1 {
+    width: 810px;
+    margin: 0 auto;
+    padding-top: 80px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    color: #666666;
+}
+
+footer .footer-1 .footer-1-1-1 {
+    color: #fff;
+}
+
+footer .footer-1 .footer-1-1-2 {
+    width: 62px;
+    height: 1px;
+    background: #E5E5E5;
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+
+.footer-1-1-3 {
+    color: #666;
+}
+
+footer .footer-1 .footer-1-1-4 {
+    margin: 14px 0;
+}
+
+footer .footer-2 {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 89px;
+}
+
+footer .footer-2 span:nth-child(2) img {
+    margin-left: 19px;
+    margin-right: 7px;
+}
+
+footer .footer-2 span {
+    font-size: 12px;
+    color: #666;
+}
+
+.footer-1-1-4-1 {
+    color: #666;
+}

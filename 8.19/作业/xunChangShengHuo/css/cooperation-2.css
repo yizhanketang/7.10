@@ -1,0 +1,51 @@
+.cooperation-content-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.content-main-element{
+    width: 210px;
+    overflow-x: hidden;
+}
+
+.main-element-heading{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(34, 34, 33, 1);
+    padding: 12px 24px;
+    background-color: #FFD908;
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.main-element-sub{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(34, 34, 33, 1);
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+
+.main-element-content{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(34, 34, 33, 1);
+    line-height: 30px;
+}
+
+.cooperation-content-appendix{
+    width: auto !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.cooperation-content-appendix p:nth-child(1){
+    justify-self: flex-start;
+}

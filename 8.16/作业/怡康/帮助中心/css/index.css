@@ -1,0 +1,193 @@
+body,div,dl,dt,dd,ul,li,pre,form,fieldset,select,input,textarea,button,p,blockquote,th,td,img,iframe,a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+/*导航栏*/
+.header-all{
+    width: 100%;
+    background-color: #f7faf7;
+}
+.header{
+    height: 90px;
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+.header .logo img{
+    height: 44px;
+    width: 175px;
+    margin-top: 23px;
+}
+.header .nav{
+    height: 90px;
+    width: 780px;
+    position: absolute;
+    top: 26px;
+    right: 0;
+
+}
+.header .nav div{
+    width:103px;
+    font-size:18px;
+    line-height:36px;
+    text-align: right;
+    margin-right: 32px;
+    float: left;
+}
+
+.header .nav div:nth-child(6){
+    margin-right: 0;
+}
+.header .nav div>a{
+    font-weight:400;
+    color:rgba(51,51,51,1);
+}
+.header .nav .clickColor a{
+    color: #00923F;
+}
+/*中部*/
+.bg{
+    background: url("../images/help center_banner.png") -200px center no-repeat;
+    height: 400px;
+}
+.itselfnav{
+    height:40px;
+    text-align: right;
+    font-size: 12px;
+    color:rgba(0,146,63,1);
+    margin-top: 40px;
+    margin-right: 80px;
+}
+.itselfnav a{
+    color:rgba(0,146,63,1);
+}
+/*内容*/
+.content{
+    height: 540px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.content div{
+    float: left;
+}
+.content .content-left{
+    height: 500px;
+    width: 210px;
+    border:1px solid rgba(224,224,224,1);
+    border-radius:10px;
+}
+.content .content-left div{
+    width: 210px;
+    height: 40px;
+    line-height:36px;
+    font-size:16px;
+}
+.content .content-left p{
+margin-left: 20px;
+}
+.content .content-left .left-1{
+    height: 60px;
+    font-size:18px;
+    color:rgba(47,49,47,1);
+    background:rgba(237,239,238,1);
+    line-height: 60px;
+}
+.content .content-left div:nth-child(2){
+    background:rgba(0,146,63,1);
+    color:rgba(248,250,248,1);
+}
+.content .content-right{
+    background:rgba(255,255,255,1);
+    border:1px solid rgba(224,224,224,1);
+    border-radius:10px;
+    width: 930px;
+    float: right;
+}
+.content .content-right div{
+    width: 100%;
+}
+.content .content-right .right-1{
+    height:60px;
+    background:rgba(237,239,238,1);
+    border:1px solid rgba(224,224,224,1);
+    border-radius:10px 10px 0px 0px;
+}
+.content .content-right .right-1 p{
+    font-size:16px;
+    color:rgba(47,49,47,1);
+    line-height:60px;
+    margin-left: 40px;
+}
+.content .content-right .right-4{
+    height: 20px;
+}
+.content .content-right .right-2{
+     background:rgba(195,201,197,1);
+     height: 40px;
+ }
+.content .content-right .right-2 p{
+    font-size:14px;
+    color:rgba(99,102,98,1);
+    line-height:15px;
+    margin: 14px 0 0 40px;
+}
+
+.content .content-right .right-3 p{
+    font-size:14px;
+    color:rgba(99,102,98,1);
+    line-height:15px;
+    margin: 14px 0 25px 40px;
+}
+/*底部*/
+.agreement{
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color:rgba(51,51,51,1);
+    line-height:20px;
+    margin-top: 80px;
+}
+.footer{
+    height: 280px;
+    background:rgba(0,161,87,1);
+    position: relative;
+}
+.footer .QR-code{
+    height: 200px;
+    text-align: center;
+}
+.footer .QR-code img{
+    margin-top: 28px;
+
+}
+.footer .licence{
+    height: 30px;
+    width: 1020px;
+    margin:  0 auto;
+    text-align: center;
+    font-size:12px;
+    color:rgba(247,250,247,1);
+    border-bottom:1px solid rgba(247,250,247,1);
+}
+
+.footer .licence span{
+    width: 40px;
+    text-align: center;
+    margin: 0 10px;
+}
+.footer .licence a {
+    color:rgba(247,250,247,1);
+}
+.footer .paper{
+    font-size:12px;
+    color:rgba(247,250,247,1);
+    line-height:20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.backTop{
+    position: absolute;
+    top: -71px;
+    right: 10px;
+}

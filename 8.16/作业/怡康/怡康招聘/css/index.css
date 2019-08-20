@@ -1,0 +1,222 @@
+body,div,dl,dt,dd,ul,li,pre,form,fieldset,select,input,textarea,button,p,blockquote,th,td,img,iframe,a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+/*导航栏*/
+.header-all{
+    width: 100%;
+    background-color: #f7faf7;
+}
+.header{
+    height: 90px;
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+.header .logo img{
+    height: 44px;
+    width: 175px;
+    margin-top: 23px;
+}
+.header .nav{
+    height: 90px;
+    width: 780px;
+    position: absolute;
+    top: 26px;
+    right: 0;
+
+}
+.header .nav div{
+    width:103px;
+    font-size:18px;
+    line-height:36px;
+    text-align: right;
+    margin-right: 32px;
+    float: left;
+}
+
+.header .nav div:nth-child(6){
+    margin-right: 0;
+}
+.header .nav div>a{
+    font-weight:400;
+    color:rgba(51,51,51,1);
+}
+.header .nav .clickColor a{
+    color: #00923F;
+}
+.bg{
+    background: url("../images/recruit_banner.png")  center no-repeat;
+    height: 400px;
+    position: relative;
+}
+.bg div{
+    position: absolute;
+    top: 166px;
+    left: 342px;
+}
+.man{
+    margin:  0 auto;
+}
+.man div{
+    width: 1000px;
+    height: 47px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ebf1ed;
+    line-height: 47px;
+}
+.man>div p{
+    float: left;
+    width: 250px;
+    text-align: center;
+}
+/*中部*/
+.content{
+    height: 1141px;
+    width: 1200px;
+    border:1px solid rgba(224,224,224,1);
+    border-radius:10px 10px 10px 10px;
+    margin: 0 auto;
+}
+.top{
+    height: 60px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.top div{
+    float: left;
+}
+.top div:nth-child(1){
+    width: 600px;
+    height: 60px;
+    background:rgba(0,146,63,1);
+    border-radius:10px 0 0 0;
+    text-align: center;
+    line-height: 60px;
+    color:rgba(248,250,248,1);
+    font-size:18px
+}
+.top div:nth-child(2){
+    width: 600px;
+    height: 60px;
+    background:rgba(235,241,237,1);
+    border-radius:10px 0 0 0;
+    text-align: center;
+    line-height: 60px;
+    color:rgba(51,51,51,1);
+    font-size:18px
+}
+.itselfnav{
+    height:40px;
+    text-align: right;
+    font-size: 12px;
+    color:rgba(0,146,63,1);
+    margin-top: 40px;
+    margin-right: 80px;
+}
+.itselfnav a{
+    color:rgba(0,146,63,1);
+}
+/*底部*/
+.agreement{
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color:rgba(51,51,51,1);
+    line-height:20px;
+    margin-top: 80px;
+}
+.footer{
+    height: 280px;
+    background:rgba(0,161,87,1);
+    position: relative;
+}
+.map{
+    height: 360px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+}
+.map-1{
+    height: 273px;
+    width: 510px;
+    background-color: #00923f;
+    position: absolute;
+    z-index:1;
+}
+.map .map-1 p{
+    margin-left: 20px;
+}
+.map .map-1 p:nth-child(1){
+    font-size:24px;
+    color:rgba(255,255,255,1);
+    margin-bottom: 19px;
+}
+.map .map-1 p:nth-child(2){
+    font-size:14px;
+    color:rgba(235,241,237,1);
+    margin-bottom: 16px;
+}.map .map-1 p:nth-child(3){
+     font-size:14px;
+     color:rgba(235,241,237,1);
+     margin-bottom: 6px;
+ }.map .map-1 p:nth-child(4){
+      font-size:14px;
+      color:rgba(235,241,237,1);
+      margin-bottom: 53px;
+  }
+.map .map-1 p:nth-child(5){
+    font-size:16px;
+    color:rgba(255,255,255,1);
+    margin-bottom: 16px;
+}
+.map .map-1 p:nth-child(6){
+    font-size:16px;
+    color:rgba(255,255,255,1);
+}
+.map  img{
+    position: absolute;
+    top: 44px;
+    left: 390px;
+}
+
+.footer .QR-code{
+    height: 200px;
+    text-align: center;
+}
+.footer .QR-code img{
+    margin-top: 28px;
+
+}
+.footer .licence{
+    height: 30px;
+    width: 1020px;
+    margin:  0 auto;
+    text-align: center;
+    font-size:12px;
+    color:rgba(247,250,247,1);
+    border-bottom:1px solid rgba(247,250,247,1);
+}
+
+.footer .licence span{
+    width: 40px;
+    text-align: center;
+    margin: 0 10px;
+}
+.footer .licence a {
+    color:rgba(247,250,247,1);
+}
+.footer .paper{
+    font-size:12px;
+    color:rgba(247,250,247,1);
+    line-height:20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.backTop{
+    position: absolute;
+    top: -71px;
+    right: 10px;
+}
