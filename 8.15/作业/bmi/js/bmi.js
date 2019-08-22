@@ -7,6 +7,10 @@ var year = new Date();
 
 var count = 0;
 
+
+var add = document.getElementById('add')
+var tagAs;
+
 function f() {
     var weight = aa.value;
     var height = bb.value;
@@ -53,9 +57,24 @@ function f() {
             '<p>'+ height +'</p>' +
             '<p>'+ weight +'</p>' +
             '<p>'+BMI.toFixed(1)+'</p>' +
-            '<a href="#" onclick="f3(' + count + ')">删除</a></div>';
+            '<a href="javascript:void(0)">删除</a></div>';
 
             adddel.innerHTML = '';
+
+            tagAs = add.getElementsByTagName('a')
+            console.log(tagAs)
+
+            for (var i1 = 0; i1 < tagAs.length; i1++) {
+                tagAs[i1].onclick = function () {
+                  // this.removeChild(this.parentNode)
+                  // console.log(this.parentNode)
+                  // add.removeChild(this.parentNode)
+                  // this.parentNode.parentNode.removeChild(this.parentNode)
+                  this.parentNode.remove()
+                }
+            }
+
+
         if (BMI.toFixed(1) <= 18.4) {
             right.innerText = '偏瘦';
             remove.style.top = "60px";
@@ -71,10 +90,16 @@ function f() {
         }
     }else{}
 }
-function f3(x){
-    var x = count;
-    console.log(x)
-}
+
+
+
+
+
+
+/*function f3(x){
+    // var x = count;
+    console.log(this)
+}*/
 function f1() {
     var q = document.getElementById('qq');
     var w = document.getElementById('ww');

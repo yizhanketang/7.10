@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width: 980px;
+    margin: 0 auto;
+
+}
+.content div:nth-child(1){
+    height: 76px;
+    margin: 0 auto;
+}
+
+.content div:nth-child(1) a:nth-child(2){
+    margin-right: 480px;
+}
+.content div:nth-child(1) span{
+    margin-right: 5px;
+    color: #666;
+    font-size: 10px;
+    line-height: 70px;
+    display: inline-block;
+}
+.content div:nth-child(1) button{
+    height: 32px;
+    width: 64px;
+    color: #666;
+    border: 0;
+}
+.content>img{
+    margin: 0 auto;
+    width: 980px;
+}
+.left{
+    height: 40px;
+    width: 65px;
+    font-size: 14px;
+    text-align: right;
+    display: inline-block;
+    margin-right: 10px;
+}
+.third{
+    height: 20px;
+    width: 328px;
+    padding: 11px 10px;
+    color: #666;
+    margin-top: 20px;
+}
+.last{
+    width: 170px;
+    height: 20px;
+    padding: 11px 10px;
+    color: #666;
+    margin-top: 20px;
+}
+.last-right{
+    width: 154px;
+    line-height: 40px;
+    color: #666;
+}
+.right{
+    display: inline-block;
+    background: url("./images/err_small.png") no-repeat left;
+    padding-left: 20px;
+    margin-left: 10px;
+    color: red;
+}
+.content input[type=submit]{
+    width: 350px;
+    height: 50px;
+    background: #3f89ec;
+    color: #fff;
+    font-size: 14px;
+    border: 0;
+    padding: 0 10px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.agreement{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    font-size: 12px;
+    margin-left: 80px;
+    margin-top: 10px;
+}

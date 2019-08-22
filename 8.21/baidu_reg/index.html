@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+  <div class="container">
+    <form>
+      <div class="item">
+        <label for="name">用户名</label>
+        <input type="text" id="name" value="请输入用户名">
+        <span class="remind"></span>
+      </div>
+      <div class="item">
+        <label for="phone">手机号</label>
+        <input type="text" maxlength="11" id="phone" placeholder="请输入手机号">
+        <span class="remind"></span>
+      </div>
+      <div class="item">
+        <label for="password">密码</label>
+        <input type="password" id="password" placeholder="请输入密码">
+      </div>
+      <div class="item receive">
+        <label for="password"></label>
+        <input type="checkbox">
+        阅读并接受
+        <a href="javascript:void(0)">《百度用户协议》</a>
+        及
+        <a href="javascript:void(0)">《百度隐私权保护声明》</a>
+      </div>
+      <div class="item">
+        <label for="password"></label>
+        <input type="submit" id="submit" value="注册">
+      </div>
+    </form>
+  </div>
+
+<script src="js/index.js"></script>
+
+</body>
+</html>

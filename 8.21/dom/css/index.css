@@ -1,0 +1,24 @@
+
+body {
+  padding: 100px 0 0 100px;
+}
+
+.menu {
+  width: 100px;
+  border: 1px solid;
+  /*display: none;*/
+  position: fixed;
+}
+
+.menu a {
+  display: block;
+  border-bottom: 1px solid red;
+  line-height: 40px;
+}
+
+.input {
+  height: 40px;
+  width: 100px;
+  border: 1px solid;
+  display: none;
+}

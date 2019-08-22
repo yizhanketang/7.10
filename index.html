@@ -4,39 +4,82 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>7.10前端班</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    h1 {
+      padding: 1em 0 .5em;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .content {
+      border: 1px solid #efefef;
+      border-radius: .5em;
+      padding: 1em;
+    }
+
+    .item {
+      overflow: hidden;
+      border-bottom: 1px solid #efefef;
+      line-height: 2.4;
+    }
+
+    .item span {
+      float: left;
+      padding-right: .8em;
+    }
+
+    a {
+      float: left;
+      width: 70px;
+    }
+
+    .bottom {
+      padding: 1.5em 0;
+      text-align: right;
+      border-bottom: 1px solid #efefef;
+      margin-bottom: 1em;
+    }
+  </style>
 </head>
 <body>
 
-  <div>
+  <div class="container">
     <h1>7.10前端班</h1>
-    <a href="./7.10">7.10</a><br>
-    <a href="./7.11">7.11</a><br>
-    <a href="./7.12">7.12</a><br>
-    <a href="./7.15">7.15</a><br>
-    <a href="./7.16">7.16</a><br>
-    <a href="./7.17">7.17</a><br>
-    <a href="./7.18">7.18</a><br>
-    <a href="./7.22">7.22</a><br>
-    <a href="./7.23">7.23</a><br>
-    <a href="./7.24">7.24</a><br>
-    <a href="./7.25">7.25</a><br>
-    <a href="./7.26">7.26</a><br>
-    <a href="./7.29">7.29</a><br>
-    <a href="./7.30">7.30</a><br>
-    <a href="./7.31">7.31</a><br>
-    <a href="./8.1">8.01</a><br>
-    <a href="./8.2">8.02</a><br>
-    <a href="./8.5">8.05</a><br>
-    <a href="./8.6">8.06</a><br>
-    <a href="./8.7">8.07</a><br>
-    <a href="./8.8">8.08</a><br>
-    <a href="./8.9">8.09</a><br>
-    <a href="./8.12">8.12</a><br>
-    <a href="./8.13">8.13</a><br>
-    <a href="./8.14">8.14</a><br>
-    <a href="./8.15">8.15</a><br>
-    <a href="./8.16">8.16</a><br>
+    <div class="content"></div>
+    <div class="bottom">授课导师：郭钊</div>
   </div>
+
+  <script>
+    let feClass = [
+      ['7.10', '7.11', '7.12'],
+      ['7.15', '7.16', '7.17', '7.18'],
+      ['7.22', '7.23', '7.24', '7.25', '7.26'],
+      ['7.29', '7.30', '7.31', '8.1', '8.2'],
+      ['8.5', '8.6', '8.7', '8.8', '8.9'],
+      ['8.12', '8.13', '8.14', '8.15', '8.16'],
+      ['8.19', '8.20', '8.21', '8.22', '8.23'],
+    ]
+
+    let contentHtml = `<div>`
+
+    feClass.map((item, index) => {
+      contentHtml += `<div class="item"><span>第${index + 1}周</span>`
+      item.map((day, ind) => {
+        contentHtml += `<a href="./${day}">${day}</a>`
+      })
+      contentHtml += `</div>`
+    })
+    contentHtml += `</div>`
+    document.querySelector('.content').innerHTML = contentHtml
+  </script>
 
 </body>
 </html>

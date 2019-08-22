@@ -1,0 +1,165 @@
+header {
+  height: 75px;
+  position: relative;
+}
+header i {
+  display: block;
+  height: 20px;
+  width: 100%;
+  background: url("../picture/reg_hr.png") no-repeat center/cover;
+  position: absolute;
+  bottom: -20px;
+}
+header .head {
+  height: 75px;
+  width: 980px;
+  margin: 0 auto;
+}
+header .head .left {
+  float: left;
+}
+header .head .left .logo {
+   width: 137px;
+   height: 46px;
+  display: block;
+   background: url("../picture/baidu.gif") no-repeat center/cover;
+   margin: 15px 15px 0;
+  float: left;
+ }
+header .head .left .text {
+  display: block;
+  width: 193px;
+  height: 46px;
+  background: url("../picture/logo.png") no-repeat center/cover;
+  margin: 15px 0 0;
+  float: left;
+}
+header .head .right {
+  float: right;
+  line-height: 75px;
+  text-align: center;
+}
+header .head .right p {
+  width: 96px;
+  height: 16px;
+  margin: 10px 5px 0 0;
+  display: inline-block;
+  font-size: 12px;
+}
+header .head .right button {
+  font-weight: 700;
+  color: #666;
+  height: 32px;
+  width: 64px;
+  border: 0;
+}
+section {
+  width: 980px;
+  margin: 0 auto;
+}
+section form {
+  /*height: 375px;*/
+  float: left;
+}
+section form p {
+  margin-top: 20px;
+  display: block;
+  height: 40px;
+}
+section form p span {
+  color: #fc4343;
+  font-size: 12px;
+  line-height: 40px;
+  display: none;
+}
+section form .item {
+  height: 42px;
+  margin-bottom: 20px;
+}
+
+section form .item_receive {
+  height: 42px;
+  margin-bottom: 20px;
+  color: #666;
+  font-size: 12px;
+  margin-left: 5px;
+}
+section form .item_receive label {
+  width: 65px;
+  height: 42px;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  line-height: 42px;
+  font-size: 14px;
+  color: #666;
+  font-weight: 700;
+  text-align: right;
+
+}
+
+section form .item label {
+  width: 65px;
+  height: 42px;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  line-height: 42px;
+  font-size: 14px;
+  color: #666;
+  font-weight: 700;
+  text-align: right;
+}
+
+section form .item input {
+  display: inline-block;
+  position: relative;
+  float: left;
+  height: 16px;
+  width: 328px;
+  padding: 11px 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  color: #666;
+  transition: .3s;
+  outline: none;
+}
+
+section form .item #get_verifyCode {
+  display: block;
+  position: relative;
+  float: left;
+  height: 16px;
+  width: 136px;
+  padding: 11px 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  color: #666;
+  transition: .3s;
+}
+section form .item #verifyCode {
+  border-radius: 0;
+  border: 1px solid #ddd;
+  background: #f7f7f7;
+  color: #666;
+  font-weight: 400;
+  width: 160px;
+  float: left;
+  margin-right: 10px;
+  font-size: 14px;
+  /*border: none;*/
+}
+section form .item #submit {
+  display: block;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  -webkit-border-radius: 3px;
+  -webkit-transition: .3s;
+  background-color: #3a84e8;
+}

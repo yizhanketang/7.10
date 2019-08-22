@@ -1,0 +1,17 @@
+.container {
+  height: 500px;
+  width: 500px;
+  background-color: #0a2a66;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: #00FA9A;
+}
+
+.small {
+  height: 150px;
+  width: 150px;
+  background-color: #38a553;
+}

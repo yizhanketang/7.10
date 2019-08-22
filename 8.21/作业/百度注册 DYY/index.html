@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>注册百度帐号</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+<header>
+  <div class="head">
+    <div class="left">
+      <a href="javascript:void(0)" class="logo"></a>
+      <a href="javascript:void(0)" class="text"></a>
+    </div>
+    <div class="right">
+      <p>我已注册，现在就</p>
+      <button>登录</button>
+    </div>
+  </div>
+  <i></i>
+</header>
+<section>
+  <form>
+    <p><span>这是一个提示</span></p>
+    <div class="item">
+      <label for="student">用户名</label>
+      <input type="text" id="student" placeholder="请输入用户名">
+      <span class="remind"></span>
+    </div>
+    <div class="item">
+      <label for="telephone">手机号</label>
+      <input type="text" id="telephone" placeholder="请输入手机号">
+    </div>
+    <div class="item">
+      <label for="get_verifyCode">验证码</label>
+      <input type="text" id="get_verifyCode" placeholder="请输入验证码">
+      <input id="verifyCode" type="text" name="verifyCode" autocomplete="off" maxlength="6" placeholder="请输入验证码">
+    </div>
+    <div class="item_receive">
+      <label></label>
+      <input type="checkbox">
+      阅读并接受
+      <a href="javascript:void(0)">《百度用户协议》</a>
+      及
+      <a href="javascript:void(0)">《百度隐私权保护声明》</a>
+    </div>
+    <div class="item">
+      <label></label>
+      <input type="submit" id="submit" value="注册">
+    </div>
+  </form>
+</section>
+<script src="js/index.js"></script>
+</body>
+</html>
