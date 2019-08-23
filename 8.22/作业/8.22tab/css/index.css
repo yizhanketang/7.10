@@ -1,0 +1,109 @@
+.xuanxiangka {
+    width: 500px;
+    height:300px;
+    margin: 30px auto 0;
+    /*border: 1px solid #666;*/
+}
+.xuanxiangtitle {
+    width: 100%;
+    height: 40px;
+}
+.xuanxiangtitle a {
+    float: left;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #666;
+}
+
+.xuanxiangtab {
+    clear: both;
+    width: 100%;
+    height: 120px;
+    /*border: 1px solid #666;*/
+}
+.xuanxiangtab a {
+    float: left;
+    width: 100px;
+    height: 100px;
+    line-height: 80px;
+    border: 1px solid #666;
+    text-align: center;
+    color: indianred;
+    display: none;
+}
+.active {
+    background-color: lightcoral;
+    color: darkgrey;
+}
+
+/*第二阶段*/
+
+.list {
+    width: 1000px;
+    margin: 0 auto;
+    /*background-color: burlywood;*/
+}
+
+.list ul {
+
+}
+
+.list > ul > li {
+    float: left;
+    line-height: 50px;
+    background-color: cadetblue;
+    padding: 0 30px 0 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.list > ul > li > a {
+    display: block;
+    color: ghostwhite;
+}
+
+.list ul li.more:after {
+    content: '';
+    display: block;
+    height: 0;
+    width: 0;
+    border: 6px solid transparent;
+    border-top-color: #2c323b;
+    position: absolute;
+    top: 45%;
+    right: 15px;
+}
+
+.list > ul > li ul {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    display: none;
+}
+
+.list > ul > li ul li {
+    line-height: 30px;
+    border-bottom:  1px solid #0a2a66;
+    border-top: none;
+    font-size: 14px;
+    width: 80px;
+    text-align: right;
+    padding: 5px 10px;
+    background: #fff;
+}
+
+.container > ul > li ul li:hover {
+    background-color: indianred;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+.clear::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.tab-title {
+  border: 1px solid;
+}
+
+.container .tab-title a {
+  float: left;
+  width: 100px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.container .tab-title a.active {
+  background: red;
+  color: #fff;
+}
+
+.container .content .tab-content {
+  /*width: 100%;*/
+  height: 200px;
+  border: 1px solid;
+  display: none;
+  font-size: 100px;
+}
+
+.container .content .tab-content.active {
+  display: block;
+}
