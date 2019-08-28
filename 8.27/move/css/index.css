@@ -1,0 +1,23 @@
+body {
+  position: relative;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: #008ad4;
+  border-radius: 50%;
+  position: absolute;
+  top: 100px;
+  left: 111px;
+}
+
+.move {
+  background: red;
+}
+
+.border {
+  display: none;
+}
+
+

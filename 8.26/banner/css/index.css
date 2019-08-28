@@ -1,0 +1,72 @@
+
+.banner-wrap {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.banner-wrap .image-wrap {
+  width: 1000px;
+  height: 400px;
+}
+
+.banner-wrap .image-wrap .banner-item {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.banner-wrap .image-wrap .banner-item.active {
+  display: block;
+}
+
+.banner-wrap .prev,
+.banner-wrap .next {
+  height: 100px;
+  line-height: 100px;
+  font-size: 60px;
+  color: #0a2a66;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  opacity: 0;
+  transition: 1s;
+  background: rgba(0, 0, 0, .3);
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.banner-wrap .prev {
+  left: 0;
+}
+
+.banner-wrap .next {
+  right: 0;
+}
+
+.banner-wrap:hover .prev,
+.banner-wrap:hover .next {
+  opacity: 1;
+}
+
+.dots {
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.dots .dot-item {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #fff;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.dots .dot-item.red {
+  background: red;
+}

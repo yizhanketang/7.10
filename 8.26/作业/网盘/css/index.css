@@ -1,0 +1,129 @@
+html{
+    overflow: hidden;
+}
+.nav{
+    height: 62px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.05);
+}
+.nav div{
+    float: left;
+}
+.picture{
+    width: 142px;
+    height: 32px;
+    margin: 15px 0 0 20px;
+}
+.picture img{
+    height: 32px;
+}
+.nav-left{
+    margin: 10px 30px 0 60px;
+    width: 394px;
+}
+.nav-left a{
+    display: block;
+    font-size: 16px;
+    height: 42px;
+    width: 52px;
+    float: left;
+    line-height: 38px;
+    margin-right: 20px;
+    color: #333;
+    text-align: center;
+}
+.nav-left .select{
+    color: #09aaff;
+}
+.nav-right{
+    position: absolute;
+    left: 800px;
+    height: 40px;
+    width: 500px;
+}
+.nav-right div{
+    line-height: 60px;
+    margin-right: 20px;
+}
+.user{
+    position: relative;
+}
+.nav-right .user>div{
+    float: left;
+}
+.user:hover .show{
+    display: block;
+}
+.show{
+    width: 260px;
+    height: 336px;
+    position: absolute;
+    top: 60px;
+    left: -30px;
+    display: none;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+}
+.show div:nth-child(1){
+    display: block;
+    height: 90px;
+    background-color: #74b5ec;
+    width: 100%;
+    color: white;
+    text-align: center;
+    line-height: 90px;
+}
+.show a{
+    height: 40px;
+    width: 260px;
+    display: block;
+    line-height: 40px;
+    color: #333;
+    font-size: 12px;
+}
+.show a:hover{
+    background-color: #74b5ec;
+}
+.left{
+    width: 194px;
+    height: 503px;
+    margin-top: 10px;
+    background-color: #f7f7f7;
+    float: left;
+}
+.left a{
+    display: block;
+    width: 144px;
+    height: 38px;
+    line-height: 38px;
+    color: #666666;
+    padding-left: 50px;
+    font-size: 14px;
+
+}
+.left .blue{
+    color: #74b5ec;
+    background-color: #eaeaea;
+}
+.right{
+    height: 900px;
+    width: 1140px;
+    float: left;
+    margin-top: 10px;
+    padding-left: 15px;
+    overflow-y: scroll;
+
+}
+.management{
+    text-align: center;
+}
+.management a{
+    color: #666666;
+}
+.right p{
+    display: inline-block;
+}
+.del{
+    display: none;
+}

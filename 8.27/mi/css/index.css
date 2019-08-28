@@ -1,0 +1,104 @@
+
+.banner {
+  width: 1226px;
+  margin: 0 auto;
+  height: 460px;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 234px;
+  background: rgba(105, 101, 101, .6);
+  padding: 20px 0;
+}
+
+.banner-menu a {
+  display: block;
+  height: 42px;
+  line-height: 42px;
+  padding-left: 30px;
+  color: #fff;
+}
+
+.banner-menu a:hover {
+  background: #f40;
+}
+
+.menu-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 234px;
+  background: yellow;
+  display: none;
+}
+
+.banner-wrap {
+  width: 1226px;
+  height: 460px;
+  overflow: hidden;
+}
+
+.imgs-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transition: .5s;
+}
+
+.imgs-wrap .item {
+  float: left;
+  width: 1226px;
+  height: 100%;
+}
+
+.prev {
+  left: 234px;
+}
+
+.next {
+  right: 0;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  margin-top: -75px;
+  width: 80px;
+  height: 150px;
+  font-size: 70px;
+  line-height: 150px;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, .6);
+}
+
+.dots-wrap {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+  z-index: 100;
+}
+
+.dots-wrap span {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background: #fff;
+  border: 1px solid #5f5750;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.dots-wrap span.active {
+  background: #f40;
+}
+

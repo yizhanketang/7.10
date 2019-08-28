@@ -1,0 +1,104 @@
+.box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid;
+  background: red;
+  /*margin-left: 1000px;*/
+  /*transition: ;*/
+}
+
+.box1 {
+  width: 800px;
+  margin: 0 auto;
+  height: 150px;
+  line-height: 150px;
+  font-size: 90px;
+  text-align: center;
+  border: 1px solid;
+  text-shadow: 0 0 30px rgba(0, 0, 0, .6);
+}
+
+.red {
+  color: red;
+}
+
+.box2 {
+  width: 1000px;
+  height: 500px;
+  background: #00FA9A;
+  /*animation: bgcChange 500ms infinite;*/
+  position: relative;
+}
+
+.box2:hover .line:nth-child(1) {
+  left: 40px;
+  right: 40px;
+}
+
+.line {
+  transition: 1s;
+}
+
+.line:nth-child(1) {
+  position: absolute;
+  /*left: 40px;*/
+  /*right: 40px;*/
+  left: 50%;
+  right: 50%;
+  top: 40px;
+  height: 20px;
+  /*width: 300px;*/
+  background: #008ad4;
+}
+
+.line:nth-child(2) {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  height: 20px;
+  /*width: 300px;*/
+  background: #008ad4;
+}
+
+.line:nth-child(3) {
+  position: absolute;
+  top: 40px;
+  bottom: 40px;
+  left: 40px;
+  width: 20px;
+  /*width: 300px;*/
+  background: #008ad4;
+}
+
+.line:nth-child(4) {
+  position: absolute;
+  top: 40px;
+  bottom: 40px;
+  right: 40px;
+  width: 20px;
+  /*width: 300px;*/
+  background: #008ad4;
+}
+
+
+@keyframes bgcChange {
+  0% {
+    background: red;
+  }
+  20% {
+    background: #38a553;
+  }
+  40% {
+    background: #008ad4;
+  }
+  60% {
+    background: #5f5750;
+  }
+  80% {
+    background: yellow;
+  }
+  100% {
+    background: orangered;
+  }
+}

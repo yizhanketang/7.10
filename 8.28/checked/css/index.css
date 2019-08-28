@@ -1,0 +1,39 @@
+.container {
+  width: 1000px;
+  margin: 50px auto;
+  font-size: 20px;
+}
+
+.container dt {
+  border: 1px solid;
+  padding: 20px 1em;
+  font-weight: bold;
+}
+
+.container dd {
+  padding: 10px 1em ;
+}
+
+input[type=checkbox] {
+  height: 30px;
+  width: 30px;
+  position: relative;
+}
+
+input[type=checkbox]:before {
+  content: '';
+  display: block;
+  height: 30px;
+  width: 30px;
+  border: 1px solid #32270a;
+  background: #fff;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+input.checked:before {
+  background: #fff url("../images/icon-checked.svg") no-repeat center / cover;
+}
