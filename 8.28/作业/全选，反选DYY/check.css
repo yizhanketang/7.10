@@ -1,0 +1,20 @@
+.check {
+  width: 500px;
+  height: 500px;
+  background: plum;
+  margin: 50px auto;
+}
+.check dl {
+  padding: 40px 40px;
+  font-size: 20px;
+  color: yellow;
+  line-height: 40px;
+
+}
+.check dl dt {
+  font-size: 24px;
+  width: 50%;
+  float: left;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f1f1f1;
+}
