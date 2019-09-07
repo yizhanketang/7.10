@@ -1,0 +1,36 @@
+.list{
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    background-color: #8ED9F8;
+}
+.list div{
+    width: 80%;
+    margin: 5px auto;
+}
+.list .item>div{
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #666666;
+}
+.list .ent{
+    height: 40px;
+}
+.list div button{
+    height: 40px;
+    width: 45%;
+    border-radius: 10px;
+    float: right;
+    border: 1px solid #666666;
+}
+.list div input{
+    height: 38px;
+    width: 45%;
+    float: left;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #666666;
+}

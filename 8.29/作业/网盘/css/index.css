@@ -1,0 +1,497 @@
+.head {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 2px 0 0 rgba(0,0,0,0.1);
+}
+.right-click{
+    height: 300px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    z-index: 1000;
+    display: none;
+}
+.right-click p{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    border:1px solid #666666 ;
+    border-bottom: none;
+}
+.right-click p:nth-child(6){
+    border-bottom: 1px solid #666666;
+}
+.right-click p:hover{
+    background-color: greenyellow;
+}
+.left_part .logo {
+    width: 142px;
+    height: 32px;
+    background: url(../imgs/0.png) no-repeat center/cover;
+    margin-top: 4px;
+    float: left;
+}
+.left_part .menu {
+    padding: 0 0 0 34px;
+    float: left;
+}
+.left_part .menu a {
+    font-size: 16px;
+    color: #333;
+    float: left;
+    text-decoration-line: none;
+    padding: 0 2px;
+    display: inline-block;
+    line-height: 40px;
+    margin-left: 36px;
+    font-weight: 500;
+}
+.left_part .menu .active {
+    color: #09AAFF;
+    position: relative;
+    height: 40px;
+    padding: 0 2px;
+    display: block;
+    /*border-bottom: 3px solid #09AAFF;*/
+}
+.left_part .menu .active:after {
+    display: block;
+    background: red;
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.right_part {
+    width: 490px;
+    margin: 0 10px 0 0;
+}
+.part{
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+.part:hover .pic_3{
+    transform: rotate(180deg);
+}
+.right_part .pic_1 {
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: url(../imgs/88.jpg) no-repeat center/cover;
+
+    margin: 2px;
+    border-radius: 15px;
+}
+.right_part .text {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #424e67;
+    line-height: 30px;
+    float: left;
+}
+.right_part .pic_2 {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: 5px 5px;
+    background: url(../imgs/1.png) no-repeat center/cover;
+    float: left;
+}
+.right_part .pic_3 {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: 5px 5px;
+    transform: rotate(0);
+    background: url(../imgs/down.svg) no-repeat center/cover;
+    float: left;
+}
+.right_part .pic_4 {
+    font-size: 12px;
+    margin: 3px 15px;
+    float: left;
+}
+.right_part .pic_5 {
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+.right_part .pic_6 {
+    width: 16px;
+    height: 18px;
+    display: block;
+    margin: 6px 0 0 15px;
+    background: url(../imgs/inform.svg) no-repeat center/cover;
+    float: left;
+
+}
+.right_part .pic_7 {
+    width: 16px;
+    height: 18px;
+    display: block;
+    margin: 6px 0 0 15px;
+    background: url(../imgs/idea.svg) no-repeat center/cover;
+    float: left;
+
+}
+.right_part .pic_8 {
+    width: 16px;
+    height: 18px;
+    display: block;
+    margin: 6px 0 0 15px;
+    background: url(../imgs/skin.svg) no-repeat center/cover;
+    float: left;
+}
+.right_part .pic_9{
+    color: #333;
+    font-size: 12px;
+    font-weight: 500;
+    height: 15px;
+    line-height: 15px;
+    float: left;
+    padding:5px 15px;
+    border: 1px solid #fff;
+    background: #efcd8a;
+    border-radius:20px;
+    margin-left: 15px;
+}
+.pic_9:hover{
+    background-color: #d07d12;
+}
+.left{
+    width: 15%;
+    height: 503px;
+    margin-top: 10px;
+    background-color: #f7f7f7;
+    float: left;
+}
+.left div{
+    position: relative;
+}
+.left a{
+    width: 75%;
+    height: 38px;
+    line-height: 38px;
+    color: #666666;
+    padding-left: 25%;
+    font-size: 14px;
+    display: inline-block;
+}
+.left .a1{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    z-index: 20;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+ }
+.left .blue{
+    color: #74b5ec;
+    background-color: #eaeaea;
+}
+.right{
+    height: 900px;
+    width: 83%;
+    float: left;
+    margin-top: 10px;
+
+}
+.management{
+    text-align: center;
+    display: flex;
+    padding-left: 15px;
+}
+.management a{
+    color: #666666;
+}
+
+.management div:nth-child(1){
+    width: 20%;
+    height: 55px;
+    line-height: 55px;
+}
+.management div:nth-child(1) a{
+    float: left;
+    margin-top: 9px;
+}
+.management div:nth-child(1) a:nth-child(1){
+    display: block;
+    height: 34px;
+    width: 82px;
+    background-color: #09aaff;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 10px;
+    border:1px solid #09aaff;
+    font-size: 14px;
+    line-height: 34px;
+
+}
+.management div:nth-child(1) a:nth-child(2){
+     display: block;
+     height: 34px;
+     width: 111px;
+     color: #09aaff;
+     cursor: pointer;
+    border:1px solid #09aaff;
+     border-radius: 10px;
+     font-size: 14px;
+     line-height: 34px;
+     margin-left: 18px;
+ }
+.management div:nth-child(2){
+    width: 50%;
+    height: 55px;
+    line-height: 55px;
+}
+.management div:nth-child(2) a{
+    float: left;
+    margin-top: 9px;
+}
+
+.management div:nth-child(3){
+    display: none;
+    width: 50%;
+    height: 55px;
+    line-height: 55px;
+}
+.management div:nth-child(3) a{
+    float: left;
+    margin-top: 9px;
+}
+.management .down{
+    display: block;
+    height: 34px;
+    width: 111px;
+    color: #09aaff;
+    cursor: pointer;
+    border:1px solid #09aaff;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 34px;
+    margin-left: 18px;
+}
+.management #del .del{
+    height: 34px;
+    width: 52px;
+    color: #09aaff;
+    cursor: pointer;
+    border:1px solid #09aaff;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 34px;
+    display: block;
+    float: left;
+    border-right:none ;
+}
+.management #del a:nth-child(8){
+    border-right: 1px solid #09aaff;
+    width: 100px;
+}
+.management .switch{
+    width: 32%;
+    height: 35px;
+    line-height: 55px;
+    position: relative;
+    float: right;
+}
+.management .switch input{
+    float: left;
+    width: 224px;
+    height: 34px;
+    margin-top: 10px;
+    border-radius: 33px;
+    border: none;
+    padding-left: 20px;
+    background-color: #f1f2f4;
+    outline: none;
+}
+.management .switch span{
+    display: block;
+    height: 20px;
+    width: 20px;
+    float: left;
+    z-index: 3000;
+    margin-top: 18px;
+}
+.management .switch .vv1{
+    position: absolute;
+    background: url("../imgs/搜索.svg") no-repeat center /cover;
+    left: 200px;
+}
+.management .switch .vv1:hover{
+    background: url("../imgs/搜索 (1).svg") no-repeat center /cover;
+}
+.management .switch .vv2{
+    background: url("../imgs/more.svg") no-repeat center /cover;
+    margin-left: 30px;
+}
+.management .switch .vv3{
+    background: url("../imgs/更多 (1).svg") no-repeat center /cover;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.management .switch .vv4{
+    background: url("../imgs/更多.svg") no-repeat center /cover;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.number{
+    width: 100%;
+    height: 16px;
+    padding-left: 15px;
+}
+.number span{
+    font-size: 12px;
+    display: block;
+    color: #888;
+    line-height: 16px;
+}
+.number span:nth-child(1){
+    float: left;
+}
+.number span:nth-child(2){
+    float: right;
+}
+.right .all-choose{
+    width: 100%;
+    height: 36px;
+    border-bottom: 1px solid #2c323b;
+    padding-left: 0;
+}
+.all-choose div{
+    float: left;
+    font-size: 12px;
+    color: #888;
+    line-height: 36px;
+}
+.all-choose div:hover{
+    background-color: #f2f5fa;
+}
+.all-choose div:nth-child(1){
+    width: 59%;
+    padding-left: 15px;
+}
+.all-choose div:nth-child(2){
+    width: 14%;
+}
+.all-choose div:nth-child(3){
+    width: 25%;
+}
+
+.change div:nth-child(2),
+.change div:nth-child(3){
+    display: none;
+}
+.change div{
+    width: 100%;
+    padding-left: 15px;
+    border-bottom: 1px solid #2c323b;
+    font-size: 12px;
+    color: #888;
+    height: 36px;
+    line-height: 36px;
+}
+
+
+ .list .one-choose{
+    width: 100%;
+    height: 36px;
+    border-bottom: 1px solid #2c323b;
+    padding: 0;
+}
+.list  .one-choose div{
+    float: left;
+    font-size: 12px;
+    color: #888;
+    line-height: 36px;
+}
+.list .one-choose input{
+margin-top: 8px;
+    display: block;
+}
+.list .one-choose .check-text{
+    display: block;
+    height: 30px;
+    width: 30px;
+    z-index: 4000;
+    background: url("../imgs/icons_z_6ae3d28.png") -202px -803px;
+    margin: 0 20px;
+}
+.list .one-choose>div:hover{
+    background-color: #f2f5fa;
+}
+.list .one-choose div:nth-child(1){
+    width: 59%;
+    display: flex;
+    line-height: 36px;
+    padding-left: 15px;
+}
+.list .one-choose div:nth-child(2){
+    width: 14%;
+}
+.list .one-choose div:nth-child(3){
+    width: 25.6%;
+}
+.card .one-choose{
+    width: 122px;
+    height: 129px;
+    float: left;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.card .one-choose:hover {
+    background: #f2f5fa;
+    color: #fff;
+}
+.card div:nth-child(2),
+.card div:nth-child(3){
+    display: none;
+}
+.card div{
+    position: relative;
+}
+.card input{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    display: none;
+    z-index: 10000;
+}
+.card .check-text{
+    display: block;
+    margin: 0 auto;
+    width: 84px;
+    height: 84px;
+    background: url("../imgs/Folder_54_fe544cc.png") no-repeat center;
+}
+.card span:nth-child(2){
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.right p{
+    display: inline-block;
+}

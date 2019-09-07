@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            font-size: 100px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div>
+
+</div>
+<script>
+    var num = document.cookie.split('&');
+    var a;
+    var show = document.querySelector('div');
+    for (var i = 0; i < num.length; i++){
+        a = num[i].split(':');
+        if (a[0] === '手机号'){
+            var x = a[1]
+        }
+    }
+    show.innerHTML = x
+</script>
+</body>
+</html>

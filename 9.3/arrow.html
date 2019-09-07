@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    .box {
+      width: 0px;
+      height: 0px;
+      background: transparent;
+      margin: 50px auto 50px;
+      border: 100px solid transparent;
+      border-left-color: red;
+      border-bottom-color: red;
+    }
+
+    .box1 {
+      height: 100px;
+      width: 100px;
+      background: #00EAFF;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .box1:before {
+      content: '';
+      display: block;
+      height: 0;
+      width: 0;
+      border: 80px solid transparent;
+      border-bottom-color: red;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .box1:after {
+      content: '';
+      display: block;
+      height: 0;
+      width: 0;
+      border: 80px solid transparent;
+      border-bottom-color: #fff;
+      position: absolute;
+      top: 10px;
+      left: 0;
+    }
+
+    .container {
+      position: relative;
+    }
+
+    .yuan {
+      width: 80px;
+      height: 80px;
+      background: red;
+      border-radius: 50%;
+      float: left;
+    }
+
+    .san {
+      width: 0;
+      height: 0;
+      border: 100px solid transparent;
+      border-top-color: red;
+      position: absolute;
+      top: 50px;
+      left: 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="yuan"></div>
+  <div class="yuan"></div>
+  <div class="san"></div>
+</div>
+
+
+<div class="box"></div>
+<div class="box1"></div>
+
+</body>
+</html>

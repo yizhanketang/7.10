@@ -1,0 +1,28 @@
+
+.list {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.price {
+  width: 180px;
+}
+
+.calc button {
+  border: 1px solid;
+}
+
+.all {
+  font-size: 40px;
+  padding: 20px 0;
+  float: right;
+}
+

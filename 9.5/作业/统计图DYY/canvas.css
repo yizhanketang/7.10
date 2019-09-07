@@ -1,0 +1,29 @@
+section {
+    width: 800px;
+    background: #933cff;
+    margin: 50px auto;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
+input[type=text] {
+    height: 30px;
+    width: 120px;
+    font-size: 18px;
+    padding-left: 10px;
+    /*background: #169af3;*/
+}
+input::-webkit-input-placeholder {
+    color: #999999;
+}
+button {
+    height: 35px;
+    width: 120px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+#canvas {
+    background: rgba(0,0,0,.1);
+    margin: 30px auto 0;
+}

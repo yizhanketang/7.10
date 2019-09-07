@@ -1,0 +1,33 @@
+.text{
+    height: 50px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.text input{
+    display: inline-block;
+    outline: none;
+    width: 98px;
+    height: 18px;
+    background-color: #B8C1C8;
+    color: #000000;
+    padding-left: 10px;
+
+}
+.text button{
+    display: inline-block;
+    width: 100px;
+    outline: none;
+    height: 30px;
+    cursor: pointer;
+    background-color: #0c8ed9;
+
+}
+#para{
+    background-color: #B8C1C8;
+}
+.canvas{
+    height: 500px;
+    width: 500px;
+    margin:  0 auto;
+}

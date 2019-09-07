@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+
+<h1>index</h1>
+
+?
+username=sdfghjkl&password=123456uio&code=123456uio
+
+<script>
+  // document.write(location.search)
+  document.write(location.search)
+  var un = getQuery('username')
+  console.log(un)
+  getQuery('password')
+
+  function getQuery(key) {
+    // ? search, query
+    // # hash
+    var arr = location.search.substr(1).split('&')
+    for (var i = 0; i < arr.length; i++) {
+      if (arr[i].split('=')[0] === key) {
+        return arr[i].split('=')[1]
+      }
+    }
+  }
+
+  // console.log(newArr)
+</script>
+
+<script src="js/index.js"></script>
+
+</body>
+</html>

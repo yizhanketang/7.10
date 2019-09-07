@@ -1,0 +1,17 @@
+svg {
+  /*border: 1px solid;*/
+  display: block;
+  margin: 0 auto;
+  transform: scale(1.1);
+}
+
+.title {
+  height: 140px;
+  background: #de2910;
+  color: #ffde00;
+  font-size: 70px;
+  line-height: 140px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+

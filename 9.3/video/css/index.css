@@ -1,0 +1,75 @@
+.music-wrap {
+  width: 150px;
+  height: 150px;
+  background: #00FA9A;
+  border-radius: 50%;
+  padding: 25px;
+  box-sizing: border-box;
+  /*box-sizing: content-box;*/
+}
+
+.music {
+  width: 100px;
+}
+
+.music-wrap.rota {
+  animation: rota 3s linear infinite;
+}
+
+.audio {
+  display: none;
+}
+
+@keyframes rota {
+  /*to {}*/
+  /*from {}*/
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.video-wrap {
+  position: relative;
+  width: 700px;
+  border: 1px solid;
+  margin: 0 auto;
+}
+
+.video {
+  width: 100%;
+}
+
+.feature {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background: rgba(0, 0, 0, .4);
+}
+
+.feature button {
+  height: 40px;
+  padding: 0 20px;
+}
+
+.feature .play {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: url("../images/play.svg") no-repeat center / cover;
+}
+
+.feature .play.pause {
+  background: url("../images/pause.svg") no-repeat center / cover;
+}
+
+
+
+
+
+
+
