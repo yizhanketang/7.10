@@ -1,0 +1,44 @@
+body {
+  position: relative;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background: #0c8ed9;
+  padding: 30px;
+  border: 10px solid #2c323b;
+  /*margin: 30px;*/
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+.box1 {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: red;
+}
+
+
+dl {
+  width: 700px;
+  margin: 0 auto;
+}
+
+dt {
+  background: #00FA9A;
+  border: 1px solid;
+  padding: 8px 0;
+}
+
+dd {
+  display: none;
+}
+
+dd.block {
+  display: block;
+}

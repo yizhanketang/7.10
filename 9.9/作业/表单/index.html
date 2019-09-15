@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .left{
+            height: 200px;
+            width: 300px;
+            background-color: #8ED9F8;
+            float: left;
+        }
+        .left a{
+            display: block;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            width: 100%;
+            text-decoration: none;
+            color: black;
+        }
+        .left a:hover{
+            background-color: #2AC38A;
+        }
+        .right{
+            width: 300px;
+            background-color: #74b5ec;
+            float: left;
+        }
+        .right a{
+            display: none;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            width: 100%;
+            text-decoration: none;
+            color: black;
+        }
+        .right .show{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="left">
+    <a href="javascript:void (0)">1</a>
+    <a href="javascript:void (0)">2</a>
+    <a href="javascript:void (0)">3</a>
+    <a href="javascript:void (0)">4</a>
+</div>
+<div class="right">
+    <a href="javascript:void (0)">11</a>
+    <a href="javascript:void (0)">22</a>
+    <a href="javascript:void (0)">33</a>
+    <a href="javascript:void (0)">44</a>
+</div>
+<script src="jquery-3.3.1.js"></script>
+<script>
+    $(function () {
+        function play(parent,child,show) {
+          $('.left a').mouseenter(function () {
+                var ind = $(this).index();
+                child.eq(ind).addClass(show).siblings().removeClass(show);
+            });
+            parent.mouseleave(function () {
+                var ind = $(this).index();
+                child.eq(ind).removeClass(show)
+            });
+            child.mouseenter(function () {
+               $(this).addClass('show')
+            });
+            child.mouseleave(function () {
+                $(this).removeClass('show')
+            })
+        }
+        play($('.left a'),$('.right a'),'show')
+    });
+</script>
+</body>
+</html>

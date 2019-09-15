@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .top{
+            width: 800px;
+            height: 100px;
+            margin: 0 auto;
+            background-color: #74b5ec;
+            overflow: hidden;
+        }
+        .top .t1{
+            height: 50px;
+            width: 150px;
+            background-color: white;
+            float: left;
+            margin: 25px 10px;
+        }
+        .top .t1>span{
+            height: 50px;
+            display: block;
+            float: left;
+            text-align: left;
+            line-height: 50px;
+            font-size: 12px;
+        }
+        .top .t1>span:nth-child(1){
+            width: 30px;
+        }
+        .top .t1>span:nth-child(2){
+            width: 105px;
+            overflow:hidden;
+            text-overflow:ellipsis;
+            white-space:nowrap;
+            word-break:keep-all;
+        }
+        .top .t1>span:nth-child(3){
+            width: 15px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .top .t1>span:nth-child(3):hover{
+            background-color: red;
+        }
+        .bottom{
+            width: 800px;
+            height: 200px;
+            margin: 0 auto;
+            background-color: #2AC38A;
+        }
+        .bottom .b1{
+            width: 100px;
+            height: 100px;
+            float: left;
+            cursor: pointer ;
+            text-align: center;
+            line-height: 100px;
+        }
+        .bottom .b1.show{
+            background-color: #8dd8f8;
+        }
+        .outer{
+            width: 100px;
+            height: 50px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+<div class="top">
+</div>
+<div class="bottom">
+    <div class="b1">dior</div>
+    <div class="b1">mac</div>
+    <div class="b1">圣罗兰</div>
+    <div class="b1">香奈儿</div>
+    <div class="b1">阿玛尼</div>
+    <div class="b1">纪梵希</div>
+    <div class="b1">汤姆福特</div>
+    <div class="b1">美宝莲</div>
+    <div class="b1">卡姿兰</div>
+    <div class="b1">雅诗兰黛</div>
+    <div class="b1">兰蔻</div>
+    <div class="b1">欧莱雅</div>
+    <div class="b1">娇兰</div>
+    <div class="b1">露华浓</div>
+    <div class="b1">稚优泉</div>
+    <div class="b1">完美日记</div>
+</div>
+<div class="outer">
+<input class="all" type="checkbox" >全选
+<button class="ent">确定</button>
+</div>
+<script src="jquery-3.3.1.js"></script>
+<script>
+$(function play() {
+    var a = 0;
+        $('.b1').click(function () {
+            if ($('.all').is(':checked')) return false;
+            $('<div class="t1"><span>商品:</span>' +
+                '<span class="t2"></span><span class="t3">X</span></div>').appendTo('.top');
+            $('.t2').eq(a).html($(this).html());
+            a = a+1;
+            $('.t3').click(function () {
+                $(this).parent().remove();
+                a = $('.t3').length
+            });
+            console.log($('.all').is(':checked'))
+        });
+});
+
+$(function () {
+    var text = [];
+    var b;
+    var c = 0;
+    $('.b1').click(function () {
+        if (!$('.all').is(':checked')) return;
+        if (!$(this).hasClass('show')){
+            $(this).addClass('show');
+            text.push($(this).html());
+            console.log(text)
+        } else{
+            $(this).removeClass('show');
+            text.splice($.inArray($(this).html(),text),1);
+            console.log(text);
+        }
+    });
+    $('.ent').click(function () {
+        if (!$('.all').is(':checked')) return false;
+        $('.b1').removeClass('show');
+        b = text.join('');
+        $('<div class="t1"><span>商品:</span>' +
+            '<span class="t2"></span><span class="t3">X</span></div>').appendTo('.top');
+        $('.t2').eq(c).html(b);
+        c = c+1;
+        text = [];
+        $('.t3').click(function () {
+            $(this).parent().remove();
+            c = $('.t3').length
+        });
+    })
+})
+
+</script>
+</body>
+</html>

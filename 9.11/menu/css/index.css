@@ -1,0 +1,62 @@
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.container ul {
+
+}
+
+.container > ul > li {
+  float: left;
+  line-height: 50px;
+  background: #ddd;
+  padding: 0 30px 0 20px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.container > ul > li > a {
+  display: block;
+  color: #333;
+  background: #00FA9A;
+}
+
+.container ul li.more:after {
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  border: 6px solid transparent;
+  border-top-color: #2c323b;
+  position: absolute;
+  top: 45%;
+  right: 15px;
+}
+
+.container > ul > li ul {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  display: none;
+}
+
+.container > ul > li ul li {
+  line-height: 30px;
+  border: 1px solid #0a2a66;
+  border-top: none;
+  font-size: 14px;
+  width: 100px;
+  text-align: right;
+  padding: 5px 10px;
+  background: #fff;
+}
+
+.container > ul > li ul li:hover {
+  background: red;
+}
+
+.container > ul > li ul li:hover a {
+  color: #fff;
+}

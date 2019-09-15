@@ -1,0 +1,19 @@
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.dt a {
+  border: 1px solid;
+  padding: 0 1em;
+}
+
+.content {
+  background: #00FA9A;
+  height: 200px;
+  border: 1px solid;
+  display: none;
+}
+
+

@@ -1,0 +1,27 @@
+.item {
+  height: 300px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background: #00FA9A;
+}
+
+dl {
+  width: 700px;
+  margin: 0 auto;
+}
+
+dt {
+  background: #00FA9A;
+  border: 1px solid;
+}
+
+dd {
+  display: none;
+}
+
+dd.block {
+  display: block;
+}

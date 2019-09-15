@@ -1,0 +1,10 @@
+.box {
+  height: 100px;
+  width: 100px;
+  background: #ffbb00;
+  /*opacity: ;*/
+}
+
+.btn {
+  border: 1px solid;
+}

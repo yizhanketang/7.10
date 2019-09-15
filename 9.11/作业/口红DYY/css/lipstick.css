@@ -1,0 +1,206 @@
+header {
+  height: 120px;
+  padding: 10px 0 30px;
+  border-bottom: 2px solid #f30213;
+}
+.head {
+  width: 1200px;
+  margin: 0 auto;
+}
+header i {
+  display: block;
+  margin-top: 2px;
+  width: 190px;
+  height: 120px;
+  background: url("../images/logo.png")no-repeat center/cover;
+}
+.classify {
+  height: 30px;
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 12px;
+  padding: 15px 0;
+  border-bottom: 1px solid #dddddd;
+}
+.classify a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 12px;
+  color: #666666;
+  line-height: 30px;
+  float: left;
+}
+.classify .search {
+  line-height: 30px;
+  float: left;
+}
+.table {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  /*border-collapse: collapse;*/
+}
+.table .line1 {
+  border-bottom: 1px solid #dddddd;
+  -webkit-transition: height .3s;
+  transition: height .3s;
+}
+
+.table .line1.one {
+  height: 60px;
+  overflow: hidden;
+}
+
+.table .line1:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+
+.table .td {
+  width: 100px;
+  /*height: 61px;*/
+  display: block;
+  float: left;
+}
+.table .tt {
+  width: 956px;
+  /*height: 100px;*/
+  float: left;
+}
+.table .tt a {
+  width: 116px;
+  height: 48px;
+  border: 1px solid #dddddd;
+  display: block;
+  margin-bottom: 11px;
+  float: left;
+  cursor: pointer;
+  color: white;
+  position: relative;
+}
+
+.table .tt a:hover span {
+  opacity: 1;
+}
+
+.table .tt a span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  color: #2AC38A;
+  width: 116px;
+  height: 48px;
+  background: #0c8ed9;
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
+
+.table .tt .active {
+  background: red;
+}
+/*.table .tt a:hover {*/
+  /*background: #dddddd;*/
+/*}*/
+.table .tt a i {
+  width: 102px;
+  height: 36px;
+  margin: 6px 7px;
+  display: block;
+}
+.table .tt a .pic1 {
+   background: url("../images/diro.jpg")no-repeat center/cover;
+ }
+.table .tt a .pic2 {
+  background: url("../images/diro.jpg")no-repeat center/cover;
+}
+.table .tt a .pic3 {
+  background: url("../images/mac.png")no-repeat center/cover;
+}
+.table .tt a .pic4 {
+  background: url("../images/mac.png")no-repeat center/cover;
+}
+.table .tt a .pic5 {
+  background: url("../images/ysl.jpg")no-repeat center/cover;
+}
+.table .tt a .pic6 {
+  background: url("../images/ysl.jpg")no-repeat center/cover;
+}
+.table .tt a .pic7 {
+  background: url("../images/chanel.jpg")no-repeat center/cover;
+}
+.table .tt a .pic8 {
+  background: url("../images/chanel.jpg")no-repeat center/cover;
+}
+
+.table .tr span {
+  width: 40px;
+  height: 30px;
+  border: 1px solid #dddddd;
+  display: block;
+  text-align: right;
+  font-size: 12px;
+  float: right;
+  line-height: 30px;
+  margin-left: 10px;
+  padding: 0 10px;
+  position: relative;
+  cursor: pointer;
+}
+.table .tr span:hover {
+  background: red;
+  color: white;
+}
+
+ .tr span i {
+  width: 20px;
+  height: 20px;
+  display: block;
+  /*background: #f30213;*/
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.tr span .more {
+  background: url("../images/down.svg")no-repeat center/cover;
+}
+.tr span .choice {
+  background: url("../images/plus.svg")no-repeat center/cover;
+}
+
+.tr span.none {
+  display: none;
+}
+
+.line2 {
+  height: 40px;
+  border-bottom: 1px solid #dddddd;
+}
+.line2 div {
+  float: left;
+  line-height: 34px;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.line2 .title {
+  width: 110px;
+  font-weight: 700;
+}
+
+.line2 .make-up a {
+  width: 118px;
+  display: block;
+  float: left;
+  text-decoration: none;
+  color: #666666;
+  cursor: pointer;
+}
+.line2 .make-up .active {
+  color: red;
+}
+.line2 .make-up a:hover {
+  color: red;
+}

@@ -1,0 +1,26 @@
+
+.box {
+  height: 100px;
+  width: 100px;
+  background: #0c8ed9;
+}
+
+.s-box {
+  height: 50px;
+  width: 50px;
+  background: #2AC38A;
+}
+
+.red-box {
+  height: 50px;
+  width: 50px;
+  background: #ffbb00;
+}
+
+.btn {
+  border: 1px solid;
+}
+
+.red {
+  background: red;
+}
