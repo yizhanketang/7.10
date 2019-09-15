@@ -16,4 +16,5 @@
 });*/
 
 Route::get('/', 'LandingController@index');
+Route::post('/', 'LandingController@create');
 
