@@ -29,3 +29,7 @@ php artisan serve --host 192.168.1.113 --port=3000
 php artisan key:generate
 ```
 
+```
+php artisan make:model Model/Banner --migration
+```
+
