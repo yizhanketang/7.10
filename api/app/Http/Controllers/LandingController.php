@@ -13,19 +13,24 @@ class LandingController extends Controller
 //        return $list;
 
         return view('landing', [
-            'list' => $list
+            'list' => $list,
+            'list1' => 'fghjklfghjk',
         ]);
     }
 
     public function create(Request $request) {
+//        return $request;
+
         $todo = new Todo;
         $todo->title = $request->title;
         $todo->save();
 
-        $list = Todo::all();
+        return redirect('/');
+
+        /*$list = Todo::all();
 
         return view('landing', [
             'list' => $list
-        ]);
+        ]);*/
     }
 }

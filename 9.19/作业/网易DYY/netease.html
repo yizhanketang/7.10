@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="netease.css">
+  <title>网易新闻</title>
+  <script src="lib/jquery-3.4.1.js"></script>
+  <!--<script src="lib/jquery-3.4.1.min.js"></script>-->
+</head>
+<body>
+<header>
+  <a href="javascript:void (0)" class="active">全部</a>
+  <a href="javascript:void (0)">电视</a>
+  <a href="javascript:void (0)">电影</a>
+  <a href="javascript:void (0)">明星</a>
+  <a href="javascript:void (0)">音乐</a>
+</header>
+<section>
+  <i class="one active"></i>
+  <i class="two"></i>
+  <i class="three"></i>
+  <i class="four"></i>
+  <i class="five"></i>
+</section>
+<footer>
+  <!--<a href="javascript:void (0)">-->
+    <!--<img src="images/s.jpg">-->
+    <!--52岁王祖贤餐厅独自就餐被拍 长发披肩颜值依旧-->
+  <!--</a>-->
+
+</footer>
+
+<div class="loading">
+  <img src="images/loading.svg">
+</div>
+<div class="button">
+  <button>获取更多</button>
+</div>
+
+<button class="button">获取更多</button>
+
+<script>
+    function getQuery(key) {
+        var arr = location.search.substr(1).split('&')
+        for (var i = 0; i < arr.length; i++) {
+            if (arr[i].split('=')[0] === key) {
+                return arr[i].split('=')[1]
+            }
+        }
+    }
+</script>
+<script src="netease.js"></script>
+<script src="ajax.js"></script>
+</body>
+</html>

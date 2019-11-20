@@ -1,0 +1,84 @@
+
+html{
+    font-size: 26.67vw;
+}
+
+.menu-warp {
+    width: 100%;
+    height: .5rem;
+    background: #f5f7f9;
+    margin-top: 30px;
+}
+.menu {
+    width: 4.04rem;
+    height: 100%;
+    font-size: .18rem;
+    color: #333;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.menu span {
+    padding: .1rem 0;
+    margin: 0 14px;
+}
+
+.menu .item.eel {
+    color: #ee1a1a;
+    border-bottom: 1px solid #ee1a1a;
+}
+
+.image {
+    width: 100%;
+}
+
+
+
+.image .imgs {
+    height: 2.04rem;
+    display: none;
+    width: 100%;
+}
+.image .imgs.block {
+    display: block;
+}
+.image .wenzi {
+    width: 100%;
+    display: block;
+}
+.image .wenzi a {
+    font-size: .18rem;
+    color: #333;
+    padding: .14rem .16rem;
+    display: block;
+    text-align: left;
+}
+
+.more {
+    display: block;
+    font-size: .18rem;
+    color: #333;
+    text-decoration: underline;
+    padding: .16rem .16rem;
+    text-align: center;
+    bottom: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

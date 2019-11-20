@@ -1,0 +1,82 @@
+
+form {
+  display: block;
+  width: 800px;
+  margin: 0 auto;
+}
+
+form > div {
+  /*overflow: hidden;*/
+  /*font-size: 30px;*/
+  padding: 10px;
+  border-bottom: 1px solid;
+}
+
+form > div label {
+  float: left;
+  width: 120px;
+}
+
+.avatar-wrap {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid;
+  overflow: hidden;
+}
+input.file {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #2AC38A;
+  opacity: 0;
+}
+
+button {
+  font-size: 30px;
+  border: 1px solid;
+  padding: 0 1em;
+}
+
+
+.item {
+  width: 200px;
+  position: relative;
+}
+
+.item b {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #999;
+  padding: 0 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+ul {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  display: none;
+}
+
+ul li {
+  font-size: 14px;
+  line-height: 30px;
+  border: 1px solid #aaa;
+  border-top: none;
+  padding: 0 10px;
+  cursor: pointer;
+  width: 180px;
+  background: #fff;
+}
+
+
+
+/*option {
+  background: red;
+}*/
+
+

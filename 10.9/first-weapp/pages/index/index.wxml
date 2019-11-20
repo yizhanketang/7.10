@@ -1,0 +1,31 @@
+<view class="container">
+
+  <!--<view wx:if="{{ 1 < 2 }}">傻子</view>-->
+  <!--<view wx:elif="{{ 1 > 2 }}">{{ text }}</view>-->
+
+
+  <!--<view wx:for="{{ [1, 'rtyuio', 3, 4, 5] }}" wx:for-item="i" wx:for-index="ind" wx:key="{{ ind }}">-->
+    <!--{{ item }}-->
+    <!--{{i }}-->
+  <!--</view>-->
+
+  <!--<block wx:for="{{[1, 2, 3]}}">
+    <view> {{index}}: </view>
+    <view> {{item}} </view>
+  </block>-->
+<!--<image src></image>-->
+  <view wx:if="{{ score > 60 }}">及格啦</view>
+  <view wx:elif="{{ score < 60 }}">再接再厉</view>
+  <view wx:else>60!!!</view>
+
+  <button bindtap="clickMe">点击我</button>
+
+</view>
+
+
+<!--
+
+view === div
+text === span
+navigator === a
+-->

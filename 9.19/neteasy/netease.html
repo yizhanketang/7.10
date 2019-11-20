@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="netease.css">
+  <title>网易新闻</title>
+  <script src="lib/jquery-3.4.1.js"></script>
+  <script src="lib/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<header>
+  <a href="javascript:void (0)" data-type="BA10TA81wangning" class="active">全部</a>
+  <a href="javascript:void (0)" data-type="BA10TA81wangning">电视</a>
+  <a href="javascript:void (0)" data-type="BD2A9LEIwangning">电影</a>
+  <a href="javascript:void (0)" data-type="BD2AB5L9wangning">明星</a>
+  <a href="javascript:void (0)" data-type="BD2AC4LMwangning">音乐</a>
+</header>
+<section>
+  <i class="one active"></i>
+  <i class="two"></i>
+  <i class="three"></i>
+  <i class="four"></i>
+  <i class="five"></i>
+</section>
+<footer>
+  <!--<a href="javascript:void(0)">习近平:提升群众在网络空间的获得感幸福感安全感</a>-->
+  <!--<h3 id="demo">习近平:提升群众在网络空间的获得感幸福感安全感</h3>-->
+
+</footer>
+<button type="button" class="more">获取更多</button>
+<div class="loading">
+  <img src="images/loading.svg">
+</div>
+
+<script>
+  function getQuery(key) {
+    var arr = location.search.substr(1).split('&')
+    for (var i = 0; i < arr.length; i++) {
+      if (arr[i].split('=')[0] === key) {
+        return arr[i].split('=')[1]
+      }
+    }
+  }
+</script>
+
+<script src="netease.js"></script>
+<script src="ajax.js"></script>
+<!--<script>
+  function artiList(res) {
+    console.log(res)
+  }
+</script>
+<script src="https://3g.163.com/touch/reconstruct/article/list/BA10TA81wangning/1-20.html?artiList=artiList"></script>-->
+</body>
+</html>

@@ -31,5 +31,10 @@ php artisan key:generate
 
 ```
 php artisan make:model Model/Banner --migration
+
+
+php artisan make:middleware EnableCrossRequestMiddleware
 ```
+
+
 

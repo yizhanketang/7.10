@@ -1,0 +1,11 @@
+.carousel-inner.banner-size {
+  width: 800px;
+  margin: 0 auto;
+}
+.carousel-inner.banner-size .item {
+  text-align: center;
+}
+.carousel-inner.banner-size .item .img-size {
+  width: 100%;
+  height: auto;
+}
